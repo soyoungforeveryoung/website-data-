@@ -78,6 +78,9 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 → 애프리컷은 왁스가 아니라 **씨드 오일**이다. 붙여 쓰면 애프리컷도 왁스로 읽힌다.
 → 정정: `a natural blend of coconut wax and apricot seed oil`
 → `apricot oil`도 부정확. `apricot seed oil`로 통일.
+→ 코코넛 왁스는 **푸드 그레이드** 등급. 이 표기가 4종 중 Bamboo Forest에만 있고
+   그마저 `coconut oil`로 잘못 쓰여 있다 → `food-grade coconut wax`로 정정 후 4종 공통 적용.
+→ `Non-GMO` 표기는 인증 근거 확인 필요.
 
 ## 🟡 사양 변경 미반영
 
