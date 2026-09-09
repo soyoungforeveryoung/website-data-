@@ -115,12 +115,26 @@ candle_common:
 
       의도된 사양임 — 왁스를 꽉 채우면 심지가 위로 밀려 올라와 터널링이 발생하므로
       상단에 약 2cm 헤드스페이스를 남긴다.
-      약 75% 충전은 시각적으로도 충분히 차 보이는 수준이므로 문제 없음.
-
-      확정 조건: 유리 단독 높이가 확정되면 충전률도 확정된다.
+      80% 충전은 시각적으로도 충분히 차 보이는 수준이므로 문제 없음.
 
       마케팅 활용: '덜 채운 것'이 아니라 '터널링 없이 끝까지 고르게 타도록 설계된 충전량'
       으로 설명한다. 소비자에게는 결점이 아니라 설계 의도로 전달되어야 한다.
+
+  burn_time:
+    value: 60
+    unit: hours
+    status: confirmed
+    note: |
+      오가닉 코튼 싱글 윅 기준 약 60시간.
+
+      정합성 확인: 왁스 250g / 60시간 = 시간당 약 4.2g.
+      싱글 윅의 일반적 연소율 범위에 들어오므로 수치상 타당하다.
+
+      표기:
+        영문 - Burn time: approx. 60 hours
+        국문 - 연소시간 약 60시간
+      '약(approx.)'을 붙인다. 실내 온도, 통풍, 심지 관리에 따라 달라지므로
+      단정 표기는 피한다.
 
   wax:
     value: Coconut-apricot wax blend
@@ -222,10 +236,40 @@ bar_soap_common:
       영어권 통용 명칭. 2종 모두 이 표현으로 통일한다.
       수식어 위치에서는 하이픈 표기 soap-on-a-rope.
       금지 표현: hanging rope soap, rope bar soap, hanging bar soap.
+
   rope:
     value: Biodegradable linen-blend rope
-    status: review
+    status: confirmed
     note: 로프 소재는 명칭 뒤에 덧붙여 설명한다 (예: soap on a biodegradable linen-blend rope).
+
+  rope_benefits:
+    status: confirmed
+    note: |
+      로프는 장식이 아니라 기능이다. 아래 4가지를 하나의 인과로 묶어서 쓴다.
+      상세페이지에서 '왜 로프가 달려 있는가'를 설명하는 핵심 섹션이 된다.
+
+      1) 샤워실에 걸어둘 수 있다
+      2) 비누 받침(비누 접시)이 필요 없다
+      3) 물에 잠기지 않으니 물러지거나 녹지 않는다
+      4) 그래서 훨씬 오래 간다 = 지속 가능하다
+
+      인과 구조 (이 순서를 지킬 것):
+        걸어둔다 -> 물이 빠진다 -> 무르지 않는다 -> 오래 간다 -> 덜 버린다
+
+      영문 문안 (권장):
+        The rope is not decoration. Hang the bar in your shower and it drains
+        as it dries, so it never sits in a pool of water. No soap dish needed,
+        no soft mushy bar, no waste. It simply lasts longer.
+
+      국문 문안 (권장):
+        로프는 장식이 아닙니다. 샤워실에 걸어두면 물이 빠지면서 마르기 때문에
+        비누가 물에 잠길 일이 없습니다. 비누 받침이 따로 필요 없고,
+        물러지거나 녹아 없어지지 않아 훨씬 오래 씁니다.
+
+      주의:
+        - '지속 가능(sustainable)'은 결론으로만 쓴다.
+          앞의 1~3을 생략하고 '지속 가능한 비누'라고만 하면 근거 없는 주장이 된다.
+        - 다 쓰고 나면 로프는 생분해된다는 점도 함께 언급한다.
   net_weight:
     value: 250
     unit: g
