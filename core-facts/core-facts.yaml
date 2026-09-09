@@ -502,12 +502,17 @@ products:
         Helianthus annuus (sunflower) seed oil, Olea europaea (olive) fruit oil,
         Simmondsia chinensis (jojoba) seed oil, Ricinus communis (castor) seed oil,
         Prunus amygdalus dulcis (sweet almond) oil, Butyrospermum parkii (shea) butter,
-        Commiphora myrrha (myrrh) oil, Fragrance (parfum)
+        Commiphora Wildii Oil, Fragrance (parfum)
       status: review
       note: |
         기존 표기 'Prunus armgd­alus' 오타 + 보이지 않는 soft hyphen 포함되어 있었음. 수정함.
         견과류(sweet almond) 함유 — 알레르기 고지 필요 여부 확인.
-    key_actives: { value: Wild Myrrh (Namib Desert), Shea Butter, status: confirmed }
+
+        🔴 몰약 INCI 정정: Commiphora myrrha -> Commiphora Wildii Oil
+           실제 원료는 나미비아 고유종 Commiphora wildii (통칭 Omumbiri)이며
+           일반 몰약(Commiphora myrrha)과 다른 종이다. 공급사 도시에로 확인됨.
+           상세: docs/myrrh-usable.md
+    key_actives: { value: Omumbiri / Commiphora Wildii Oil (Namib Desert), Shea Butter, status: confirmed }
     hero_ingredient:
       name_ko: 힘바족 몰약(미르) 오일
       name_en: Himba myrrh oil
