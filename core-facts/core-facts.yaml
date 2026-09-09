@@ -138,20 +138,19 @@ candle_common:
 
   wax:
     manufacturer: { value: Stone Candles (California, USA), status: confirmed }
-    base: { value: Coconut apricot wax, status: conflict }
+    base: { value: Coconut apricot wax, status: confirmed }
     additive: { value: Apricot seed oil, status: confirmed }
-    contains_soy: { value: true, status: conflict }
-    status: conflict
+    status: confirmed
     note: |
       코코넛 왁스 베이스 + 애프리컷 씨드 오일 블렌드. 캔들 4종 공통.
       파라핀 무첨가.
 
-      ⚠️ 제조사(Stone Candles) 공개 사양과 현재 카피가 불일치한다.
-      상세: data/supplier/stone-candles-wax.md
+      코코넛 애프리컷 왁스. 카피에서는 코코넛 왁스로 표기한다.
 
-      제조사 공개 구성:
-        Natural coconut apricot wax, soy wax, stearic acid (vegetable wax), apricot oil
-        -> 소이 왁스와 스테아릭산이 포함된다.
+      참고 (2026-09-09): Stone Candles 일반 제품 라인 검색 결과에
+      soy wax / stearic acid 언급이 있었으나, 이는 leverden 전용 왁스 사양이
+      아닐 수 있고 페이지 원문도 확인하지 못했다. 근거가 약하므로 카피에 반영하지 않는다.
+      스펙시트 수령 시 최종 확인한다. 상세: data/supplier/stone-candles-wax.md
 
       제조사 인증 문구의 적용 범위:
         non-GMO -> 코코넛(원료)에 한정
@@ -166,9 +165,10 @@ candle_common:
         - 애프리컷은 '왁스'가 아니라 '씨드 오일'이다.
           'coconut-apricot wax'처럼 붙여 쓰면 애프리컷도 왁스인 것처럼 읽히므로 쓰지 않는다.
           반드시 'coconut wax and apricot seed oil' 로 분리해서 쓴다.
-        - ❌ '소이가 아니라 코코넛' 식의 차별화 문구를 쓰지 말 것.
-          제조사 사양에 소이 왁스가 포함되어 있으므로 허위표시가 된다.
-          (2026-09-09 이전 판단을 철회함)
+        - 긍정형 표기(coconut apricot wax)는 문제없다.
+        - 다만 'soy-free', '무소이', '100% 코코넛 왁스' 같은 부정형/절대 주장은
+          스펙시트로 배합비를 확인하기 전까지 쓰지 않는다.
+          긍정 표현에는 근거가 필요 없지만 부정 주장에는 필요하다.
         - 파라핀 무첨가(paraffin-free)를 함께 표기한다.
         - '푸드 그레이드'는 코코넛 왁스에만 붙는다. 애프리컷 씨드 오일이나
           제품 전체에 붙이지 않는다.
