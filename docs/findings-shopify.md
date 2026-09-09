@@ -73,9 +73,10 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 
 ## 🟡 사양 변경 미반영
 
-- 캔들 용량이 **250g**으로 변경되었으나 사이트에 반영 안 됨.
-- 기존 표기 `Burning time: 60 hours`는 이전 용량 기준 → **재산정 필요**.
-- 기존 표기 `Dimensions: 11 5/8 * 4 inches`는 약 29cm로 비현실적 → 실측 필요.
+- 캔들 용량이 **250g**으로 변경되었으나 사이트에 반영 안 됨. → 6종 전체 수정 필요
+- `Burning time: 60 hours` → 유효. 그대로 유지하되 `약(approx.)` 표기 추가.
+- `Dimensions: 11 5/8 * 4 inches` → 둘레×높이였음. `지름 9cm × 높이 10cm (뚜껑 포함)`으로 교체.
+- 세라믹 뚜껑·싱글 오가닉 코튼 심지·80% 충전 → **전부 누락**. 추가 필요.
 
 ## 🟡 리뷰 데이터 이중화
 
