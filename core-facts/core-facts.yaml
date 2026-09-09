@@ -137,9 +137,27 @@ candle_common:
       단정 표기는 피한다.
 
   wax:
-    value: Coconut-apricot wax blend
-    status: review
-    note: 파라핀 무첨가. 콜렉션별 차이 없는지 확인.
+    base: { value: Coconut wax (코코넛 왁스), status: confirmed }
+    additive: { value: Apricot seed oil (애프리컷 씨드 오일), status: confirmed }
+    status: confirmed
+    note: |
+      코코넛 왁스 베이스 + 애프리컷 씨드 오일 블렌드. 캔들 4종 공통.
+      파라핀 무첨가.
+
+      표기 (권장):
+        영문 - a natural blend of coconut wax and apricot seed oil
+        국문 - 코코넛 왁스와 애프리컷 씨드 오일을 블렌딩한 천연 왁스
+
+      표기 원칙 (중요):
+        - 애프리컷은 '왁스'가 아니라 '씨드 오일'이다.
+          'coconut-apricot wax'처럼 붙여 쓰면 애프리컷도 왁스인 것처럼 읽히므로 쓰지 않는다.
+          반드시 'coconut wax and apricot seed oil' 로 분리해서 쓴다.
+        - 소이(콩) 왁스가 아니라 코코넛 왁스라는 점을 명확히 한다.
+          코코넛 왁스는 소이보다 고급 소재로 인식되므로 $85 가격의 근거가 된다.
+        - 파라핀 무첨가(paraffin-free)를 함께 표기한다.
+
+      INCI 참고 (라벨 작성 시): Prunus armeniaca (apricot) kernel oil
+      -> 라벨용 정식 성분명은 제조처 확인 후 확정할 것.
   wick:
     material: { value: Organic cotton (lead-free), status: confirmed }
     count: { value: 1, status: confirmed }

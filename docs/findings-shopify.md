@@ -71,6 +71,14 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 | Myrrh Bar 성분 | Prunus armgd­alus (보이지 않는 soft hyphen 포함) | Prunus amygdalus |
 | 조향사 소개 본문 | Laudimiel | Laudamiel |
 
+## 🟡 왁스 표기 부정확
+
+현재 표기: `coconut-apricot wax blend` · `Coconut Wax, Apricot Oil`
+
+→ 애프리컷은 왁스가 아니라 **씨드 오일**이다. 붙여 쓰면 애프리컷도 왁스로 읽힌다.
+→ 정정: `a natural blend of coconut wax and apricot seed oil`
+→ `apricot oil`도 부정확. `apricot seed oil`로 통일.
+
 ## 🟡 사양 변경 미반영
 
 - 캔들 용량이 **250g**으로 변경되었으나 사이트에 반영 안 됨. → 6종 전체 수정 필요
