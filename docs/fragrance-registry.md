@@ -13,7 +13,7 @@
 
 | 콜렉션 | 라인 | 향료명 | 코드 | 향료사 | IFRA 개정판 | 인증서 발행일 |
 |---|---|---|---|---|---|---|
-| Bamboo Forest | 캔들(추정) | 078296 **CORIANDER FRAGRANCE** | 78296 | Chemia | **50** (2021.6) | 2021-09-24 |
+| Bamboo Forest | 캔들 | 078296 **CORIANDER FRAGRANCE** | 78296 | Chemia | **50** (2021.6) | 2021-09-24 |
 | Bamboo Forest | 바디 (wash/lotion) | **BAMBOOM 34 LATEST** | 6059239 | **IFF** (Dreamair 경유) | **50** | 2023-11-01 |
 | Bushman Candle | **캔들** | **OLIFIR BOUGIE XII** | 26954 | AFM | **50** (2021.7) | 2023-06-07 |
 | Bushman Candle | 바디/파인 | **OLIFIR V4i** | 26830 | AFM | **51** (2023.6) | 2024-01-25 |
@@ -25,19 +25,22 @@
 - Bamboo Forest는 **캔들과 바디의 향료 회사가 아예 다르다** (Chemia vs IFF).
   같은 콜렉션명이지만 서로 다른 향이다.
 
-## ⬜ 아직 확인 안 된 것
+## ⬜ 소영님께 여쭤볼 것 (서류만으로는 채울 수 없는 항목)
 
-- Bamboo Forest **캔들**의 향료가 Chemia 78296이 맞는지 (코리앤더 향료라는 점은 정황상 부합)
-- Valley of Roses가 캔들용인지 바디용인지, 캔들용 향료 코드가 별도로 있는지
+- Valley of Roses 캔들용 향료 코드 (84033 Rose Bud가 캔들용인지 바디용인지)
 - 바 솝 2종에 쓰이는 향료
   (Charcoal Bar 성분표에는 `Fragrance/Parfum` 없이 라벤더·베르가못·패츌리 **에센셜 오일**이
    직접 기재되어 있다. Myrrh Bar에는 `Fragrance (parfum)` 표기가 있다. 서로 방식이 다르다.)
 
 ---
 
-# 2. 🔴 Oakmoss — 바디 향료에만 있다
+# 2. Oakmoss — 바디 향료에만 있다
 
-**소영님 추정이 맞았다. 오크모스는 캔들이 아니라 바디 향료에 들어 있다.**
+향료 노트와 배합은 **소영님이 조향사와 직접 논의해 만든 것**이며,
+향료 서류도 소영님이 직접 관리한다. 향에 관한 사항은 소영님 확인이 원본이다.
+아래는 그 내용을 서류로 뒷받침한 것이다.
+
+오크모스는 캔들이 아니라 바디 향료에 들어 있다.
 
 `BAMBOOM 34 LATEST` (Bamboo Forest **바디**) 알레르겐 선언서 (IFF, 2021-08-17, Doc ID 1306252)
 
@@ -55,7 +58,7 @@
 | Evernia Furfuracea (Treemoss) Extract | — | 불검출 |
 
 → **캔들 향료(Bougie XII, Spiritual Wood, Coriander 78296) 문서에는 오크모스가 나오지 않는다.**
-→ 사이트에서 캔들 설명에 오크모스가 등장한 것은 **바디 라인 정보가 섞여 들어간 것**이 맞다.
+→ 사이트에서 캔들 설명에 오크모스가 등장한 것은 **바디 라인 정보가 섞여 들어간 것**이다.
 
 ### 표시 의무 계산 (검증 필요)
 
@@ -113,9 +116,9 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 | Chemia Corporation | Regulatory | Regulatory@chemiacorp.com | 78296 Coriander, 84033 Rose Bud |
 | IFF (Dreamair 경유) | Christophe Laudamiel | cl@dreamair.mobi | Bamboom 34 |
 
-⚠️ 참고: 향료사들은 **전체 성분 목록(full ingredient list)은 영업비밀로 공개하지 않는다.**
-   메일 이력상 이미 여러 차례 확인된 사항이다. 제공 가능한 것은
-   **IFRA 인증서 · 알레르겐 선언서 · SDS** 세 가지다.
+⚠️ 향료사들은 **전체 성분 목록(full ingredient list)은 영업비밀로 공개하지 않는다.**
+   제공 가능한 것은 **IFRA 인증서 · 알레르겐 선언서 · SDS** 세 가지다.
+   서류 요청 및 수령은 소영님이 직접 관리한다.
 
 ---
 
@@ -127,7 +130,7 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 - [ ] OLIFIR BOUGIE XII 26954 — 최신 IFRA 개정판 인증서
 - [ ] SPIRITUAL WOOD 28782 — 최신 IFRA 개정판 인증서
 - [ ] 위 2종 알레르겐 선언서 (2023년 개정 반영본)
-- [ ] 각 향료의 **공개 가능한 향 노트** (마케팅용)
+- (향 노트는 소영님이 직접 관리 중이므로 별도 요청 불필요)
 
 **Chemia** (Regulatory)
 - [ ] 78296 — 최신 IFRA 인증서, 알레르겐 선언서
