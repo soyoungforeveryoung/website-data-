@@ -37,6 +37,12 @@
 | `alleviate skin problems such as blackheads` (Charcoal Bar) | **피부 질환 개선 주장.** 미국 FDA 기준 의약품 클레임, 한국 의약품 오인 | 삭제. `deep-cleansing` 수준으로 |
 | `Protection` (제품명 `Myrrh **Protection** Bar`) | 무엇으로부터의 보호인지 불명확. 자외선 차단 등으로 오인 가능 | 이름은 유지. 본문에서 **반드시** '힘바족의 전통적 사용'이라는 문화적 맥락으로 한정 |
 | `mineral-rich actives` (Charcoal Bar) | `actives`는 유효성분을 뜻해 기능성 주장으로 읽힘 | `ingredients` |
+| `creating a serene and toxin-free environment` (**캔들 4종 공통**) | **무독성 환경 주장.** 3개국 모두 근거 요구. 연소 시 배출물에 대한 시험 데이터 없이는 성립 불가 | `made without paraffin` 등 **원료 기준 사실**로 대체 |
+| `Boost your energy` (Bushman) | 신체 에너지 증가 주장 → 미국 FDA 기준 구조·기능 클레임 | 향 묘사 + 사용 상황 제안으로 |
+| `each note is chosen for its energetic properties` (Bushman) | 향 성분의 **작용**을 주장 | 삭제 |
+| `energize and protect` (Shaman) | 작용 주장 + 무엇으로부터의 보호인지 불명확 | 삭제 |
+| `clearing the mind` / `quiet the mind` (Shaman) | 정신 작용 주장. 한국·EU에서 위험 | 감각 묘사로 전환 |
+| `sustainable harvesting of Palo Santo` (Shaman) | 팔로 산토는 지속가능성 논쟁이 있는 원료. 근거 없는 지속가능 주장은 그린워싱 | 인증·수급처 근거 확보 전까지 삭제 |
 
 ## ✅ 안전한 표현 원칙
 
@@ -100,36 +106,53 @@ insomnia · anxiety · depression · immune · eczema · acne · anti-aging
 
 ## Bushman Candle — Energy
 
-**향 노트**: ⬜ **미확보** — 조향 자료 필요
+**향 노트** (확정)
 
-현재 사이트 설명: 나미비아 힘바족과 부시맨 캔들 식물, 활력과 창의.
-SEO에는 `Namibian Incense`, `amber incense scent` 언급 있으나 정식 노트가 아님.
+| 단계 | 노트 |
+|---|---|
+| Top | Olibanum (유향), Pink Peppercorn (핑크 페퍼콘) |
+| Heart | Bushman Candle Oil (부시맨 캔들 오일), Blue Ginger (블루 진저) |
+| Base | Vetiver (베티버), Labdanum (라브다넘), Cedarwood (시더우드) |
 
-**목적 문안 (향 노트 확보 후 완성)**
+**목적 문안**
 
-> **국문 초안**
-> 나미비아 사막의 아침 공기에서 온 향입니다. 마르고 맑은 공기 속에서
-> 깨어나는 감각을 담았습니다. 무언가를 시작하려는 시간을 위해 만들었습니다.
+> **국문**
+> 나미비아 사막에서 온 향입니다. 유향과 핑크 페퍼콘이 선명하게 열리고,
+> 부시맨 캔들 오일과 블루 진저가 그 위에 온기를 더합니다.
+> 베티버와 라브다넘, 시더우드가 아래에서 향을 붙들어줍니다.
+> 무언가를 시작하려는 시간을 위해 만들었습니다.
 
-> **영문 초안**
-> A scent drawn from morning air in the Namib Desert — dry, clear, and awake.
+> **영문**
+> A scent from the Namib Desert. Olibanum and pink peppercorn open it sharp and
+> clear, warmed at the heart by bushman candle oil and blue ginger. Vetiver,
+> labdanum and cedarwood hold it down at the base.
 > Made for the hour when you are about to begin something.
 
 ## Shaman — Meditation & Grounding
 
-**향 노트**: ⬜ **미확보** — 조향 자료 필요
+**향 노트** (확정)
 
-⚠️ 현재 Shaman의 SEO 설명이 **Bushman의 것과 완전히 동일**하다. 잘못된 데이터.
+| 단계 | 노트 |
+|---|---|
+| Top | Artemisia (아르테미시아), Cypress (사이프러스) |
+| Heart | Palo Santo (팔로 산토), Geranium (제라늄) |
+| Base | Sandalwood (샌달우드), Vetiver (베티버) |
 
-**목적 문안 (향 노트 확보 후 완성)**
+⚠️ 현재 Shaman의 **SEO 설명이 Bushman의 것과 완전히 동일**하다. 잘못된 데이터 — 교체 필요.
 
-> **국문 초안**
-> 오래된 의식의 향입니다. 연기와 나무, 흙의 냄새가 마음을 아래로 끌어내려
-> 지금 이 자리에 머물게 합니다. 조용히 앉아 있고 싶은 시간을 위해 만들었습니다.
+**목적 문안**
 
-> **영문 초안**
-> The scent of an old ritual — smoke, wood, and earth, drawing you downward and
-> holding you in place. Made for the hour when you want to sit still.
+> **국문**
+> 오래된 의식의 향입니다. 아르테미시아의 푸른 결과 사이프러스의 나무 향이
+> 공간을 정돈하고, 팔로 산토의 연기와 제라늄이 그 가운데 머뭅니다.
+> 샌달우드와 베티버가 흙의 온도로 향을 마무리합니다.
+> 조용히 앉아 있고 싶은 시간을 위해 만들었습니다.
+
+> **영문**
+> The scent of an old ritual. Artemisia's green edge and the woodiness of cypress
+> settle the room; palo santo smoke and geranium rest at its centre. Sandalwood and
+> vetiver close it with the warmth of earth.
+> Made for the hour when you want to sit still.
 
 ## Valley of Roses — Self-love
 
@@ -165,9 +188,9 @@ SEO에는 `Namibian Incense`, `amber incense scent` 언급 있으나 정식 노�
 
 | 항목 | 필요한 자료 |
 |---|---|
-| Bushman Candle 향 노트 | 조향 자료 |
-| Shaman 향 노트 | 조향 자료 |
-| Bamboo Forest 노트 정본 확정 | 두 버전 중 선택 |
+| Bamboo Forest 노트 정본 확정 | 두 버전 중 선택 (아래 참조) |
+| 팔로 산토 수급 근거 | 지속가능 수급 인증 또는 공급처 확인서 |
+| 캔들 연소 배출 시험 데이터 | `toxin-free` 대신 쓸 사실 근거가 필요한 경우
 | 조향사 4종 공통 여부 | 확인 |
 | 한국 판매 시 캔들 표시사항 | 생활화학제품 안전확인 대상 여부 확인 |
 | EU 판매 시 캔들 표시사항 | CLP 라벨 요건 확인 |
