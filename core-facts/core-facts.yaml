@@ -65,7 +65,9 @@ candle_common:
   dimensions:
     outer_diameter: { value: 9, unit: cm, status: confirmed }
     inner_diameter: { value: 8, unit: cm, status: confirmed }
-    height: { value: 10, unit: cm, status: confirmed }
+    height_with_lid: { value: 10, unit: cm, status: confirmed }
+    height_vessel_only: { value: null, unit: cm, status: pending }
+    lid_height: { value: null, unit: cm, status: pending }
     glass: { value: 두꺼운 유리 — 외경 9cm / 내경 8cm (벽 두께 약 5mm), status: confirmed }
     status: confirmed
     note: |
@@ -74,8 +76,15 @@ candle_common:
         2) 소영님 확인: 지름 9cm x 높이 10cm
       기존 표기는 오류가 아니라 '둘레 x 높이'에 라벨이 없었던 것.
 
-      표기 형식: 지름 9cm x 높이 10cm (inch 병기 시 3.5" x 3.9")
-      고객 노출값은 외경 기준. 내경 8cm는 내부 사양으로만 관리한다.
+      표기 형식: 지름 9cm x 높이 10cm (뚜껑 포함)
+      inch 병기 시 3.5" x 3.9"
+
+      높이 표기 원칙 (중요):
+        - 10cm는 '뚜껑 포함' 높이다. 반드시 '(뚜껑 포함)'을 함께 쓴다.
+        - 라벨 없이 '높이 10cm'만 쓰면 유리 높이로 오해된다.
+          기존 '11 5/8 * 4 inches'가 라벨 누락으로 오해를 부른 것과 같은 실수를 반복하지 않는다.
+        - 유리 단독 높이와 뚜껑 높이는 별도 필드로 관리 (현재 pending).
+        - 고객 노출 지름은 외경 9cm. 내경 8cm는 내부 사양으로만 쓴다.
       금지: 라벨 없는 숫자 나열, 둘레를 지름처럼 표기하는 것.
 
   wax_fill_level:
@@ -86,10 +95,14 @@ candle_common:
       내경 8cm 기준 산출 (실측 아님, 계산값):
         단면적 50.3 cm2, 왁스 250g / 밀도 약 0.9 -> 부피 278 cm3
         -> 왁스 높이 약 5.5 cm
-        -> 두꺼운 바닥 감안 시 내부 깊이 8.5~9cm 대비 약 60~65% 충전
+        -> 10cm는 뚜껑 포함 높이. 유리 단독 8~8.5cm 추정, 두꺼운 바닥 제외 시
+           내부 깊이 약 7~7.5cm -> 약 75% 충전
 
       의도된 사양임 — 왁스를 꽉 채우면 심지가 위로 밀려 올라와 터널링이 발생하므로
-      상단에 약 3cm 헤드스페이스를 남긴다.
+      상단에 약 2cm 헤드스페이스를 남긴다.
+      약 75% 충전은 시각적으로도 충분히 차 보이는 수준이므로 문제 없음.
+
+      확정 조건: 유리 단독 높이가 확정되면 충전률도 확정된다.
 
       마케팅 활용: '덜 채운 것'이 아니라 '터널링 없이 끝까지 고르게 타도록 설계된 충전량'
       으로 설명한다. 소비자에게는 결점이 아니라 설계 의도로 전달되어야 한다.
