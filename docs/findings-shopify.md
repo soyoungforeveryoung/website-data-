@@ -88,9 +88,18 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 
 → 어느 앱을 정본으로 쓸지 결정하고 한쪽으로 통합해야 한다.
 
+## ✅ 확정됨 — 원산지
+
+| 라인 | 원산지 | 영문 표기 | 국문 표기 |
+|---|---|---|---|
+| 캔들 4종 | 미국 | `Hand-poured in California, USA` | 미국 캘리포니아 제조 |
+| 바 솝 2종 | 한국 | `Handmade in Korea` | 한국 제조 |
+
+⚠️ 라인별로 원산지가 다르다. **세트 상품**(Mini Ritual Set 등)은 구성품별로 각각 표기해야 한다.
+⚠️ 현재 Charcoal Bar에는 원산지 표기가 아예 없다 → 추가 필요.
+
 ## ⚪ 확인 필요 (원장의 pending 항목)
 
-- 캔들 4종 원산지 — 캔들은 California 제조, 바 솝은 Korea 제조로 기재되어 있음. 맞는지 확인
 - Bushman·Shaman 캔들 향 노트 전문
 - 캔들 3종(Bushman·Shaman·Valley of Roses) 동봉 씨앗 종류
 - 조향사가 6종 전부 Christophe Laudamiel인지

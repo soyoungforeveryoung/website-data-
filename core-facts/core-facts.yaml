@@ -101,11 +101,12 @@ candle_common:
     - { value: Cruelty-free, status: review }
   origin:
     value: Hand-poured in California, USA
-    status: conflict
+    status: confirmed
     note: |
-      Bamboo Forest 본문은 'Made in the USA / hand-poured in California'.
-      바 솝은 'Handmade in Korea'. 캔들 4종 원산지가 전부 미국인지 확인 필요.
-      한국 사이트 원산지 표기와 반드시 일치해야 함 (표시광고 이슈).
+      캔들 4종 전부 미국 캘리포니아 생산.
+      영문 표기: Hand-poured in California, USA
+      국문 표기: 미국 캘리포니아 제조
+      한국 사이트 원산지란도 '미국'으로 통일 (바 솝과 다르므로 주의).
   packaging_partner:
     value: light4life / Exceptional Children's Foundation
     status: review
@@ -126,8 +127,12 @@ bar_soap_common:
   price_krw: { value: null, status: pending }
   origin:
     value: Handmade in Korea
-    status: review
-    note: Myrrh 바에만 명시. Charcoal 바도 동일한지 확인 필요.
+    status: confirmed
+    note: |
+      바 솝 2종 전부 한국 생산.
+      영문 표기: Handmade in Korea
+      국문 표기: 한국 제조
+      캔들(미국)과 원산지가 다르므로 세트 상품 표기 시 각각 명시해야 함.
   product_descriptor:
     value: soap on a rope
     status: confirmed
