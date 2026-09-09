@@ -351,11 +351,22 @@ products:
     shopify_handle: bamboo-forest-scented-candle
     cafe24_code: { value: null, status: pending }
     fragrance_notes:
-      value: Basil, Spearmint, Sage, Coriander, Immortelle, Sandalwood, Tonka, Amber
-      status: conflict
+      top: { value: Basil, Spearmint, Elemi, status: confirmed }
+      heart: { value: Sage, Coriander, Immortelle, status: confirmed }
+      base: { value: Fir Balsam, Sandalwood, Tonka, Amber, status: confirmed }
+      status: confirmed
+      note: 사이트에 흩어져 있던 두 목록을 합친 것이 정본.
+    fragrance_notes_undisclosed:
+      value: Oakmoss
+      status: confirmed
       note: |
-        SEO 설명의 노트와 product_info의 서술형 노트(Elemi, Oakmoss, Fir balsam 언급)가 불일치.
-        어느 쪽이 정본인지 확정 필요.
+        실제 배합에 포함되나 공개 향 노트 목록에서는 제외한다.
+        규제 위반이 아니며 배합량은 IFRA 기준을 충족한다.
+        제외는 커뮤니케이션 선택이다. 상세 사유: docs/collections.md
+
+        반드시 지킬 것:
+          - 배합 정보는 내부 자료에 그대로 유지한다.
+          - 라벨과 알레르겐 고지는 별개로 정확해야 한다. 노트에서 뺐다고 라벨에서 빼지 않는다.
     purpose: { value: Relaxation, status: confirmed }
     story:
       value: 한국의 대나무 숲. 하루의 속도를 늦추는 시간.
