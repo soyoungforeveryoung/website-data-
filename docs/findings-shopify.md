@@ -98,6 +98,19 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 ⚠️ 라인별로 원산지가 다르다. **세트 상품**(Mini Ritual Set 등)은 구성품별로 각각 표기해야 한다.
 ⚠️ 현재 Charcoal Bar에는 원산지 표기가 아예 없다 → 추가 필요.
 
+## ✅ 확정됨 — 캔들 베슬 사양
+
+| 항목 | 값 |
+|---|---|
+| 전체 높이 (세라믹 뚜껑 포함) | 10 cm |
+| 유리 외경 / 내경 | 9 cm / 8 cm (벽 두께 약 5mm) |
+| 내부 깊이 | 약 7 cm |
+| 왁스 | 250 g · 높이 약 5.5 cm · **80% 충전** |
+| 뚜껑 | 세라믹 |
+
+⚠️ 현재 Shopify에는 이 정보가 **하나도** 없거나 틀리게 들어가 있다.
+⚠️ 세라믹 뚜껑은 Shopify 어디에도 언급이 없다 → 프리미엄 요소인데 누락 중.
+
 ## ⚪ 확인 필요 (원장의 pending 항목)
 
 - Bushman·Shaman 캔들 향 노트 전문

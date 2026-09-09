@@ -66,6 +66,7 @@ candle_common:
     outer_diameter: { value: 9, unit: cm, status: confirmed }
     inner_diameter: { value: 8, unit: cm, status: confirmed }
     height_with_lid: { value: 10, unit: cm, status: confirmed }
+    inner_depth: { value: 7, unit: cm, status: review, note: 충전률 80%에서 역산 (5.5 / 0.8). 실측 권장 }
     height_vessel_only: { value: null, unit: cm, status: pending }
     lid_height: { value: null, unit: cm, status: pending }
     glass: { value: 두꺼운 유리 — 외경 9cm / 내경 8cm (벽 두께 약 5mm), status: confirmed }
@@ -87,16 +88,30 @@ candle_common:
         - 고객 노출 지름은 외경 9cm. 내경 8cm는 내부 사양으로만 쓴다.
       금지: 라벨 없는 숫자 나열, 둘레를 지름처럼 표기하는 것.
 
-  wax_fill_level:
-    value: 약 5.5
-    unit: cm
-    status: review
+  lid:
+    material: { value: 세라믹 (ceramic), status: confirmed }
     note: |
-      내경 8cm 기준 산출 (실측 아님, 계산값):
-        단면적 50.3 cm2, 왁스 250g / 밀도 약 0.9 -> 부피 278 cm3
-        -> 왁스 높이 약 5.5 cm
-        -> 10cm는 뚜껑 포함 높이. 유리 단독 8~8.5cm 추정, 두꺼운 바닥 제외 시
-           내부 깊이 약 7~7.5cm -> 약 75% 충전
+      영문 표기: ceramic lid
+      금지: metal lid, wooden lid 등 다른 소재로 표기하지 말 것.
+      별도 판매 중인 'Metal Diffuser lid'(캔들 베슬을 디퓨저로 재활용하는 액세서리)와
+      혼동하지 않도록 주의. 기본 동봉 뚜껑은 세라믹이다.
+
+      마케팅 포인트: 세라믹 뚜껑은 향 보존력과 질감 면에서 프리미엄 요소이므로
+      제품 설명과 제품컷에서 적극적으로 노출한다.
+
+  wax_fill_level:
+    value: 80
+    unit: percent
+    status: confirmed
+    wax_height: { value: 5.5, unit: cm, status: review, note: 계산값 }
+    note: |
+      충전률 80% 확정.
+
+      정합성 확인 (모든 수치가 일치함):
+        내경 8cm -> 단면적 50.3 cm2
+        왁스 250g / 밀도 약 0.9 -> 부피 278 cm3 -> 왁스 높이 약 5.5 cm
+        5.5 / 0.8 = 내부 깊이 약 7 cm
+        내부 깊이 7cm + 두꺼운 바닥 + 세라믹 뚜껑 = 전체 10cm
 
       의도된 사양임 — 왁스를 꽉 채우면 심지가 위로 밀려 올라와 터널링이 발생하므로
       상단에 약 2cm 헤드스페이스를 남긴다.
