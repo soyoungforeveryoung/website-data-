@@ -351,22 +351,19 @@ products:
     shopify_handle: bamboo-forest-scented-candle
     cafe24_code: { value: null, status: pending }
     fragrance_notes:
-      top: { value: Basil, Spearmint, Elemi, status: confirmed }
-      heart: { value: Sage, Coriander, Immortelle, status: confirmed }
-      base: { value: Fir Balsam, Sandalwood, Tonka, Amber, status: confirmed }
-      status: confirmed
-      note: 사이트에 흩어져 있던 두 목록을 합친 것이 정본.
-    fragrance_notes_undisclosed:
-      value: Oakmoss
+      value: Basil, Spearmint, Sage, Coriander, Immortelle, Sandalwood, Tonka, Amber
       status: confirmed
       note: |
-        실제 배합에 포함되나 공개 향 노트 목록에서는 제외한다.
-        규제 위반이 아니며 배합량은 IFRA 기준을 충족한다.
-        제외는 커뮤니케이션 선택이다. 상세 사유: docs/collections.md
+        캔들 SEO 설명의 Fragrance Notes 항목이 정본.
 
-        반드시 지킬 것:
-          - 배합 정보는 내부 자료에 그대로 유지한다.
-          - 라벨과 알레르겐 고지는 별개로 정확해야 한다. 노트에서 뺐다고 라벨에서 빼지 않는다.
+        Elemi / Oakmoss / Fir Balsam 은 포함하지 않는다. 출처가 다르다:
+          - Elemi: 캔들의 서술형 Fragrance Notes 문단에 언급됨 (향료사 확인 필요)
+          - Oakmoss, Fir Balsam: 'About the Perfumer' 문단에서 나온 것.
+            이 문단은 캔들과 바 솝에 동일하게 복붙되어 있어 캔들의 노트 근거가 되지 못한다.
+
+        ⚠️ 캔들 라인과 바디 라인은 향 배합이 서로 다르다.
+           같은 콜렉션명이라도 노트를 공유한다고 가정하지 말 것.
+           오크모스는 바디 라인에는 있어도 캔들에는 없을 가능성이 높다.
     purpose: { value: Relaxation, status: confirmed }
     story:
       value: 한국의 대나무 숲. 하루의 속도를 늦추는 시간.

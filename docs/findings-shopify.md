@@ -61,6 +61,15 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 | SEO | Myrrh Protection Bar는 타이틀·설명 아예 없음 | 작성 |
 | 바 솝 중량 | Charcoal 0.6 lb vs Myrrh 0.2 lb (3배 차이) | **Myrrh Bar가 오류.** 순중량 250g 확정 → Charcoal 0.6 lb만 타당 |
 
+## 🔴 캔들 라인과 바디 라인의 향 정보가 섞여 있음
+
+`About the Perfumer` 문단이 **Bamboo Forest 캔들과 바 솝에 동일하게 복붙**되어 있고,
+그 안의 원료명(Oakmoss, Fir Balsam)이 캔들 노트인 것처럼 읽힌다.
+
+→ 캔들과 바디는 향 배합이 서로 다르다. 같은 콜렉션명이라도 노트를 공유하지 않는다.
+→ 조향 서사 문단과 노트 목록을 분리하고, 라인별로 다르게 작성해야 한다.
+→ 향료사에 캔들/바디 각각의 배합 확인 요청 필요.
+
 ## 🟡 오타
 
 | 위치 | 현재 | 정정 |
