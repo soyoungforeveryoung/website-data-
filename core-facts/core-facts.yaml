@@ -137,25 +137,38 @@ candle_common:
       단정 표기는 피한다.
 
   wax:
-    base: { value: Food-grade coconut wax (푸드 그레이드 코코넛 왁스), status: confirmed }
-    additive: { value: Apricot seed oil (애프리컷 씨드 오일), status: confirmed }
-    status: confirmed
+    manufacturer: { value: Stone Candles (California, USA), status: confirmed }
+    base: { value: Coconut apricot wax, status: conflict }
+    additive: { value: Apricot seed oil, status: confirmed }
+    contains_soy: { value: true, status: conflict }
+    status: conflict
     note: |
       코코넛 왁스 베이스 + 애프리컷 씨드 오일 블렌드. 캔들 4종 공통.
       파라핀 무첨가.
 
-      코코넛 왁스는 푸드 그레이드(food-grade) 등급이다.
+      ⚠️ 제조사(Stone Candles) 공개 사양과 현재 카피가 불일치한다.
+      상세: data/supplier/stone-candles-wax.md
 
-      표기 (권장):
-        영문 - a natural blend of food-grade coconut wax and apricot seed oil
-        국문 - 푸드 그레이드 코코넛 왁스와 애프리컷 씨드 오일을 블렌딩한 천연 왁스
+      제조사 공개 구성:
+        Natural coconut apricot wax, soy wax, stearic acid (vegetable wax), apricot oil
+        -> 소이 왁스와 스테아릭산이 포함된다.
+
+      제조사 인증 문구의 적용 범위:
+        non-GMO -> 코코넛(원료)에 한정
+        food grade certified -> 코코넛 '오일'에 한정
+        -> '푸드 그레이드 코코넛 왁스'는 범위를 넘어선 표기다.
+
+      표기 (제조사 자료 확정 전까지 잠정):
+        영문 - a natural coconut apricot wax blend, made with food-grade certified coconut oil
+        국문 - 푸드 그레이드 인증 코코넛 오일로 만든 코코넛 애프리컷 천연 왁스
 
       표기 원칙 (중요):
         - 애프리컷은 '왁스'가 아니라 '씨드 오일'이다.
           'coconut-apricot wax'처럼 붙여 쓰면 애프리컷도 왁스인 것처럼 읽히므로 쓰지 않는다.
           반드시 'coconut wax and apricot seed oil' 로 분리해서 쓴다.
-        - 소이(콩) 왁스가 아니라 코코넛 왁스라는 점을 명확히 한다.
-          코코넛 왁스는 소이보다 고급 소재로 인식되므로 $85 가격의 근거가 된다.
+        - ❌ '소이가 아니라 코코넛' 식의 차별화 문구를 쓰지 말 것.
+          제조사 사양에 소이 왁스가 포함되어 있으므로 허위표시가 된다.
+          (2026-09-09 이전 판단을 철회함)
         - 파라핀 무첨가(paraffin-free)를 함께 표기한다.
         - '푸드 그레이드'는 코코넛 왁스에만 붙는다. 애프리컷 씨드 오일이나
           제품 전체에 붙이지 않는다.
@@ -165,10 +178,10 @@ candle_common:
           공기 중으로 나오는 것을 마시게 되는 제품이므로 원료 등급이 높다는
           맥락에서만 사용한다.
 
-      기존 사이트 표기 참고:
-        Bamboo Forest 캔들에 'Non-GMO, food-grade certified coconut oil' 이 이미 있음.
-        단 'coconut oil'로 되어 있어 왁스와 오일이 혼동됨 -> 'coconut wax'로 정정 필요.
-        Non-GMO 표기의 근거(인증서 유무)는 별도 확인 필요.
+      확정 조건 (제조사로부터 받아야 함):
+        - 왁스 배합비 (코코넛/소이/스테아릭산/애프리컷 오일)
+        - non-GMO, kosher, food grade 각 인증서 (발급기관, 번호, 유효기간)
+      받기 전까지 non-GMO 문구는 사이트에서 내리는 것을 권장한다.
 
       INCI 참고 (라벨 작성 시): Prunus armeniaca (apricot) kernel oil
       -> 라벨용 정식 성분명은 제조처 확인 후 확정할 것.
@@ -207,9 +220,19 @@ candle_common:
     value: Reusable vessel — 리필 또는 메탈 리드로 디퓨저 전환 가능
     status: review
   seed_packet:
-    value: 향에 맞는 식물 씨앗 패킷 동봉
-    status: review
-    note: Bamboo Forest = Coriander. 나머지 3종 씨앗 종류 pending.
+    value: 없음 (단종)
+    status: confirmed
+    note: |
+      씨앗 패킷 동봉은 중단되었다. 향후 별도 상품으로 판매 검토 중.
+
+      조치: 사이트와 모든 자료에서 씨앗 관련 문구를 삭제한다.
+      현재 남아있는 문구 (삭제 대상):
+        - Bamboo Forest 캔들 product_info Description:
+          'Comes with a packet of Coriander seeds reminiscent of the Collection scent'
+        - 같은 제품 Sustainable Packaging 문단의
+          'cultivate new life with the plant seed packets that are included and
+           shipped in every candle'
+      -> 동봉하지 않는데 동봉된다고 표기하면 표시광고 위반이다. 우선 삭제할 것.
 
 # ------------------------------------------------------------
 # 바 솝 2종 공통

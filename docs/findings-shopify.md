@@ -71,16 +71,32 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 | Myrrh Bar 성분 | Prunus armgd­alus (보이지 않는 soft hyphen 포함) | Prunus amygdalus |
 | 조향사 소개 본문 | Laudimiel | Laudamiel |
 
-## 🟡 왁스 표기 부정확
+## 🔴 씨앗 동봉 문구 — 실제로는 동봉 안 함
 
-현재 표기: `coconut-apricot wax blend` · `Coconut Wax, Apricot Oil`
+씨앗 패킷 동봉은 **중단되었으나** Bamboo Forest 캔들에 아래 문구가 그대로 살아있다.
 
-→ 애프리컷은 왁스가 아니라 **씨드 오일**이다. 붙여 쓰면 애프리컷도 왁스로 읽힌다.
-→ 정정: `a natural blend of coconut wax and apricot seed oil`
-→ `apricot oil`도 부정확. `apricot seed oil`로 통일.
-→ 코코넛 왁스는 **푸드 그레이드** 등급. 이 표기가 4종 중 Bamboo Forest에만 있고
-   그마저 `coconut oil`로 잘못 쓰여 있다 → `food-grade coconut wax`로 정정 후 4종 공통 적용.
-→ `Non-GMO` 표기는 인증 근거 확인 필요.
+```
+Comes with a packet of Coriander seeds reminiscent of the Collection scent
+...cultivate new life with the plant seed packets that are included and shipped in every candle
+```
+
+→ 동봉하지 않는데 동봉된다고 표기 중. **표시광고 위반이자 실제 클레임 사유**다.
+→ 최우선 삭제 대상.
+
+## 🔴 왁스 표기 — 제조사 사양과 불일치
+
+제조사 Stone Candles 공개 사양에는 **soy wax와 stearic acid가 포함**되어 있으나
+현재 카피는 코코넛과 애프리컷만 언급한다. 상세: `data/supplier/stone-candles-wax.md`
+
+| 항목 | 제조사 원문 | 현재 표기 | 조치 |
+|---|---|---|---|
+| 구성 | coconut apricot wax, **soy wax, stearic acid**, apricot oil | 소이·스테아릭산 누락 | 배합비 확인 후 정정 |
+| non-GMO | **coconut**에 한정 | 인증 근거 없음 | 인증서 확보 전까지 문구 내림 |
+| food grade | **coconut oil**에 한정 | `food-grade coconut wax` | `푸드 그레이드 인증 코코넛 오일 사용`으로 정정 |
+
+⚠️ **"소이가 아니라 코코넛"식 차별화 문구는 쓰면 안 된다.** 소이가 들어간다.
+⚠️ 인증 문구(non-GMO·kosher·food grade)는 제조사 마케팅 문구일 뿐 인증서가 아니다.
+   leverden 이름으로 쓰려면 발급기관·번호가 있는 실제 인증서를 받아야 한다.
 
 ## 🟡 사양 변경 미반영
 
