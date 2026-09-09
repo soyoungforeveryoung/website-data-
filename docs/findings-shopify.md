@@ -95,3 +95,16 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 - 캔들 3종(Bushman·Shaman·Valley of Roses) 동봉 씨앗 종류
 - 조향사가 6종 전부 Christophe Laudamiel인지
 - Myrrh Bar의 sweet almond(견과류) 알레르기 고지 필요 여부
+
+## 🟡 제품 명칭 불일치 — soap on a rope
+
+로프 달린 바 솝의 명칭이 제품마다 다르게 쓰여 있다.
+
+| 제품 | 현재 표기 |
+|---|---|
+| Bamboo Forest Charcoal Detox Bar | `handmade luxury soap-on-a-rope` ✅ |
+| Bushman Candle Myrrh Protection Bar | `hanging linen-blend rope for simple display` ❌ |
+| Charcoal Bar (Good to Know) | `Hanging-linen composition natural rope` ❌ |
+
+→ 전부 `soap on a rope`로 통일. 로프 소재는 뒤에 덧붙여 설명.
+→ 규칙: `brand/brand-core.md` §3-1

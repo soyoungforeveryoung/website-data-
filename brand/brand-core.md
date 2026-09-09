@@ -38,6 +38,24 @@ grep -rniE 'le[[:space:]]*[Vv]erden' . | grep -v 'leverden'
 `bar soap`은 영어에서 **두 단어**다. `barsoap`은 존재하지 않는 표기이므로 쓰지 않는다.
 제품 타입·제품명 등 고유명사 위치에서는 `Bar Soap`, 문장 속 일반명사로 쓸 때는 `bar soap`.
 
+### 3-1. Soap on a rope
+
+로프가 달린 바 솝은 영어권 통용 명칭인 **`soap on a rope`** 로 통일한다.
+
+| 위치 | 표기 | 예 |
+|---|---|---|
+| 문장 속 | `soap on a rope` | Our handmade soap on a rope lathers into a rich foam. |
+| 명사 앞 수식어 | `soap-on-a-rope` (하이픈) | a luxury soap-on-a-rope ritual |
+
+| ✅ 정 | ❌ 오 |
+|---|---|
+| `soap on a rope` | `hanging rope soap` · `rope bar soap` · `hanging bar soap` |
+
+- 현재 Charcoal Bar 본문에만 `soap-on-a-rope`가 쓰여 있고, Myrrh Bar 등 나머지는
+  `hanging linen-blend rope` 식으로 제각각이다. 전부 위 규칙으로 정렬한다.
+- 로프 소재를 설명할 때는 `on a biodegradable linen-blend rope` 처럼 뒤에 덧붙인다.
+  로프 소재가 명칭을 대체하지 않는다.
+
 ## 4. 제품 사양 표기
 
 - 캔들 용량은 **250g** (순 왁스 중량)으로 통일한다. 배송중량과 혼동하지 않는다.
