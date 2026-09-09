@@ -59,7 +59,7 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 | Barcode 형식 | Charcoal Bar만 `00850034664101` (앞 0 두 개) | GTIN 자릿수 통일 |
 | SKU 형식 | Valley of Roses만 `777TVRCD10` (T 접두) | 의도 확인 후 통일 |
 | SEO | Myrrh Protection Bar는 타이틀·설명 아예 없음 | 작성 |
-| 바 솝 중량 | Charcoal 0.6 lb vs Myrrh 0.2 lb (3배 차이) | 실측 후 통일 |
+| 바 솝 중량 | Charcoal 0.6 lb vs Myrrh 0.2 lb (3배 차이) | **Myrrh Bar가 오류.** 순중량 250g 확정 → Charcoal 0.6 lb만 타당 |
 
 ## 🟡 오타
 

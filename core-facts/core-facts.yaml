@@ -64,10 +64,21 @@ candle_common:
       순용량(250g)과 혼동되지 않도록 고객 노출 문구에는 250g만 쓴다.
   dimensions:
     value: null
-    status: conflict
+    status: pending
     note: |
-      기존 표기 '11 5/8 * 4 inches' — 캔들 치수로 비현실적(약 29cm 높이). 오류로 판단.
-      실측 후 4종 공통값으로 확정. mm/cm 우선, inch 병기.
+      기존 표기: '11 5/8 * 4 inches' (라벨 없음)
+      → 오류가 아니라 '둘레 x 높이'로 추정됨. 검증 필요.
+
+      추정 근거 (실측으로 확인 전까지 확정값 아님):
+        왁스 250g, 밀도 약 0.9 g/cm3 -> 부피 약 278 cm3
+        4 inches = 10.2 cm 를 베슬 높이로 보면
+        11 5/8 inches = 29.5 cm 를 둘레로 보면 지름 9.4 cm
+        지름 9.4 cm 기준 왁스 높이 약 4 cm -> 250g과 정합
+
+      '9 inch' 설은 성립하지 않음. 23 cm 높이 베슬에 250g이면 바닥만 채워짐.
+
+      확정 방법: 베슬 입구 바깥 지름과 전체 높이를 cm로 실측.
+      표기는 '지름 x 높이' 형식으로 통일하고 cm 우선, inch 병기.
   burn_time:
     value: null
     status: conflict
@@ -128,13 +139,15 @@ bar_soap_common:
     value: Biodegradable linen-blend rope
     status: review
     note: 로프 소재는 명칭 뒤에 덧붙여 설명한다 (예: soap on a biodegradable linen-blend rope).
-  weight:
-    value: null
-    status: conflict
+  net_weight:
+    value: 250
+    unit: g
+    status: confirmed
     note: |
-      Charcoal Bar 0.6 lb / Myrrh Bar 0.2 lb 로 3배 차이.
-      같은 규격 바 솝이면 둘 중 하나가 오류. 실측 필요.
-      확정 후 g 단위 병기 권장.
+      2종 공통. 캔들과 동일한 250g.
+      이로써 기존 충돌이 해소됨 —
+        Charcoal Bar 0.6 lb(272g) = 250g + 포장 → 타당
+        Myrrh Bar   0.2 lb(91g)              → 오류. Shopify 수정 필요.
 
 # ============================================================
 # 제품별
