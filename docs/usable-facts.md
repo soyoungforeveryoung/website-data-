@@ -130,7 +130,7 @@
 - **장소(영월)** 와 **만든 사람(죽염 장인이자 스님)** 둘 다 빼지 않는다
 - ⛔ 구증구포(아홉 번 굽기) 등 **제법 횟수는 확인 전까지 쓰지 말 것**
 
-## Bushman Candle Myrrh Protection Bar — 힘바족 몰약
+## Bushman Candle Myrrh Oasis Bar — 힘바족 몰약
 
 > **영문**
 > The Himba people of the Namib Desert have long used myrrh oil to protect their

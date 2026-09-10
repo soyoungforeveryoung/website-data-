@@ -128,7 +128,7 @@
 
 | 제품 | 고지 |
 |---|---|
-| Bushman Candle Myrrh Protection Bar | **sweet almond(견과류) 오일 함유** — 견과류 알레르기가 있는 경우 주의. 각국 표시 의무 확인 필요 |
+| Bushman Candle Myrrh Oasis Bar | **sweet almond(견과류) 오일 함유** — 견과류 알레르기가 있는 경우 주의. 각국 표시 의무 확인 필요 |
 | 캔들 전 종 | 화기 주의 문구는 판매 국가별 의무 표기 확인 필요 (US·EU·KR 각각 상이) |
 
 ⚠️ 캔들의 화기 안전 표기는 나라마다 의무 문구가 다르다.
