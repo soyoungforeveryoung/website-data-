@@ -11,7 +11,7 @@
 | Shaman Scented Candle | ACTIVE | 5 ⚠️ |
 | Valley of Roses Scented Candle | ACTIVE | 30 |
 | Bamboo Forest Charcoal Detox Bar | ACTIVE | 24 |
-| Bushman Candle Myrrh Oasis Bar | ACTIVE | 76 |
+| Bushman Candle Myrrh Protection Bar | ACTIVE | 76 |
 
 ⚠️ Shaman 캔들 재고 5개 — 연말까지 판매 가능한 수량인지 확인 필요.
 
@@ -20,7 +20,7 @@
 | 제품 | 재고 | 비고 |
 |---|---|---|
 | Bamboo Forest Charcoal Detox Bar Duo Set | 34 | 코어 바 솝 2개 묶음 |
-| Bushman Candle Myrrh Oasis Bar Duo Set | 79 | 코어 바 솝 2개 묶음 |
+| Bushman Candle Myrrh Protection Bar Duo Set | 79 | 코어 바 솝 2개 묶음 |
 | Bamboo Forest Mini Ritual Set | 30 | 캔들+바 솝 세트 |
 | Ritual Cleansing Bar Duo | 30 | 바 솝 2종 묶음 |
 | Travel Ritual Tin 1.5oz | 735 | 미니 캔들 4종 |

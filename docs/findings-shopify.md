@@ -58,7 +58,7 @@ custom.pdp_accordion_description : "Test description for Charcoal Bar"
 | Barcode | 캔들 4종 중 1종만 등록 (Bamboo Forest) | 4종 전부 등록 |
 | Barcode 형식 | Charcoal Bar만 `00850034664101` (앞 0 두 개) | GTIN 자릿수 통일 |
 | SKU 형식 | Valley of Roses만 `777TVRCD10` (T 접두) | 의도 확인 후 통일 |
-| SEO | Myrrh Oasis Bar는 타이틀·설명 아예 없음 | 작성 |
+| SEO | Myrrh Protection Bar는 타이틀·설명 아예 없음 | 작성 |
 | 바 솝 중량 | Charcoal 0.6 lb vs Myrrh 0.2 lb (3배 차이) | **Myrrh Bar가 오류.** 2종 모두 순중량 **255g** 확정 → Myrrh 등록 중량 수정 필요 |
 
 ## 🔴 캔들 라인과 바디 라인의 향 정보가 섞여 있음
@@ -162,7 +162,7 @@ Comes with a packet of Coriander seeds reminiscent of the Collection scent
 | 제품 | 현재 표기 |
 |---|---|
 | Bamboo Forest Charcoal Detox Bar | `handmade luxury soap-on-a-rope` ✅ |
-| Bushman Candle Myrrh Oasis Bar | `hanging linen-blend rope for simple display` ❌ |
+| Bushman Candle Myrrh Protection Bar | `hanging linen-blend rope for simple display` ❌ |
 | Charcoal Bar (Good to Know) | `Hanging-linen composition natural rope` ❌ |
 
 → 전부 `soap on a rope`로 통일. 로프 소재는 뒤에 덧붙여 설명.
