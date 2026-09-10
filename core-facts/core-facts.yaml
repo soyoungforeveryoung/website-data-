@@ -61,20 +61,41 @@ collections:
     inspiration:
       status: confirmed
       ko: |
-        나미비아 사막. 물이 귀해 물로 씻을 수 없는 환경에서,
-        부시맨 캔들 식물을 태운 연기로 몸을 씻는 전통이 있다.
+        나미비아 사막의 힘바족. 물이 극히 귀한 환경이어서
+        힘바 여성들은 전통적으로 물로 씻지 않고,
+        부시맨 캔들 식물을 태운 연기로 몸을 씻어 왔다.
         그 연기의 향에서 영감을 받아 만든 향이다.
       en: |
-        The Namib Desert. Where water is scarce and washing with water is not possible,
-        there is a practice of bathing in the smoke of the burning bushman candle plant.
-        This scent comes from that smoke.
+        The Himba of the Namib Desert. Water is scarce, and Himba women have
+        traditionally cleansed themselves not with water but with the smoke of
+        the burning bushman candle plant. This scent comes from that smoke.
       note: |
         이 콜렉션의 핵심 서사다. '나미비아 사막'만 말하고 끝내면 절반도 전달되지 않는다.
         물 대신 연기로 씻는다 -> 그 연기의 향 -> 이 캔들.
         이 인과가 들어가야 '왜 이 향인가'가 설명된다.
+      attribution: { value: 힘바(Himba)족 여성의 전통, status: confirmed }
+
+      writing_guidance: |
+        ⚠️ 표현 방식에 주의한다. 사실은 같아도 프레이밍에 따라 전혀 다르게 읽힌다.
+
+        ✅ 권장 — 물 부족이라는 환경 조건과 그에 대한 지혜로 서술
+           "사막에서 물은 귀하다. 힘바 여성들은 물 대신 연기로 몸을 씻는 방법을 지켜 왔다."
+           "Water is scarce in the desert. Himba women have long cleansed
+            themselves with smoke instead."
+
+        ⛔ 지양 — 금지/제약의 프레이밍
+           "여자는 물로 씻지 못하게 되어 있어서…"
+           "women are not allowed to bathe with water"
+           사실 관계와 별개로, 서구 시장에서 타 문화를 억압적으로 묘사한다는
+           비판을 받기 쉽다. 브랜드가 감당할 이유가 없는 리스크다.
+
+        원칙: 제약이 아니라 '환경에 적응한 방식'으로 쓴다.
+              힘바 여성을 대상이 아니라 지혜의 주체로 둔다.
+
       pending:
-        - 이 전통이 힘바족의 것인지 더 넓은 지역의 관습인지 명확히 할 것.
-          전통지식(TK) 영역이므로 OPF/KCINPT가 문서화한 범위 안에서 기술한다.
+        - OPF/KCINPT가 문서화한 범위와 대조할 것 (INP-book).
+          전통지식(TK)은 나미비아 ABS 법제 대상이므로
+          문서화되지 않은 내용을 새로 서술하지 않는다.
 
   shaman:
     name_en: { value: Shaman, status: confirmed }
@@ -96,8 +117,15 @@ collections:
       en: |
         The rituals of Peruvian shamans, and the scent of burning palo santo.
       note: 기존 카피의 '고대 샤머니즘'은 모호하다. '페루'와 '팔로 산토 리추얼'로 구체화한다.
+      palo_santo_origin: { value: 페루산, status: confirmed }
       pending:
-        - 팔로 산토 수급처와 지속가능 인증. 근거 없는 sustainable 표현은 그린워싱이 된다.
+        - 팔로 산토 학명 확인 (향료사에 문의).
+          '팔로 산토'로 불리는 나무는 여럿이며 규제 지위가 다르다.
+            Bursera graveolens  - 페루/에콰도르산. CITES 규제 대상 아님
+            Guaiacum spp.       - CITES 부속서 II 규제 대상
+          페루산은 통상 Bursera graveolens이나, 학명을 문서로 확인해 두는 편이 안전하다.
+        - 페루 수출 관련 서류(SERFOR 등) 및 지속가능 수급 근거.
+          근거 없는 sustainable 표현은 그린워싱이 된다.
 
   valley_of_roses:
     name_en: { value: Valley of Roses, status: confirmed }
@@ -121,9 +149,16 @@ collections:
       en: |
         Morocco's largest wild rose village. We use Moroccan rose oil from there.
       note: 향의 모티프가 아니라 실제 원료를 쓴다는 점이 핵심이다.
+      village: { value: "Kelaat M'Gouna (엘켈라 데 므구나)", status: confirmed }
+      sourcing:
+        value: 모로칸 로즈 오일을 장미의 계곡(Valley of Roses)에서 직접 받아 사용한다
+        status: confirmed
+        note: |
+          콜렉션명 Valley of Roses가 실제 산지명과 일치한다.
+          향의 모티프가 아니라 그 계곡의 로즈 오일을 실제로 쓴다는 점이
+          이 콜렉션의 핵심이며, 이름과 원료가 일치하는 유일한 콜렉션이다.
       pending:
-        - 마을 이름 확인 (Kelaat M'Gouna / 엘켈라 데 므구나 여부)
-        - 모로칸 로즈 오일 공급처와 서류
+        - 모로칸 로즈 오일 공급처명과 서류(COA, 알레르겐 선언서)
 
 
 # ------------------------------------------------------------
