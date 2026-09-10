@@ -75,6 +75,34 @@ collections:
         이 인과가 들어가야 '왜 이 향인가'가 설명된다.
       attribution: { value: 힘바(Himba)족 여성의 전통, status: confirmed }
 
+      direct_sourcing:
+        status: confirmed
+        requirement: |
+          🔴 필수 기재 사항.
+          힘바족에게서 직접 공수받은 원료를 쓴다는 점을 반드시 명시한다.
+          이 콜렉션을 '영감을 받은 향'으로만 소개하면 핵심이 빠진다.
+          영감이 아니라 실제 거래이며, 그것이 이 브랜드가 다른 브랜드와 다른 지점이다.
+
+        확인된 원료:
+          - 원료: Commiphora wildii (Omumbiri) 오일
+            수급: 힘바 커뮤니티 트러스트(KCINPT) -> Opuwo Processing Facility -> leverden
+            적용 제품: Bushman Candle Myrrh Protection Bar
+            근거: 2022년 수급 메일 + KCINPT 제품 도시에. docs/myrrh-sourcing.md
+
+        표기 예:
+          ko: 힘바 커뮤니티 트러스트에서 직접 건네받은 오일을 그대로 담았습니다.
+          en: Sourced directly from the Himba community trust.
+
+        pending:
+          - ⚠️ 캔들(Bushman Candle Scented Candle)에도 힘바족 직접 수급 원료가
+            들어가는지 확인 필요.
+            2022년 OPF 회신에 따르면 부시맨 캔들 식물(Sarcocaulon) 왁스는
+            OPF가 용매 추출 설비가 없어 공급 불가라고 했다.
+            향료의 'Bushman Candle Oil' 노트가 실제 나미비아산 원료인지,
+            조향 어코드인지 향료사(AFM) 확인이 필요하다.
+            -> 확인 전까지 '직접 공수' 문구는 바 솝에만 쓰고 캔들에는 쓰지 않는다.
+               캔들에는 전통(연기 목욕)에서 영감을 받았다고만 쓴다.
+
       writing_guidance: |
         ⚠️ 표현 방식에 주의한다. 사실은 같아도 프레이밍에 따라 전혀 다르게 읽힌다.
 
