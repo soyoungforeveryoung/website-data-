@@ -67,7 +67,14 @@ collections:
 
   bushman_candle:
     name_en: { value: Bushman Candle, status: confirmed }
-    name_ko: { value: 부시맨캔들, status: confirmed }
+    name_ko: { value: 부시맨 캔들, status: confirmed }
+    naming_note: |
+      'Bushman Candle / 부시맨 캔들'은 식물(원료) 이름이다.
+      국문은 띄어 쓴다. 붙여 쓰지 않는다.
+      제품명에서 '캔들'이 두 번 반복되어도 그대로 둔다.
+        르버덴 부시맨 캔들 센티드 캔들
+        Bushman Candle Scented Candle
+      앞의 '캔들'은 원료명의 일부, 뒤의 '캔들'은 제품 종류다. 생략하면 뜻이 달라진다.
     scent_in_one_line:
       ko: { value: "스파이시하고 이국적인 향. 마른 사막의 수지와 향신료, 연기", status: confirmed }
       en: { value: "Spicy and exotic - dry desert resin, spice, and smoke", status: confirmed }

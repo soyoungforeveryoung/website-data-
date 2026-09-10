@@ -26,7 +26,12 @@ grep -rniE 'le[[:space:]]*[Vv]erden' . | grep -v 'leverden'
 - 영문 제품명은 Title Case, 콜렉션명 + 제품 타입 순서.
   예) `Bamboo Forest Scented Candle`, `Bushman Candle Myrrh Protection Bar`
 - 연속 공백 금지 (현재 `Bushman candle  Scented Candle` 오류 있음).
-- `Bushman Candle`은 **식물명**이므로 콜렉션명으로 쓸 때도 두 단어 모두 대문자.
+- `Bushman Candle`은 **식물(원료) 이름**이다. 영문은 두 단어 모두 대문자,
+  국문은 `부시맨 캔들`로 띄어 쓴다. 붙여 쓰지 않는다.
+- 제품명은 **원료명 + 제품 종류** 구조를 지킨다.
+  `부시맨 캔들 센티드 캔들` 처럼 '캔들'이 두 번 나와도 그대로 둔다.
+  앞의 '캔들'은 식물 이름의 일부이고 뒤의 '캔들'은 제품 종류이므로 생략하면 뜻이 달라진다.
+  영문도 동일: `Bushman Candle Scented Candle`
 
 ## 3. Product type 표기
 
