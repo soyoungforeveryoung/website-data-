@@ -48,7 +48,7 @@ leverden 카피는 "coconut wax and apricot seed oil"로만 표기하고 있다.
 1. **Stone Candles에 인증서 요청** — non-GMO, kosher, food grade 각각의 발급기관·번호·유효기간
 2. **정확한 왁스 배합비 요청** — 코코넛 / 소이 / 스테아릭산 / 애프리컷 오일 비율
 3. 받은 자료를 이 폴더(`data/supplier/`)에 저장
-4. 확정 전까지 사이트에서 non-GMO 문구는 내리는 것을 권장
+4. 🔴 **non-GMO 문구는 사이트에서 내린다** (2026-09-10 소영님 결정). 권장이 아니라 확정 사항이다.
 
 ## 받아야 할 자료 체크리스트
 

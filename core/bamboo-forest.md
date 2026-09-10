@@ -3,20 +3,22 @@
 시장·채널·컨셉과 무관하게 **항상 같아야 하는 사실**만 담는다.
 마케팅 표현, 카피, 무드는 이 파일에 넣지 않는다.
 
-- 대상: Bamboo Forest **센티드 캔들** (바 솝은 별도 파일)
+- 대상: Bamboo Forest **센티드 캔들** (바 솝은 `bamboo-forest-bar.md`)
 - 최종 갱신: 2026-09-10
 - 원칙: **추측한 값은 넣지 않는다.** 확인하지 못한 항목은 `확인 필요`로 남긴다.
+- **용량 · 연소시간 · 왁스 · 심지 · 제조 · 사용법 · 치수 · 가격 · 인증은
+  `core/_공통-캔들.md`에 있다.** 여기에 중복 기재하지 않는다.
 
 ## 출처 표기
 
 | 코드 | 출처 |
 |---|---|
-| `US` | leverden.co (Shopify) — https://leverden.co/products/bamboo-forest-scented-candle |
-| `KR` | leverden.co.kr (Cafe24) — https://leverden.co.kr/product/르버덴-뱀부-포레스트-센티드-캔들/15/ |
-| `US-RAW` | Shopify Admin API 추출본 — `data/shopify-core6-raw.json` (2026-09-09 추출) |
+| `US` | leverden.co — https://leverden.co/products/bamboo-forest-scented-candle |
+| `KR` | leverden.co.kr — 르버덴 뱀부 포레스트 센티드 캔들 |
+| `US-RAW` | Shopify Admin API 추출본 — `data/shopify-core6-raw.json` (2026-09-09) |
 | `KR-HTML` | Cafe24 페이지 원본 HTML (JS 미실행, 2026-09-09 저장) |
 | `KR-IMG` | Cafe24 상세페이지 이미지 |
-| `소영` | 소영님 직접 확인 (대화, 2026-09-09~10) |
+| `소영` | 소영님 직접 확인 (2026-09-09~10) |
 | `도시어` | leverden Brand Dossier (2026-09-04) |
 
 ---
@@ -25,41 +27,19 @@
 
 | 항목 | 값 | 출처 |
 |---|---|---|
-| 영문 | `Bamboo Forest Scented Candle` | `US-RAW` product title / JSON-LD name |
+| 영문 | `Bamboo Forest Scented Candle` | `US-RAW` product title |
 | 한글 | `르버덴 뱀부 포레스트 센티드 캔들` | `KR-HTML` JSON-LD name, page title |
 | 브랜드 표기 | `leverden` (전부 소문자) / `르버덴` | `소영`, `도시어` §11 |
+| SKU | `777BFCD10` | `US-RAW` |
+| 바코드 | `850034664026` | `US-RAW` |
+| Shopify handle | `bamboo-forest-scented-candle` | `US-RAW` |
 
-⚠️ `KR-IMG`에는 `샤먼 센티드 향초` 형식(다른 제품)이 쓰여 있어, **`향초` / `캔들` 표기가 채널·매체별로 다르다.**
-→ 어느 쪽으로 통일할지 **확인 필요**
-
----
-
-## 2. 용량
-
-| 항목 | 값 | 출처 |
-|---|---|---|
-| 순 왁스 중량 (g) | **250 g** | `소영`, `KR-HTML` JSON-LD offers name `…센티드 캔들 250g` |
-| 순 왁스 중량 (oz) | **확인 필요** | — |
-| 총 중량 (배송용) | 2.3 lb (약 1,043 g) | `US-RAW` inventoryItem measurement |
-
-⚠️ **oz 표기는 확인 필요.** 250 g의 단위 환산값은 8.82 oz이나,
-   제품 라벨·패키지에 실제로 인쇄된 oz 값이 무엇인지 확인되지 않았다. 환산값을 그대로 쓰지 않는다.
-
-⚠️ 2.3 lb는 **배송 중량**으로 보이며 순 왁스 중량과 구분해야 한다. 고객 노출값은 250 g.
+⚠️ `KR-IMG`에는 `센티드 향초` 형식이 쓰인 제품이 있어 **`향초` / `캔들` 표기가 매체별로 다르다.**
+→ 통일 방향 **확인 필요** (공통 C7)
 
 ---
 
-## 3. 연소 시간
-
-| 항목 | 값 | 출처 |
-|---|---|---|
-| 연소 시간 | **약 60시간** | `KR-HTML` JSON-LD description `연소 시간: 60시간` / `US-RAW` product_info `Burning time: 60 hours` / `소영` 확정 |
-
-표기: `약 60시간` / `approx. 60 hours` — 연소 조건에 따라 달라지므로 단정 표기하지 않는다.
-
----
-
-## 4. 향 노트
+## 2. 향 노트
 
 | 항목 | 값 | 출처 |
 |---|---|---|
@@ -68,7 +48,7 @@
 | **탑 / 미들 / 베이스 구분** | **확인 필요** | — |
 
 ⚠️ 원 자료에는 **평면 목록으로만** 존재한다. 단계 구분이 문서로 확인되지 않았다.
-   (Bushman Candle·Shaman·Valley of Roses는 원문에 단계가 명시되어 있으나, 이 제품만 없다.)
+   (부시맨 캔들·샤먼·밸리 오브 로지즈는 원문에 단계가 명시되어 있으나, 이 제품만 없다.)
    → 향료 노트 문서 확인 필요
 
 ### 원 자료에 함께 등장하나 노트로 확정되지 않은 원료
@@ -78,62 +58,24 @@
 | Elemi | `US-RAW` product_info 서술형 Fragrance Notes 문단 | 확인 필요 |
 | Oakmoss, Fir Balsam | `US-RAW` `About the Perfumer` 문단 | **노트 아님.** 이 문단은 캔들과 바 솝에 동일하게 복붙되어 있어 근거가 되지 못한다 |
 
-⚠️ Oakmoss는 **바디 라인 향료** `BAMBOOM 34`(IFF 6059239)에 1.218% 포함되어 있음이 알레르겐 선언서로 확인되었으나,
-   **캔들 향료 문서에서는 확인되지 않았다.** 캔들과 바디는 향 배합이 다르다.
+⚠️ Oakmoss는 **바디 라인 향료** `BAMBOOM 34`(IFF 6059239)에 1.218% 포함되어 있음이
+   알레르겐 선언서로 확인되었으나, **캔들 향료 문서에서는 확인되지 않았다.**
+   Bamboo Forest는 캔들과 바디의 향료 회사가 아예 다르다 (Chemia vs IFF).
+   상세: `docs/fragrance-registry.md`
 
 ---
 
-## 5. 원료
+## 3. 조향
 
 | 항목 | 값 | 출처 |
 |---|---|---|
-| 왁스 | 코코넛 왁스 + 애프리컷 씨드 오일 블렌드 | `소영`, `US-RAW` `natural coconut-apricot wax` |
-| 심지 | 오가닉 코튼, 납 미사용 | `US-RAW` `lead-free organic cotton wick` |
-| 심지 개수 | **1개** | `소영` |
-| 향료 | 프래그런스 오일 | `KR-IMG` `천연 재료의 하이엔드 프레그런스 오일` |
-| 뚜껑 | 세라믹 | `소영` |
-
-향료 코드는 이 원장에 기록하지 않는다. 내부 조달 정보이며, 필요한 것은 향 노트다.
-
-### 원 자료에 있으나 근거 미확보
-
-제조사(Stone Candles)가 자사 홈페이지에서 쓰는 문구를 그대로 가져온 것이다.
-**사용 자체는 가능하나, 근거는 제조사 웹사이트가 아니라 제조사가 발급한 문서여야 한다.**
-규제기관과 리테일러는 판매자인 leverden에게 근거를 요구한다.
-
-| 문구 | 필요한 문서 | 받을 곳 | 상태 |
-|---|---|---|---|
-| 파라핀 무첨가 · 코코넛 왁스 · 납 없는 심지 | 스펙시트 | Stone Candles | 미확보 |
-| Food-grade | 코코넛 오일 원료 스펙시트 | Stone Candles | 미확보 |
-| Kosher | 인증기관 인증서 사본 | Stone Candles | 미확보 |
-| Vegan · Cruelty-free · Beeswax-free · Paraben-free | 서면 확인서 | Stone Candles **+ 향료사** | 미확보 |
-| **Non-GMO** | 별도 인증 증빙 | Stone Candles | **미확보 — 사용 보류 권장** |
-
-⚠️ **왁스가 비건이어도 완제품이 비건이 아닐 수 있다.**
-   Stone Candles가 보증하는 것은 왁스 베이스이고, 캔들에는 향료가 별도로 들어간다.
-   향료에 동물유래 성분이 있으면 완제품은 비건이 아니다.
-   → 비건·코셔는 **제조사와 향료사 양쪽** 확인이 필요하다.
-
-⚠️ **Non-GMO만 성격이 다르다.** 미국·EU 모두 별도 인증 프로그램이 있어
-   인증 없이 사용하면 가장 먼저 지적받는 항목이다.
-
----
-
-## 6. 제조
-
-| 항목 | 값 | 출처 |
-|---|---|---|
-| 제조 국가 | 미국 | `US-RAW` `made in the USA` |
-| 제조 지역 | 캘리포니아 | `US-RAW` `Hand-poured in California` |
-| 제조 방식 | 핸드푸어 (손으로 붓기) | `US-RAW` |
-| 제조사 | Stone Candles | `소영` |
 | 조향사 | Christophe Laudamiel | `도시어` §03 |
 
-⚠️ `US-RAW` 본문에 `Laudimiel` 오타가 있다. 정확한 표기는 **Laudamiel**.
+⚠️ `US-RAW` 본문 `Laudimiel`은 오타. 정확한 표기는 **Laudamiel**.
 
 ---
 
-## 7. 동봉품
+## 4. 동봉품
 
 | 항목 | 값 | 출처 |
 |---|---|---|
@@ -141,72 +83,41 @@
 | 코리앤더 씨앗 | **동봉하지 않음** | `소영` (2026-09-10 확정) |
 
 🔴 **양쪽 사이트에 아직 동봉 문구가 남아 있다. 삭제 대상.**
-   - `US-RAW`: `Comes with a packet of Coriander seeds reminiscent of the Collection scent`
-   - `KR-HTML` JSON-LD: `컬렉션 향을 연상시키는 코리앤더 씨를 함께 제공합니다`
-   → 동봉하지 않는데 동봉된다고 표기하는 것은 표시광고 위반이다.
+
+| 위치 | 문구 |
+|---|---|
+| `US-RAW` product_info Description | `Comes with a packet of Coriander seeds reminiscent of the Collection scent` |
+| `US-RAW` Sustainable Packaging 문단 | `cultivate new life with the plant seed packets that are included and shipped in every candle` |
+| `KR-HTML` JSON-LD description | `컬렉션 향을 연상시키는 코리앤더 씨를 함께 제공합니다` |
+
+→ 동봉하지 않는데 동봉된다고 표기하는 것은 표시광고 위반이다.
 
 ---
 
-## 8. 사용법과 주의사항
+## 5. 이 제품에만 있는 수정 대상
 
-| 항목 | 값 | 출처 |
+| 위치 | 문구 | 문제 |
 |---|---|---|
-| 첫 연소 | 표면 전체가 녹을 때까지 2~3시간 | `US-RAW` product_benefits |
-| 심지 자르기 | **3~5 mm** | `US-RAW` `cut the wick to keep about 3-5mm` / `소영` 확정 |
-| 1회 연소 한도 | 3시간 | `US-RAW` `do not burn your candle for more than 3 hours at a time` |
-| 사용 중단 시점 | 왁스 약 1 cm 잔여 | **확인 필요** |
-
-### 🔴 채널 간 불일치
-
-| 항목 | US | KR 이미지 |
-|---|---|---|
-| 심지 자르기 | 3~5 mm | **2 mm** |
-
-→ **3~5 mm로 확정** (`소영`, 2026-09-10). `KR-IMG`의 2 mm 표기는 **수정 대상**.
-
-### 법정 표시사항
-
-⚠️ 화기 안전 표시 문구는 판매 국가별 의무 사항이 다르다 (미국 / EU CLP / 한국 화학제품안전법).
-→ **확인 필요**
+| `US-RAW` 본문 | `Purifies the environment` | 공기 정화 = 효능 표현. 삭제 |
+| `US-RAW` SEO / 본문 | `the most sustainable candle wax in the earth` | 최상급 무근거 주장. 삭제 |
+| `US-RAW` SEO | `designed to purify the environment` | 위와 동일. 삭제 |
+| `US-RAW` product_info Sustainable Packaging | light4life / Exceptional Children's Foundation 파트너십 | 4종 중 이 제품에만 기재. **현재도 유효한지 확인 필요** |
+| `KR-HTML` JSON-LD description | `제품 개봉 및 사용시 교환/반품은 불가합니다`로 시작 | 검색결과 첫 문장이 반품 안내. 순서 조정 |
+| `US-RAW` metafields | `custom.subheading` 등에 `lorem ipsum` 더미 텍스트 잔존 | 삭제 |
+| `US-RAW` metafields | `custom.advantages_paragraph`가 **Amethyst Ki Bath Soak** 설명 | 다른 제품 내용. 삭제 |
+| `US-RAW` metafields | `advantages_heading_2` = `Exfoliate`, `_4` = `Minerals` | 캔들에 각질제거·미네랄. 삭제 |
+| `US-RAW` metafields | `Consicientious` | 오타 (정: Conscientious) |
 
 ---
 
-## 9. 치수
-
-| 항목 | 값 | 출처 |
-|---|---|---|
-| 유리 외경 | 9 cm | `소영` |
-| 유리 내경 | 8 cm | `소영` |
-| 전체 높이 (세라믹 뚜껑 포함) | 10 cm | `소영` |
-| 유리 단독 높이 | **확인 필요** | — |
-| 뚜껑 높이 | **확인 필요** | — |
-
-기존 표기 `11 5/8 * 4 inches` (`US-RAW`, `KR-HTML`)는 라벨이 없어 오해를 부른다.
-둘레(29.5 cm)와 높이(10.2 cm)로 해석되며 위 실측값과 정합한다.
-→ 고객 노출은 **`지름 9cm × 높이 10cm (뚜껑 포함)`** 형식으로 통일한다.
-
----
-
-## 10. 가격
-
-| 시장 | 값 | 출처 |
-|---|---|---|
-| 미국 | USD 85.00 | `US-RAW` variant price |
-| 한국 | KRW 127,500 | `KR-HTML` JSON-LD offers |
-
----
-
-# 확인 필요 항목 정리
+# 확인 필요 항목 (이 제품)
 
 | # | 항목 | 필요한 것 |
 |---|---|---|
-| 1 | oz 표기 | 라벨·패키지 실제 인쇄값 |
-| 2 | 향 노트 탑/미들/베이스 구분 | 향료 노트 문서 |
-| 3 | Elemi 포함 여부 | 향료사 확인 |
-| 4 | ~~캔들용 향료 코드~~ | ✅ 기록 대상 아님 |
-| 5 | ~~씨앗 동봉 정책~~ | ✅ 동봉하지 않음으로 확정. **양쪽 사이트 문구 삭제 필요** |
-| 6 | 유리 단독 높이 / 뚜껑 높이 | 실측 |
-| 7 | 왁스 1cm 잔여 기준 | 근거 확인 |
-| 8 | 인증 관련 문서 일체 | Stone Candles 스펙시트·인증서 + 향료사 비건 확인서. Non-GMO는 확보 전까지 사용 보류 |
-| 9 | 화기 안전 표시 문구 | 국가별 의무 사항 확인 |
-| 10 | `향초` / `캔들` 표기 통일 | 결정 필요 |
+| 1 | 향 노트 탑/미들/베이스 구분 | 향료 노트 문서 (Chemia) |
+| 2 | Elemi 포함 여부 | 향료사 확인 |
+| 3 | light4life 파트너십 유효 여부 | 확인 후 유지/삭제 결정 |
+| 4 | ~~씨앗 동봉~~ | ✅ 동봉하지 않음 확정. **양쪽 사이트 문구 삭제 필요** |
+| 5 | ~~캔들용 향료 코드~~ | ✅ 기록 대상 아님 |
+
+공통 확인 필요 항목은 `core/_공통-캔들.md` 하단 참조.
