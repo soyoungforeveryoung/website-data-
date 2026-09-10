@@ -8,10 +8,15 @@
 
 | 콜렉션 | 목적 | 한 단어 | 영감의 출처 |
 |---|---|---|---|
-| **Bamboo Forest** | 이완 | Relaxation | 한국의 대나무 숲 · 영월 죽염 |
-| **Bushman Candle** | 활력 | Energy | 나미비아 사막 · 힘바족 |
-| **Shaman** | 명상과 중심잡기 | Meditation & Grounding | 고대 샤머니즘 의식 |
-| **Valley of Roses** | 자기애 | Self-love | 모로코 장미 계곡 |
+| **Bamboo Forest** | 이완 | Relaxation | 한국의 대나무 숲 — 젖은 흙, 젖은 풀, 이슬 |
+| **Bushman Candle** | 활력 | Energy | 나미비아 사막 — 물 대신 **연기로 씻는 전통** |
+| **Shaman** | 정화 | Purification | **페루** 샤먼의 팔로 산토 리추얼 |
+| **Valley of Roses** | 자기애 | Self-love | 모로코 최대 **야생 장미 마을**의 로즈 오일 |
+
+⚠️ **`정화(Purification)`는 무드이지 기능이 아니다.**
+안전: 마음을 정화하는 의식 · 공간을 정돈하는 향 · a ritual of purification
+금지: 공기 정화 · 살균 · 탈취 · purifies the air · antibacterial
+(Shopify의 `Purifies the environment`가 바로 이 금지 사례다)
 
 **원칙**: 이 4개는 서로 겹치지 않는다. 한 콜렉션에 두 목적을 섞어 쓰지 않는다.
 제품명, 상세페이지 헤드라인, 광고 소재에서 항상 같은 목적을 말한다.
@@ -146,7 +151,7 @@ insomnia · anxiety · depression · immune · eczema · acne · anti-aging
 > labdanum and cedarwood hold it down at the base.
 > Made for the hour when you are about to begin something.
 
-## Shaman — Meditation & Grounding
+## Shaman — Purification
 
 **향 노트** (확정)
 

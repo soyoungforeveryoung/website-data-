@@ -24,6 +24,108 @@ meta:
     shopify: data/shopify-core6-raw.json   # 2026-09-09 추출
     cafe24: null                            # pending — 관리자 상품 엑셀 필요
 
+# ============================================================
+# 콜렉션 — 무드와 영감
+# ============================================================
+# 미국(Shopify)과 한국(Cafe24) 양쪽 모두 이 내용을 기준으로 쓴다.
+# 채널별로 다른 이야기를 하지 않는다. 번역만 다르고 내용은 하나다.
+# ============================================================
+
+collections:
+
+  bamboo_forest:
+    name_en: { value: Bamboo Forest, status: confirmed }
+    name_ko: { value: 뱀부 포레스트, status: confirmed }
+    mood:
+      en: { value: Relaxation, status: confirmed }
+      ko: { value: 릴렉세이션, status: confirmed }
+    inspiration:
+      status: confirmed
+      ko: |
+        한국의 대나무 숲.
+        젖은 흙냄새, 젖은 풀냄새, 이슬을 머금은 공기.
+      en: |
+        A bamboo forest in Korea.
+        Wet earth, wet grass, air still holding the dew.
+      note: |
+        핵심은 '대나무'라는 식물이 아니라 '비 온 뒤 숲의 공기'다.
+        젖은 흙 / 젖은 풀 / 이슬 - 이 세 가지 감각을 반드시 담는다.
+        기존 카피의 '산뜻한', '청량한' 만으로는 부족하다.
+
+  bushman_candle:
+    name_en: { value: Bushman Candle, status: confirmed }
+    name_ko: { value: 부시맨캔들, status: confirmed }
+    mood:
+      en: { value: Energy, status: confirmed }
+      ko: { value: 에너지, status: confirmed }
+    inspiration:
+      status: confirmed
+      ko: |
+        나미비아 사막. 물이 귀해 물로 씻을 수 없는 환경에서,
+        부시맨 캔들 식물을 태운 연기로 몸을 씻는 전통이 있다.
+        그 연기의 향에서 영감을 받아 만든 향이다.
+      en: |
+        The Namib Desert. Where water is scarce and washing with water is not possible,
+        there is a practice of bathing in the smoke of the burning bushman candle plant.
+        This scent comes from that smoke.
+      note: |
+        이 콜렉션의 핵심 서사다. '나미비아 사막'만 말하고 끝내면 절반도 전달되지 않는다.
+        물 대신 연기로 씻는다 -> 그 연기의 향 -> 이 캔들.
+        이 인과가 들어가야 '왜 이 향인가'가 설명된다.
+      pending:
+        - 이 전통이 힘바족의 것인지 더 넓은 지역의 관습인지 명확히 할 것.
+          전통지식(TK) 영역이므로 OPF/KCINPT가 문서화한 범위 안에서 기술한다.
+
+  shaman:
+    name_en: { value: Shaman, status: confirmed }
+    name_ko: { value: 샤먼, status: confirmed }
+    mood:
+      en: { value: Purification, status: confirmed }
+      ko: { value: 정화, status: confirmed }
+      note: |
+        2026-09-10 변경. 이전에 Meditation & Grounding으로 잡았던 것을 정정한다.
+
+        ⚠️ 표현 주의 - '정화'는 이 콜렉션의 정서적 무드이지 제품의 기능이 아니다.
+           안전: 마음을 정화하는 의식, 공간을 정돈하는 향, a ritual of purification
+           금지: 공기 정화, 살균, 탈취, purifies the air, antibacterial
+           Shopify의 'Purifies the environment'는 금지 사례에 해당한다. 삭제 대상.
+    inspiration:
+      status: confirmed
+      ko: |
+        페루 샤먼들의 의식. 팔로 산토를 태우는 리추얼의 향기에서 영감을 받았다.
+      en: |
+        The rituals of Peruvian shamans, and the scent of burning palo santo.
+      note: 기존 카피의 '고대 샤머니즘'은 모호하다. '페루'와 '팔로 산토 리추얼'로 구체화한다.
+      pending:
+        - 팔로 산토 수급처와 지속가능 인증. 근거 없는 sustainable 표현은 그린워싱이 된다.
+
+  valley_of_roses:
+    name_en: { value: Valley of Roses, status: confirmed }
+    name_ko: { value: 밸리 오브 로지즈, status: confirmed }
+    mood:
+      en: { value: Self-love, status: confirmed }
+      ko: { value: 셀프 러브, status: confirmed }
+      rationale_ko: |
+        장미는 사랑의 상징이다. 사랑에는 여러 가지가 있지만,
+        모든 사랑은 자기 자신을 사랑하는 데서 시작한다.
+      rationale_en: |
+        The rose is the symbol of love. Love takes many forms,
+        but every kind of love begins with loving yourself.
+      note: |
+        이 논리가 카피에 드러나야 한다. 그냥 self-love라고만 쓰면 근거가 없다.
+        장미 -> 사랑 -> 사랑의 시작은 자기 자신 -> self-love. 이 연결을 보여준다.
+    inspiration:
+      status: confirmed
+      ko: |
+        모로코 최대의 야생 장미 마을. 그곳의 모로칸 로즈 오일을 사용한다.
+      en: |
+        Morocco's largest wild rose village. We use Moroccan rose oil from there.
+      note: 향의 모티프가 아니라 실제 원료를 쓴다는 점이 핵심이다.
+      pending:
+        - 마을 이름 확인 (Kelaat M'Gouna / 엘켈라 데 므구나 여부)
+        - 모로칸 로즈 오일 공급처와 서류
+
+
 # ------------------------------------------------------------
 # 전 제품 공통 (브랜드 레벨 불변 정보)
 # ------------------------------------------------------------
@@ -300,7 +402,7 @@ bar_soap_common:
   rope:
     value: Biodegradable linen-blend rope
     status: confirmed
-    note: 로프 소재는 명칭 뒤에 덧붙여 설명한다 (예: soap on a biodegradable linen-blend rope).
+    note: "로프 소재는 명칭 뒤에 덧붙여 설명한다 (예: soap on a biodegradable linen-blend rope)."
 
   rope_benefits:
     status: confirmed
@@ -464,7 +566,7 @@ products:
         Bamboo salt, Lavandula angustifolia (lavender) oil, Charcoal powder,
         Citrus aurantium bergamia (bergamot) leaf oil, Pogostemon cablin oil
       status: review
-      note: 기존 표기 'bermot' 오타 수정함 (정: bergamot).
+      note: "기존 표기 'bermot' 오타 수정함 (정: bergamot)."
     key_actives: { value: Bamboo Salt (죽염), Activated Charcoal, status: confirmed }
     hero_ingredient:
       name_ko: 영월 죽염
