@@ -99,32 +99,41 @@ collections:
           이 콜렉션을 '영감을 받은 향'으로만 소개하면 핵심이 빠진다.
           영감이 아니라 실제 거래이며, 그것이 이 브랜드가 다른 브랜드와 다른 지점이다.
 
-        확인된 원료:
-          - 원료: Commiphora wildii (Omumbiri) 오일
-            수급: 힘바 커뮤니티 트러스트(KCINPT) -> Opuwo Processing Facility -> leverden
-            적용 제품: Bushman Candle Myrrh Protection Bar
-            근거: 2022년 수급 메일 + KCINPT 제품 도시에. docs/myrrh-sourcing.md
+        confirmed_materials:
+          - material: Commiphora wildii (Omumbiri) 오일
+            sourcing: 힘바 커뮤니티 트러스트(KCINPT) -> Opuwo Processing Facility -> leverden
+            product: Bushman Candle Myrrh Protection Bar
+            evidence: 2022년 수급 메일 + KCINPT 제품 도시에 (docs/myrrh-sourcing.md)
 
-        표기 예:
+        wording_example:
           ko: 힘바 커뮤니티 트러스트에서 직접 건네받은 오일을 그대로 담았습니다.
           en: Sourced directly from the Himba community trust.
 
-        캔들에 들어가는 나미비아 원료 (2026-09-10 확인):
-          - Bushman Candle Oil - 나미비아산
-          - Blue Ginger        - 나미비아산
-          -> 캔들도 '나미비아 원료를 쓴다'고 명시할 수 있다.
-             향의 성격: 스파이시하고 이국적이다.
+        candle_namibian_materials:
+          status: confirmed
+          date: 2026-09-10
+          materials:
+            - Bushman Candle Oil (나미비아산)
+            - Blue Ginger (나미비아산)
+          note: |
+            캔들에도 나미비아산 원료가 들어간다.
+            따라서 캔들에도 '나미비아 원료를 쓴다'고 명시할 수 있다.
+            향의 성격: 스파이시하고 이국적이다.
 
         pending:
-          - 위 두 원료의 수급 경로 확인. 힘바족/커뮤니티 트러스트에서 직접 받는지,
-            향료사(AFM)를 통해 조달되는지에 따라 쓸 수 있는 문구가 달라진다.
-              직접 수급이면: 힘바족에게서 직접 공수받은 원료
-              향료사 경유면: 나미비아산 원료
+          - |
+            위 두 원료의 수급 경로 확인.
+            힘바족/커뮤니티 트러스트에서 직접 받는지, 향료사(AFM)를 통해 조달되는지에 따라
+            쓸 수 있는 문구가 달라진다.
+              직접 수급이면 - 힘바족에게서 직접 공수받은 원료
+              향료사 경유면 - 나미비아산 원료
             확인 전까지는 '나미비아산 원료'까지만 쓴다.
 
-        보너스 서사 (사실 확인됨):
-          유향(Olibanum, frankincense)은 캔들에, 몰약(Myrrh)은 바 솝에 들어간다.
-          두 원료는 동방박사의 세 선물 중 둘이며, 이 콜렉션이 둘을 모두 갖고 있다.
+        bonus_story:
+          status: confirmed
+          note: |
+            유향(Olibanum, frankincense)은 캔들에, 몰약(Myrrh)은 바 솝에 들어간다.
+            두 원료는 동방박사의 세 선물 중 둘이며, 이 콜렉션이 둘을 모두 갖고 있다.
 
       writing_guidance: |
         ⚠️ 표현 방식에 주의한다. 사실은 같아도 프레이밍에 따라 전혀 다르게 읽힌다.
