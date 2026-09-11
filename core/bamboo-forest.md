@@ -101,7 +101,7 @@
 | `US-RAW` 본문 | `Purifies the environment` | 공기 정화 = 효능 표현. 삭제 |
 | `US-RAW` SEO / 본문 | `the most sustainable candle wax in the earth` | 최상급 무근거 주장. 삭제 |
 | `US-RAW` SEO | `designed to purify the environment` | 위와 동일. 삭제 |
-| `US-RAW` product_info Sustainable Packaging | light4life / Exceptional Children's Foundation 파트너십 | 4종 중 이 제품에만 기재. **현재도 유효한지 확인 필요** |
+| `US-RAW` product_info Sustainable Packaging | light4life / Exceptional Children's Foundation 파트너십 | 🔴 **삭제** (`소영`, 2026-09-11). 우리 생산처일 뿐 파트너십 서사로 쓸 내용이 아니다 |
 | `KR-HTML` JSON-LD description | `제품 개봉 및 사용시 교환/반품은 불가합니다`로 시작 | 검색결과 첫 문장이 반품 안내. 순서 조정 |
 | `US-RAW` metafields | `custom.subheading` 등에 `lorem ipsum` 더미 텍스트 잔존 | 삭제 |
 | `US-RAW` metafields | `custom.advantages_paragraph`가 **Amethyst Ki Bath Soak** 설명 | 다른 제품 내용. 삭제 |
@@ -116,7 +116,7 @@
 |---|---|---|
 | 1 | 향 노트 탑/미들/베이스 구분 | 향료 노트 문서 (Chemia) |
 | 2 | Elemi 포함 여부 | 향료사 확인 |
-| 3 | light4life 파트너십 유효 여부 | 확인 후 유지/삭제 결정 |
+| 3 | ~~light4life 파트너십~~ | ✅ **삭제 확정.** 생산처이므로 파트너십으로 쓰지 않는다 |
 | 4 | ~~씨앗 동봉~~ | ✅ 동봉하지 않음 확정. **양쪽 사이트 문구 삭제 필요** |
 | 5 | ~~캔들용 향료 코드~~ | ✅ 기록 대상 아님 |
 

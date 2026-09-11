@@ -111,13 +111,27 @@
 
 ---
 
-## 6. 기부 — 확인 필요
+## 6. 기부 — Cheetah Conservation Fund
 
-| 항목 | 값 | 출처 | 상태 |
-|---|---|---|---|
-| 수익 일부를 Cheetah Conservation Fund에 기부 | — | `도시어` | **확인 필요** |
+| 항목 | 값 | 출처 |
+|---|---|---|
+| 기부처 | Cheetah Conservation Fund | `도시어` |
+| 현황 | **현재도 매년 기부하고 있음** | `소영` (2026-09-11 확정) |
+| 기부 비율·금액 | **확인 필요** | — |
 
-⚠️ 기부 문구는 근거가 확실해야 한다. 현재도 유효한지 확인 전까지 카피에 쓰지 않는다.
+✅ 사용 가능하다. 다만 문구를 **사실 범위 안에서만** 쓴다.
+
+| 안전 | 위험 |
+|---|---|
+| 르버덴은 매년 Cheetah Conservation Fund에 기부하고 있습니다 | 수익의 O%를 기부합니다 |
+| We make an annual donation to the Cheetah Conservation Fund | A portion of every purchase goes to… |
+
+⚠️ **구매와 기부를 직접 연결하는 문구는 쓰지 않는다.** `이 캔들을 사면 치타를 돕습니다`
+   같은 표현은 미국 FTC와 여러 주의 **commercial co-venture(CCV) 규제** 대상이 되어
+   비율·기간·최소 기부액 명시와 주별 등록 의무가 따라붙는다.
+   `브랜드가 매년 기부한다`는 사실 진술에는 그 의무가 없다.
+
+→ 비율이나 금액을 밝히려면 그때 규제 요건을 다시 확인한다. 현재는 사실 진술로만 쓴다.
 
 ---
 
@@ -157,7 +171,7 @@
 |---|---|---|
 | 1 | 나미비아 원료 수급 경로 | 직접 수급 / 향료사 경유 확인 → 쓸 수 있는 문구가 달라짐 |
 | 2 | 부시맨 캔들 식물 학명 | 향료사 확인 (`Sarcocaulon mossamedense` 대조) |
-| 3 | Cheetah Conservation Fund 기부 | 현재 유효 여부 |
+| 3 | ~~Cheetah Conservation Fund 기부~~ | ✅ 현재도 매년 기부 중. **사실 진술로만 사용** |
 | 4 | 바코드 | 미등록 상태 |
 | 5 | TK 문서화 범위 | OPF/KCINPT INP-book 대조 |
 

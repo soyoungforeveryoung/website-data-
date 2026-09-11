@@ -12,12 +12,12 @@
 # ============================================================
 
 meta:
-  version: 0.3
+  version: 0.4
   authority: |
     향료 노트와 배합에 관한 사항은 소영님이 조향사와 직접 논의해 확정한 것이며,
     향료 서류(IFRA 인증서, 알레르겐 선언서, SDS)도 소영님이 직접 관리한다.
     향 관련 정보의 원본은 소영님 확인이다. 사이트 기재값이 아니다.
-  updated: 2026-09-10
+  updated: 2026-09-11
   phase: 1
   scope: 2026년 말까지 KR·US·EU 판매 6종
   sources:
@@ -114,11 +114,27 @@ collections:
             향료의 'Bushman Candle Oil'과 동일 원료인지 향료사 확인 필요.
 
         giving_back:
-          value: 수익 일부를 Cheetah Conservation Fund에 기부
-          status: review
+          value: 매년 Cheetah Conservation Fund에 기부
+          status: confirmed
           note: |
-            브랜드 도시어 기재. 현재도 유효한지 확인 후 카피에 사용할 것.
-            기부 관련 문구는 근거가 확실해야 한다.
+            2026-09-11 확인 — 현재도 매년 기부하고 있다. 사용 가능하다.
+            다만 문구를 사실 범위 안에서만 쓴다.
+
+            안전:
+              르버덴은 매년 Cheetah Conservation Fund에 기부하고 있습니다
+              We make an annual donation to the Cheetah Conservation Fund
+
+            금지:
+              수익의 O%를 기부합니다
+              A portion of every purchase goes to...
+              이 캔들을 사면 치타를 돕습니다
+
+            ⚠️ 구매와 기부를 직접 연결하는 문구는 미국 FTC와 여러 주의
+               commercial co-venture(CCV) 규제 대상이 되어 비율·기간·최소 기부액
+               명시와 주별 등록 의무가 따라붙는다.
+               '브랜드가 매년 기부한다'는 사실 진술에는 그 의무가 없다.
+
+            기부 비율·금액은 미확인. 밝히려면 그때 규제 요건을 다시 확인한다.
 
         confirmed_materials:
           - material: Commiphora wildii (Omumbiri) 오일
@@ -361,11 +377,27 @@ candle_common:
   net_wax_weight:
     value: 250
     unit: g
+    oz: 8.8
     status: confirmed
     note: |
-      2026년 사양 변경. 이전 사양에서 250g으로 감량됨.
+      2025년부터 사양 변경. 구 사양 255g -> 250g.
       사유 — 베슬에 왁스가 너무 꽉 차면 심지가 위로 올라와 터널링이 생김.
-      상세페이지·패키지·양 사이트 모두 250g으로 통일한다.
+      (사유는 내부 정보다. 소비자 카피에 쓰지 않는다.)
+
+      표기 형식: 250 g (8.8 oz)
+      '8.82'로 쓰지 않는다. 내림 방향이라 과대표시가 되지 않고,
+      소수 둘째 자리는 환산값 티가 난다.
+
+      🔴 기존 박스 '9 oz' 표기는 과대표시 상태다.
+         9 oz = 255.1g 으로 구 사양에서는 정확했으나 현재는 실제보다 2% 많다.
+         미국 FPLA는 순중량 과대표시를 허용하지 않는다.
+         허용 오차는 공정상 불가피하고 양방향으로 흩어지는 편차를 뜻하며,
+         전량이 한 방향으로 2% 모자란 것은 해당하지 않는다.
+
+         조치:
+           웹사이트 - 250 g (8.8 oz)로 즉시 교체
+           신규 박스 - 250 g / 8.8 oz 로 인쇄
+           9 oz 재고 - 스티커 처리 또는 oz 표기 비의무 채널로 소진
   gross_weight:
     value: 2.3
     unit: POUNDS
@@ -378,8 +410,8 @@ candle_common:
     inner_diameter: { value: 8, unit: cm, status: confirmed }
     height_with_lid: { value: 10, unit: cm, status: confirmed }
     inner_depth: { value: 7, unit: cm, status: review, note: 충전률 80%에서 역산 (5.5 / 0.8). 실측 권장 }
-    height_vessel_only: { value: null, unit: cm, status: pending }
-    lid_height: { value: null, unit: cm, status: pending }
+    height_vessel_only: { value: 9.3, unit: cm, status: confirmed, note: 2026-09-11 소영님 확인 }
+    lid_adds_height: { value: 0.7, unit: cm, status: review, note: 계산값 (10 - 9.3). 뚜껑이 유리에 일부 앉는 구조로 보이며 뚜껑 단독 높이는 이보다 큼. 필요 시 실측 }
     glass: { value: 두꺼운 유리 — 외경 9cm / 내경 8cm (벽 두께 약 5mm), status: confirmed }
     status: confirmed
     note: |
@@ -544,9 +576,13 @@ candle_common:
       국문 표기: 미국 캘리포니아 제조
       한국 사이트 원산지란도 '미국'으로 통일 (바 솝과 다르므로 주의).
   packaging_partner:
-    value: light4life / Exceptional Children's Foundation
-    status: review
-    note: Bamboo Forest에만 기재. 4종 공통 여부 확인.
+    value: 사용하지 않음
+    status: confirmed
+    note: |
+      🔴 2026-09-11 삭제 확정 (소영님).
+      light4life / Exceptional Children's Foundation 은 우리 생산처다.
+      파트너십 서사로 쓸 내용이 아니므로 사이트와 모든 자료에서 뺀다.
+      현재 Bamboo Forest 캔들 product_info Sustainable Packaging 에 남아 있다. 삭제 대상.
   vessel:
     value: Reusable vessel — 리필 또는 메탈 리드로 디퓨저 전환 가능
     status: review
@@ -658,22 +694,25 @@ bar_soap_common:
           앞의 1~3을 생략하고 '지속 가능한 비누'라고만 하면 근거 없는 주장이 된다.
         - 다 쓰고 나면 로프는 생분해된다는 점도 함께 언급한다.
   net_weight:
-    value: 250
+    value: 255
     unit: g
+    oz: 9
     status: confirmed
     note: |
-      2026-09-10 확정. 바 솝 2종 모두 250g으로 동일하다.
-      캔들 순 왁스 중량과 같은 값이다.
+      2026-09-11 확정. 바 솝 2종 모두 255g으로 동일하다.
 
-      변경 이력: 이전에 255g으로 기록했던 것을 250g으로 정정한다 (소영님 확인).
+      ⚠️ 캔들(250g)과 값이 다르다. 바 솝만 255g이다.
+         2026-09-10에 250g으로 잘못 기록했던 것을 정정한다.
+
+      255g = 8.99oz 이므로 '9 oz' 표기는 정확하다.
+      캔들과 달리 바 솝은 박스 인쇄값을 고칠 필요가 없다.
+
+      표기 형식: 255 g (9 oz)
 
       🔴 수정 필요:
-         - 한국 사이트 차콜 바 솝 옵션명이 255g -> 250g으로 수정
          - Shopify Myrrh Protection Bar 등록 중량 0.2 lb(약 91g)는 명백한 오류.
-           250g 기준으로 수정할 것.
-         - Shopify Charcoal Bar 0.6 lb(272g)는 250g + 포장 기준으로 재확인.
-
-      oz 표기는 라벨 인쇄값 확인 전까지 쓰지 않는다. 환산값(8.82oz)을 그대로 쓰지 않는다.
+           255g 기준으로 수정할 것.
+         - Shopify Charcoal Bar 0.6 lb(272g)는 255g + 포장 기준이면 타당. 확인만.
 
 # ============================================================
 # 제품별
@@ -826,23 +865,35 @@ products:
       name_ko: 영월 죽염
       name_en: Yeongwol bamboo salt
       status: confirmed
+      artisan: { value: 최규동, status: confirmed, note: 2026-09-11 실명 공개 가능 확인 }
+      firing_count:
+        value: 3
+        status: confirmed
+        note: |
+          🔴 2026-09-11 확정. 3회 구운 죽염이다.
+
+          일반적인 죽염은 9회까지 굽고 이를 '자죽염'이라 부른다.
+          우리 원료는 3회이므로 '자죽염', '구증구포', '아홉 번 구운' 을 쓸 수 없다.
+          9회를 뜻하는 용어를 3회 죽염에 붙이면 사실과 다른 표시가 된다.
+
+          3회라는 숫자 자체는 써도 된다. 숨길 이유가 없고 구체적인 숫자가 오히려
+          '그냥 소금이 아니다'를 설명한다. 다만 9회와 비교해 우위를 암시하지 않는다.
       story: |
-        강원도 영월에서, 죽염 장인이자 스님인 분이 직접 만든 죽염을 사용한다.
+        강원도 영월에서, 죽염 장인이자 스님인 최규동 장인이 직접 만든 죽염을 사용한다.
+        대나무 통에 넣어 세 번 굽는다.
 
         영문 표기 (권장):
-          Made with bamboo salt crafted in Yeongwol, Korea, by a master salt-maker
-          who is also a Buddhist monk.
+          Bamboo salt from Yeongwol, Korea, fired three times in bamboo
+          by master salt-maker Choi Gyu-dong.
         국문 표기:
-          강원도 영월에서 죽염 장인이자 스님이 직접 만든 죽염을 담았습니다.
+          강원도 영월에서 최규동 장인이 대나무 통에 넣어 세 번 구운 죽염을 씁니다.
 
         표기 원칙:
           - '죽염(bamboo salt)'을 단순 성분으로 나열하지 말고 반드시 출처와 함께 쓴다.
-          - 장소(영월) + 만든 사람(죽염 장인이자 스님)이 핵심. 둘 다 빼지 않는다.
-          - 비누 장인은 비공개지만, 죽염 장인은 공개 가능한 서사다.
-      pending:
-        - 죽염 제법 확인 필요 (전통 죽염은 대나무통에 넣어 아홉 번 굽는 구증구포.
-          몇 번 굽는지 확인되면 서사가 훨씬 강해짐. 확인 전까지 횟수를 쓰지 말 것.)
-        - 스님/사찰 명칭을 밝힐 수 있는지 여부
+          - 장소(영월) + 만든 사람(최규동 장인) + 제법(세 번 굽기). 셋 다 빼지 않는다.
+          - 비누 장인은 비공개지만, 죽염 장인은 실명까지 공개 가능한 서사다.
+          - 장인이 스님이라는 점은 사실이나, 종교적 권위를 제품 효능과 연결하지 않는다.
+            출처를 밝히는 맥락에서만 쓴다.
     story:
       value: 한국 대나무 숲의 시원한 바람. 정화.
       status: review
