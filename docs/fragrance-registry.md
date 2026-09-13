@@ -275,8 +275,30 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 - `Regulatory Documents` (**Federico Ronci**, 2023-06-07) — AFM 문서번호 출처.
   수신: 소영 · Antoine Lie · Mara · **helen@leverden.co**
 - `R: Restricted Substance List` (Mara, 2023-07-05 / 07-06) — AFM 제한물질 미사용 확인서
-- 🔍 **`R: Request for Concentration of Chemicals in Leverden Products`** (Mara, 2023-08-29, 첨부 있음)
-  → **배합률 관련 자료일 가능성이 있다.** 미확인 상태이므로 열어볼 것.
+- ✅ **`R: Request for Concentration of Chemicals in Leverden Products`** (Mara, 2023-08-29) — **열어서 확인함 (2026-09-13)**
+  요청자: Shumaila Mustafa (Project Manager), 참조 Helen Lee · 소영
+
+  ⚠️ **배합률 문서가 아니다.** 향료 내 배합률(%)이 아니라
+  **"아래 24개 물질이 들어 있느냐"는 유해물질 부재 확인서**다.
+  첨부 2건: `OLIFIR BOUGIE XII 26954` / `SPIRITUAL WOOD 28782`
+
+  **AFM 답변: 24개 항목 전부 `N/A`** — 즉 해당 물질 없음.
+  | 확인된 부재 물질 (일부) |
+  |---|
+  | Parabens · Phthalates (BBP 포함) · Sodium Lauryl/Laureth Sulphate |
+  | Formaldehyde · Bisphenol A · Phenoxyethanol · Propylene Glycol |
+  | Mineral Oil · Petroleum 계열 · Oxybenzone · Micro Beads · Nanoparticles |
+  | Artificial Colours · Aluminium · Beeswax · Alcohol |
+
+  🟢 **활용 가치:** `파라벤 무첨가` · `프탈레이트 무첨가` · `SLS/SLES 무첨가` ·
+     `미네랄 오일 무첨가` 같은 표시를 **공급사 서면 근거**로 뒷받침할 수 있다.
+     (단 이 문서는 **AFM 향료 2종에 대한 것**이다. 완제품 전체가 아니다.
+      완제품 표시는 제조사(OTCM 등) 확인서가 따로 필요하다.)
+
+  🔴 **주의 — 이 문서로 "천연 100%" 주장은 할 수 없다.**
+     20번 `Synthetic Fragrances` 도 `N/A`로 되어 있으나, 향료 조합물이
+     합성 향료를 전혀 안 쓴다는 것은 성립하지 않는다. 목록 항목에
+     기계적으로 N/A를 채운 것으로 보인다. 이 줄은 근거로 쓰지 말 것.
 
 ---
 
@@ -288,6 +310,19 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 ⚠️ 단, **문서마다 기준 규정 버전이 다를 수 있다** (26종 구판 vs `Reg 2023/1545` 81종).
    표시문구를 확정하기 전에 각 파일의 기준 버전을 눈으로 확인할 것.
    확인된 것: `OLIFIR V4i` = 81종 최신본.
+
+---
+
+## 🔴 배합률 · 전성분은 받을 수 없다 (확인됨)
+
+메일 `Re: Request - Ingredient list` (2026-04-08) 에 공급사 공식 입장이 있다:
+> "As a general policy, **we do not provide full ingredient lists**,
+> as the formulas are confidential and remain the intellectual property…"
+
+→ **향료 내부 조성(%)은 앞으로도 안 나온다.** 기다리지 말 것.
+→ 대신 우리가 정해야 하는 값은 **완제품에 향료를 몇 % 넣는가**이고,
+   이건 향료사가 아니라 **제조사(OTCM 등) 또는 우리 처방전**에 있다.
+   알레르겐 표시 계산에 필요한 값도 이쪽이다.
 
 ---
 
