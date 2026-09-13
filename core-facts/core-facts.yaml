@@ -292,10 +292,13 @@ brand_common:
           2026-09-13 확인 (소영님).
           DreamAir는 로다미엘 본인이 차린 회사다. 원래 IFF 소속이었다가 독립했다.
 
+          향료 (2026-09-13 확인):
+            캔들      BAMBOO 28
+            바디·바 솝 BAMBOO 34 (IFF 6059239 BAMBOOM 34)
+
           🔴 이전에 Chemia 78296 CORIANDER FRAGRANCE로 기록했던 것은 무효다.
              그 향료는 예전 소금(배스 솔트) 제품용이며 단종됐다.
              코리앤더가 이 제품의 향 노트라 이름이 겹쳐 잘못 연결한 것이다.
-             캔들 향료명·코드는 DreamAir에 확인해야 한다.
 
           바디 라인 향료가 IFF(BAMBOOM 34, IFF 6059239)인 것은
           그의 IFF 시절 작업으로 보인다.
@@ -598,22 +601,28 @@ candle_common:
         대체 문구: '푸드 그레이드 인증 코코넛 오일'
                   'made with food-grade certified coconut oil'
     - { value: Food-grade certified coconut oil, status: review }
+    - { value: Paraben-free, status: review }
+    - { value: Kosher, status: review }
+    - { value: Cruelty-free, status: review }
 
   fragrance_by_use:
     status: confirmed
     note: |
-      2026-09-13 확인 (소영님). 향료가 용도별로 갈린다.
+      2026-09-13 확인 (소영님). 향료가 콜렉션별·용도별로 갈린다.
 
-      SPIRITUAL WOOD (28782, AFM)  - 샤먼 캔들
-      OLIFIR BOUGIE XII (26954, AFM) - 부시맨 캔들: 캔들 + 디퓨저
-      OLIFIR V4i (26830, AFM)      - 부시맨 캔들: 바디 · 바 솝
+      뱀부 포레스트   BAMBOO 28  - 캔들
+                      BAMBOO 34  - 바디 · 바 솝 (IFF 6059239 BAMBOOM 34)
+      부시맨 캔들     OLIFIR BOUGIE XII (26954) - 캔들 + 디퓨저
+                      OLIFIR V4i (26830)        - 바디 · 바 솝
+      샤먼            SPIRITUAL WOOD (28782)    - 캔들
+      밸리 오브 로지즈 84033 ROSE BUD            - 캔들과 바디 공용 (유일)
 
-      🔑 부시맨 캔들은 향료가 둘이다. BOUGIE는 태우는 것, V4i는 몸에 쓰는 것.
-         규제 체계가 달라 서류도 따로 관리한다.
+      🔑 대부분 캔들용과 바디용 향료가 따로다.
+         태우는 것과 몸에 쓰는 것은 규제 체계가 달라 서류도 따로 관리한다.
          캔들 향료를 바 솝에 쓰거나 그 반대로 표기하지 않는다.
-    - { value: Paraben-free, status: review }
-    - { value: Kosher, status: review }
-    - { value: Cruelty-free, status: review }
+
+      🔑 밸리 오브 로지즈만 하나의 향료로 두 라인을 다 쓴다.
+
   origin:
     value: Hand-poured in California, USA
     status: confirmed
