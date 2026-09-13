@@ -16,12 +16,25 @@
 | Bamboo Forest | 캔들 | **확인 필요** | ? | **DreamAir** | — | — |
 | Bamboo Forest | 바디 (wash/lotion) | **BAMBOOM 34 LATEST** | 6059239 | **IFF** (DreamAir 경유) | **50** | 2023-11-01 |
 | ~~(단종) 소금~~ | ~~배스 솔트~~ | ~~078296 CORIANDER FRAGRANCE~~ | 78296 | Chemia | 50 (2021.6) | 2021-09-24 |
-| Bushman Candle | **캔들** | **OLIFIR BOUGIE XII** | 26954 | AFM | **50** (2021.7) | 2023-06-07 |
-| Bushman Candle | 바디/파인 | **OLIFIR V4i** | 26830 | AFM | **51** (2023.6) | 2024-01-25 |
+| Bushman Candle | **캔들 + 디퓨저** | **OLIFIR BOUGIE XII** | 26954 | AFM | **50** (2021.7) | 2023-06-07 |
+| Bushman Candle | **바디 · 바 솝** | **OLIFIR V4i** | 26830 | AFM | **51** (2023.6) | 2024-01-25 |
 | Shaman | **캔들** | **SPIRITUAL WOOD** | 28782 | AFM | **50** (2021.7) | 2023-04-21 |
 | Valley of Roses | ? | **84033 ROSE BUD** | 84033 | Chemia | 확인 필요 | 확인 필요 |
 
-- `BOUGIE`는 프랑스어로 **캔들**이다. `OLIFIR BOUGIE XII`가 캔들용, `OLIFIR V4i`가 바디용.
+- `BOUGIE`는 프랑스어로 **캔들**이다.
+
+### 용도 확정 (`소영`, 2026-09-13)
+
+| 향료 | 용도 |
+|---|---|
+| `SPIRITUAL WOOD` (28782) | **샤먼 캔들** 향 |
+| `OLIFIR BOUGIE XII` (26954) | **부시맨 캔들 — 캔들 + 디퓨저** |
+| `OLIFIR V4i` (26830) | **부시맨 캔들 — 바디 · 바 솝** (미르 프로텍션 바) |
+
+🔑 부시맨 캔들은 **향료가 둘로 갈린다.** 캔들·디퓨저는 `BOUGIE`,
+   몸에 쓰는 것(바디·솝)은 `V4i`다. 규제 체계가 다르므로 서류도 따로 관리한다.
+
+⚠️ 디퓨저는 현재 솔드아웃 제외 대상이나, 향료 매핑 자체는 사실로 남긴다.
 - AFM = Atelier Fragranze Milano (이탈리아). 송금 이력이 있는 그 회사다.
 - Bamboo Forest는 **캔들과 바디의 향료 회사가 아예 다르다.**
   같은 콜렉션명이지만 서로 다른 향이다.

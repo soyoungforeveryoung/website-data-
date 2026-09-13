@@ -598,6 +598,19 @@ candle_common:
         대체 문구: '푸드 그레이드 인증 코코넛 오일'
                   'made with food-grade certified coconut oil'
     - { value: Food-grade certified coconut oil, status: review }
+
+  fragrance_by_use:
+    status: confirmed
+    note: |
+      2026-09-13 확인 (소영님). 향료가 용도별로 갈린다.
+
+      SPIRITUAL WOOD (28782, AFM)  - 샤먼 캔들
+      OLIFIR BOUGIE XII (26954, AFM) - 부시맨 캔들: 캔들 + 디퓨저
+      OLIFIR V4i (26830, AFM)      - 부시맨 캔들: 바디 · 바 솝
+
+      🔑 부시맨 캔들은 향료가 둘이다. BOUGIE는 태우는 것, V4i는 몸에 쓰는 것.
+         규제 체계가 달라 서류도 따로 관리한다.
+         캔들 향료를 바 솝에 쓰거나 그 반대로 표기하지 않는다.
     - { value: Paraben-free, status: review }
     - { value: Kosher, status: review }
     - { value: Cruelty-free, status: review }
