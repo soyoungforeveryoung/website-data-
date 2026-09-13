@@ -15,7 +15,7 @@
 |---|---|---|---|---|---|---|
 | Bamboo Forest | 캔들 | **확인 필요** | ? | **DreamAir** | — | — |
 | Bamboo Forest | 바디 (wash/lotion) | **BAMBOOM 34 LATEST** | 6059239 | **IFF** (DreamAir 경유) | **50** | 2023-11-01 |
-| ~~(구)~~ | ? | ~~078296 CORIANDER FRAGRANCE~~ | 78296 | Chemia | 50 (2021.6) | 2021-09-24 |
+| ~~(단종) 소금~~ | ~~배스 솔트~~ | ~~078296 CORIANDER FRAGRANCE~~ | 78296 | Chemia | 50 (2021.6) | 2021-09-24 |
 | Bushman Candle | **캔들** | **OLIFIR BOUGIE XII** | 26954 | AFM | **50** (2021.7) | 2023-06-07 |
 | Bushman Candle | 바디/파인 | **OLIFIR V4i** | 26830 | AFM | **51** (2023.6) | 2024-01-25 |
 | Shaman | **캔들** | **SPIRITUAL WOOD** | 28782 | AFM | **50** (2021.7) | 2023-04-21 |
@@ -34,7 +34,8 @@
 | **부시맨 캔들** · **샤먼** | **AFM** (Atelier Fragranze Milano, 이탈리아) | 대표 **Luca**, 조향 **Antoine Lie** |
 | **밸리 오브 로지즈** | **Chemia** | **파운더 조소영이 Chemia와 함께 만들었다** |
 
-🔑 **Chemia는 로즈 향 하나뿐이다.** 다른 콜렉션에는 관여하지 않는다.
+🔑 **Chemia는 현행 제품 중 로즈 향 하나뿐이다.** 다른 콜렉션에는 관여하지 않는다.
+   (과거 배스 솔트용 `78296 Coriander`도 Chemia였으나 단종됐다.)
 
 🔑 **밸리 오브 로지즈만 파운더가 직접 조향에 참여했다.**
    AFM·DreamAir는 외부 조향사가 만들어 준 향이지만, 로즈는 함께 만든 향이다.
@@ -53,17 +54,17 @@
 | **Chemia** | **로즈 향(84033 Rose Bud) 하나뿐이다** |
 | 부시맨 캔들 · 샤먼 | **AFM** (Atelier Fragranze Milano, 이탈리아) — 기존 기록과 일치 |
 
-🔴 **`78296 CORIANDER FRAGRANCE` 매핑이 무효가 되었다.**
+✅ **`78296 CORIANDER FRAGRANCE`의 정체 확인 — 예전 소금 향료다.**
 
-이 향료를 뱀부 포레스트 캔들로 적어 뒀으나, Chemia가 로즈만 취급한다면 성립하지 않는다.
-IFRA 인증서(2021-09-24)는 실재하므로 향료 자체는 존재한다.
+Chemia에서 만들었던 **구 소금(bath salt) 제품용 향료**이며,
+현재 판매 중인 6종 어디에도 쓰이지 않는다 (`소영`, 2026-09-13).
 
-→ **확인 필요**
-1. 뱀부 포레스트 **캔들**의 실제 향료명·코드는 무엇인가 (DreamAir 발행?)
-2. `78296 Coriander`는 그럼 무엇인가 — 단종된 구 향료인가, 다른 제품인가
+제가 이것을 뱀부 포레스트 캔들 향료로 잘못 연결했었다.
+코리앤더가 뱀부 포레스트의 향 노트 중 하나라서 이름이 겹쳤기 때문이다.
 
-⚠️ 코리앤더는 뱀부 포레스트의 향 노트 중 하나라서 이름이 겹친다.
-   그래서 잘못 연결했을 가능성이 있다.
+→ **현행 제품 매핑에서 제외한다.** 아카이브 기록으로만 남긴다.
+
+→ 남은 확인 사항: 뱀부 포레스트 **캔들**의 향료명·코드 (DreamAir에 문의)
 
 ## 확인됨 (소영님)
 
@@ -172,7 +173,7 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 | 향료사 | 담당 | 연락처 | 담당 향료 |
 |---|---|---|---|
 | Atelier Fragranze Milano (AFM) | 대표 **Luca** / Mara Maghini (Regulatory) | mara.maghini@atelierfragranzemilano.com | Olifir Bougie XII, Olifir V4i, Spiritual Wood |
-| Chemia Corporation | Regulatory | Regulatory@chemiacorp.com | **84033 Rose Bud만.** 파운더와 공동 개발 (78296은 확인 필요) |
+| Chemia Corporation | Regulatory | Regulatory@chemiacorp.com | **84033 Rose Bud** (파운더와 공동 개발) · ~~78296 Coriander (구 소금 향료, 단종)~~ |
 | **DreamAir** | Christophe Laudamiel | cl@dreamair.mobi | 뱀부 포레스트 **캔들** 조향 + Bamboom 34 (IFF 시절) |
 
 ⚠️ 향료사들은 **전체 성분 목록(full ingredient list)은 영업비밀로 공개하지 않는다.**
@@ -193,7 +194,7 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 
 **Chemia** (Regulatory)
 - [ ] 84033 Rose Bud — IFRA 인증서, 알레르겐 선언서
-- [ ] 🔴 78296 Coriander가 우리 제품에 쓰이는지 여부 확인 (소영님: Chemia는 로즈만)
+- ~~78296 Coriander~~ — 구 소금 향료로 확인됨. 현행 제품 아님. 요청 불필요
 
 **DreamAir** (Christophe Laudamiel)
 - [ ] 🔴 뱀부 포레스트 **캔들** 향료명·코드
