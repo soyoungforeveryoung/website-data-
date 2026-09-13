@@ -26,6 +26,25 @@
 - Bamboo Forest는 **캔들과 바디의 향료 회사가 아예 다르다.**
   같은 콜렉션명이지만 서로 다른 향이다.
 
+## 향료사 지도 (2026-09-13 확정, 소영님)
+
+| 콜렉션 | 향료사 | 사람 |
+|---|---|---|
+| **뱀부 포레스트** | DreamAir / IFF | **Christophe Laudamiel** — DreamAir는 본인 회사. 원래 IFF 소속이었다 |
+| **부시맨 캔들** · **샤먼** | **AFM** (Atelier Fragranze Milano, 이탈리아) | 대표 **Luca**, 조향 **Antoine Lie** |
+| **밸리 오브 로지즈** | **Chemia** | **파운더 조소영이 Chemia와 함께 만들었다** |
+
+🔑 **Chemia는 로즈 향 하나뿐이다.** 다른 콜렉션에는 관여하지 않는다.
+
+🔑 **밸리 오브 로지즈만 파운더가 직접 조향에 참여했다.**
+   AFM·DreamAir는 외부 조향사가 만들어 준 향이지만, 로즈는 함께 만든 향이다.
+   카피에서 이 차이를 드러낼 수 있다.
+
+🔑 **AFM의 Luca와 Antoine Lie는 같이 일한다.** 부시맨 캔들·샤먼 두 콜렉션의
+   조향사가 Antoine Lie인 것과 향료사가 AFM인 것이 같은 관계에서 나온다.
+
+---
+
 ## 🔴 2026-09-13 정정 (소영님)
 
 | 확정 | 내용 |
@@ -152,8 +171,8 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 
 | 향료사 | 담당 | 연락처 | 담당 향료 |
 |---|---|---|---|
-| Atelier Fragranze Milano (AFM) | Mara Maghini (Regulatory) | mara.maghini@atelierfragranzemilano.com | Olifir Bougie XII, Olifir V4i, Spiritual Wood |
-| Chemia Corporation | Regulatory | Regulatory@chemiacorp.com | **84033 Rose Bud만** (78296은 확인 필요) |
+| Atelier Fragranze Milano (AFM) | 대표 **Luca** / Mara Maghini (Regulatory) | mara.maghini@atelierfragranzemilano.com | Olifir Bougie XII, Olifir V4i, Spiritual Wood |
+| Chemia Corporation | Regulatory | Regulatory@chemiacorp.com | **84033 Rose Bud만.** 파운더와 공동 개발 (78296은 확인 필요) |
 | **DreamAir** | Christophe Laudamiel | cl@dreamair.mobi | 뱀부 포레스트 **캔들** 조향 + Bamboom 34 (IFF 시절) |
 
 ⚠️ 향료사들은 **전체 성분 목록(full ingredient list)은 영업비밀로 공개하지 않는다.**

@@ -301,9 +301,27 @@ brand_common:
           그의 IFF 시절 작업으로 보인다.
 
           향료 서류는 전부 DreamAir에 요청한다 (cl@dreamair.mobi).
-      bushman_candle:  { value: Antoine Lie, status: confirmed }
-      shaman:          { value: Antoine Lie, status: confirmed }
-      valley_of_roses: { value: "파운더 Soyoung Cho와 조향사들의 협업", status: confirmed }
+      bushman_candle:
+        value: Antoine Lie
+        company: AFM (Atelier Fragranze Milano, 이탈리아)
+        status: confirmed
+        note: AFM 대표는 Luca이며 Antoine Lie와 함께 일한다 (소영님, 2026-09-13).
+      shaman:
+        value: Antoine Lie
+        company: AFM (Atelier Fragranze Milano, 이탈리아)
+        status: confirmed
+        note: 부시맨 캔들과 같은 관계. 대표 Luca + 조향 Antoine Lie.
+      valley_of_roses:
+        value: "파운더 Soyoung Cho와 Chemia의 공동 개발"
+        company: Chemia Corporation
+        status: confirmed
+        note: |
+          2026-09-13 확인 — 파운더가 Chemia와 함께 만든 향이다.
+          Chemia는 이 로즈 향(84033 Rose Bud) 하나만 취급하며
+          다른 콜렉션에는 관여하지 않는다.
+
+          🔑 6종 중 파운더가 직접 조향에 참여한 유일한 콜렉션이다.
+             나머지는 외부 조향사가 만들어 준 향이다. 카피에서 이 차이를 드러낸다.
     note: |
       조향사는 브랜드 공통이 아니라 콜렉션별로 다르다.
       이전에 Christophe Laudamiel을 전 제품 공통으로 기록했던 것은 오류다 (2026-09-10 정정).

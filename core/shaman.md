@@ -87,6 +87,10 @@
 | 항목 | 값 | 출처 |
 |---|---|---|
 | 조향사 | Antoine Lie | `도시어` §03 |
+| 향료사 | **AFM** — Atelier Fragranze Milano (이탈리아) | `소영` |
+| 향료 | `SPIRITUAL WOOD` (28782) | IFRA 인증서 |
+
+부시맨 캔들과 같은 관계다. AFM 대표 **Luca** + 조향 **Antoine Lie**.
 
 ---
 
