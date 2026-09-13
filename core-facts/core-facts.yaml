@@ -284,7 +284,23 @@ brand_common:
   perfumer:
     status: confirmed
     by_collection:
-      bamboo_forest:   { value: Christophe Laudamiel, status: confirmed }
+      bamboo_forest:
+        value: Christophe Laudamiel
+        status: confirmed
+        company: DreamAir
+        note: |
+          2026-09-13 확인 (소영님).
+          DreamAir는 로다미엘 본인이 차린 회사다. 원래 IFF 소속이었다가 독립했다.
+
+          🔴 이전에 Chemia 78296 CORIANDER FRAGRANCE로 기록했던 것은 무효다.
+             Chemia는 로즈 향(84033 Rose Bud) 하나만 취급한다.
+             코리앤더가 이 제품의 향 노트라 이름이 겹쳐 잘못 연결한 것으로 보인다.
+             캔들 향료명·코드는 DreamAir에 확인해야 한다.
+
+          바디 라인 향료가 IFF(BAMBOOM 34, IFF 6059239)인 것은
+          그의 IFF 시절 작업으로 보인다.
+
+          향료 서류는 전부 DreamAir에 요청한다 (cl@dreamair.mobi).
       bushman_candle:  { value: Antoine Lie, status: confirmed }
       shaman:          { value: Antoine Lie, status: confirmed }
       valley_of_roses: { value: "파운더 Soyoung Cho와 조향사들의 협업", status: confirmed }
@@ -730,14 +746,24 @@ products:
     shopify_handle: bamboo-forest-scented-candle
     cafe24_code: { value: null, status: pending }
     fragrance_notes:
-      top:    { value: "Basil, Spearmint", ko: "바질 · 스피어민트", status: review }
-      middle: { value: "Sage, Coriander, Immortelle", ko: "세이지 · 코리앤더 · 임모르텔", status: review }
-      base:   { value: "Sandalwood, Tonka, Amber", ko: "샌달우드 · 통카 · 앰버", status: review }
-      status: review
+      top:    { value: "Basil, Spearmint", ko: "바질 · 스피어민트", status: confirmed }
+      middle: { value: "Sage, Coriander, Immortelle", ko: "세이지 · 코리앤더 · 임모르텔", status: confirmed }
+      base:   { value: "Sandalwood, Tonka, Amber", ko: "샌달우드 · 통카 · 앰버", status: confirmed }
+      status: confirmed
       note: |
-        ⚠️ 원 자료에는 노트가 평면 목록으로만 있었다.
-           탑/미들/베이스 구분은 조향 상식에 따른 추론이므로 소영님 확인이 필요하다.
-           원 목록: Basil, Spearmint, Sage, Coriander, Immortelle, Sandalwood, Tonka, Amber
+        2026-09-13 확정 — 휘발도 기준 분류 + 소영님 확인.
+        원 자료(Shopify SEO)는 평면 목록이며 단계 구분이 없었다.
+        원 목록: Basil, Spearmint, Sage, Coriander, Immortelle, Sandalwood, Tonka, Amber
+
+        분류 근거:
+          탑   - 바질·스피어민트는 휘발성 허브. 스피어민트는 거의 즉시 날아간다
+          미들 - 임모르텔은 전형적인 하트 노트
+          베이스 - 샌달우드·통카·앰버는 셋 다 고정제
+
+        코리앤더는 리날로올 함량이 높아 탑으로 분류하는 조향사도 있으나
+        이 제품에서는 미들로 확정했다 (소영님, 2026-09-13). 세이지도 미들이다.
+
+        DreamAir 노트 문서를 받으면 대조할 것. 다르면 문서를 따른다.
 
         캔들 SEO 설명의 Fragrance Notes 항목이 정본.
 
@@ -749,7 +775,8 @@ products:
         확인됨 (2026-09-09, 향료 서류 대조):
            오크모스는 바디 향료 BAMBOOM 34(IFF 6059239)에 1.218% 포함되어 있으며,
            캔들 향료 문서에는 나타나지 않는다.
-           Bamboo Forest는 캔들과 바디의 향료 회사가 아예 다르다 (Chemia vs IFF).
+           Bamboo Forest는 캔들과 바디의 향료 회사가 아예 다르다.
+           캔들 = DreamAir, 바디 = IFF (로다미엘의 IFF 시절 작업).
            상세: docs/fragrance-registry.md
     purpose: { value: Relaxation, status: confirmed }
     story:
