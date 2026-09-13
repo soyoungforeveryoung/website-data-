@@ -68,6 +68,15 @@
 부시맨 캔들은 향료가 둘로 갈린다. **캔들·디퓨저는 `OLIFIR BOUGIE XII`,
 몸에 쓰는 이 제품은 `OLIFIR V4i`다.** 캔들 향료를 이 제품에 쓰면 안 된다.
 
+✅ **서류 확보 완료** (메일 `leverden - bushman candle collection -Olifir v4i - L1`)
+- `IFRA_51__OLIFIR V4I 26830` — IFRA **51차 개정판**
+- `ALL_OLIFIR V4I 26830` — 알레르겐 선언서, **Reg 2023/1545 (81종) 기준**
+- `SDS_OLIFIR V4I 26830`
+→ 6개 제품 중 **서류가 최신으로 다 갖춰진 유일한 향료**다.
+
+⚠️ 배합률: 소영님이 AFM에 "around 2–3%"로 문의했으나 **실제 확정치는 `확인 필요`.**
+   알레르겐 표시 의무 계산은 이 값이 확정돼야 가능하다.
+
 🔴 **노트 목록 자체는 아직 문서로 확인되지 않았다.**
    `US-RAW`에 있는 것은 서술형 표현뿐이다 (`The warm, resinous Myrrh aroma`).
 
