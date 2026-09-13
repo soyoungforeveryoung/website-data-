@@ -68,7 +68,8 @@
    (`Imagine the great bamboo forests of Korea…`).
 
 ⚠️ **캔들의 노트를 그대로 가져다 쓰면 안 된다.**
-   Bamboo Forest는 캔들과 바디의 **향료 회사가 아예 다르다** (Chemia vs IFF).
+   Bamboo Forest는 캔들과 바디의 **향료 회사가 아예 다르다**.
+   캔들 = DreamAir · 바디 = IFF (로다미엘의 IFF 시절 작업).
    배합이 다르므로 노트도 다르다. 상세: `docs/fragrance-registry.md`
 
 ### 확인된 것 — 바디 라인 향료
