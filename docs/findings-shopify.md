@@ -217,3 +217,57 @@ Comes with a packet of Coriander seeds reminiscent of the Collection scent
   기능성 미신고 제품에 쓰기엔 재검토 여지가 있다 → 소영님 판단 필요
 - 듀오 세트 본문에 `Hand-poured` 표현이 있다. **비누는 붓는 것이 아니다.**
   `Handcrafted` 로 바꾸는 것이 정확하다 → 소영님 확인 후 수정
+
+---
+
+## 2026-09-15 추가 — 효능 표현 정리 (`소영` 승인)
+
+### 원칙
+
+| 쓸 수 있는 말 | 쓸 수 없는 말 |
+|---|---|
+| `cleanse` · `wash` — 비누가 실제로 하는 일 | `detoxify` (해독) · `purify` (정화) — **신체 기능 주장** |
+| `nourish` · `moisturize` · `hydrate` — 화장품 일반 표현 | 기능성 미신고 제품에 쓰면 표시광고 위반 소지 |
+
+한국 화장품법상 비누는 **인체세정용 제품류**다. 세정 외의 작용을 단언할 수 없다.
+미국에서도 `detox` 는 FTC 가 주시하는 표현이다.
+
+### 실제 수정 (4곳)
+
+| 제품 | 전 | 후 |
+|---|---|---|
+| 차콜 듀오 세트 | deeply cleanses, **detoxifies**, and nourishes | deeply cleanses and nourishes |
+| 리추얼 클렌징 듀오 | the perfect balance of **purification** | the perfect balance of **cleansing** |
+| 리추얼 클렌징 듀오 | designed to **detoxify**, replenish, elevate | designed to **cleanse**, replenish, elevate |
+| 미니 리추얼 세트 | it **deeply purifies** | it **cleanses thoroughly** |
+
+문장 구조는 그대로 두고 동사만 교체했다. `nourish` · `replenish` · `soft` · `refreshed` 는 유지.
+
+### `Hand-poured` → `Handcrafted` (2곳)
+
+미르 프로텍션 바 본품 · 듀오 세트. **비누는 붓는 것이 아니다.**
+캔들 문구가 복사되면서 넘어온 것으로 보인다.
+캔들의 `Hand-poured in California` 는 정확한 표현이므로 그대로 둔다.
+미니 리추얼 세트의 `hand-poured` 는 **틴 캔들**을 가리키므로 유지.
+
+### 같이 넣은 확정 사실
+
+| 항목 | 반영 |
+|---|---|
+| 중량 250 g | 바 솝 관련 6개 제품 전부 |
+| 한 달 건조 | 바 솝 관련 제품 전부 |
+| **스위트아몬드(견과류) 고지** | 미르 바 본품 · 듀오 · 리추얼 클렌징 듀오 |
+
+🔴 **견과류 고지는 원래 영문 페이지에 아예 없었다.** 한국 페이지에는 있었다.
+   알레르기 고지 누락은 실질적 위험이므로 이번에 추가했다.
+
+### 제품명은 바꾸지 않는다 (`소영` 결정, 2026-09-15)
+
+`Bamboo Forest Charcoal Detox Bar` 의 `Detox` 는 **제품명으로 유지**한다.
+이름은 브랜드 식별자이며 문장형 효능 주장보다 약하다.
+이름을 바꾸면 6종 체계 · 라벨 · 바코드 매핑 · KR 페이지가 연쇄로 걸린다.
+
+### 🟡 남은 것
+
+- 트래블 리추얼 틴 중량 `0.1 lb` (약 45 g) — 내용물 1.56 oz(44 g) 대비 포장 포함이면 낮아 보임
+- E-gift card · 트래블 리추얼 틴 SEO 비어 있음 (실물 제품 아니거나 우선순위 낮음)
