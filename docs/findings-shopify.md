@@ -167,3 +167,53 @@ Comes with a packet of Coriander seeds reminiscent of the Collection scent
 
 → 전부 `soap on a rope`로 통일. 로프 소재는 뒤에 덧붙여 설명.
 → 규칙: `brand/brand-core.md` §3-1
+
+
+---
+
+# 2026-09-15 수정 반영분
+
+## 중량 오류 정정
+
+| 제품 | 전 | 후 |
+|---|---|---|
+| **Bushman Candle Myrrh Protection Bar** | `0.2 lb` (약 91 g) | **`0.6 lb`** (약 272 g) |
+
+0.2 lb 는 실제 제품(250 g + 로프·포장)의 1/3 수준으로 명백한 오류였다.
+같은 규격인 차콜 디톡스 바가 `0.6 lb` 이므로 동일하게 맞췄다.
+→ 배송비 계산이 실제보다 낮게 잡히던 문제가 해소된다.
+
+## 중량 검증 결과 — 나머지는 이상 없음
+
+| 제품 | 등록 중량 | 판정 |
+|---|---|---|
+| 캔들 4종 | 2.3 lb (약 1,043 g) | ✅ 4종 모두 동일. 일관됨 |
+| 차콜 디톡스 바 | 0.6 lb (약 272 g) | ✅ 250 g + 포장. 타당 |
+| 바 솝 듀오 3종 | 1.2 lb | ✅ 0.6 × 2. 계산 맞음 |
+| 미니 리추얼 세트 | 0.8 lb | ✅ 바 0.6 + 미니 틴 0.2. 타당 |
+| 트래블 리추얼 틴 | 0.1 lb | 🟡 1.56 oz(44 g) 제품. 포장 포함이면 다소 낮아 보임 → `확인 필요` |
+
+## SEO 비어 있던 5개 제품 채움
+
+아래 제품은 SEO 제목·설명이 **둘 다 null** 이었다. 검색 결과에 본문이 잘려 노출되던 상태다.
+
+| 제품 | 새 SEO 제목 |
+|---|---|
+| Bushman Candle Myrrh Protection Bar | Myrrh Protection Bar \| Namibian Wild Myrrh Soap - leverden |
+| Charcoal Detox Bar Duo Set | Charcoal Detox Bar Duo Set \| Two Bars - leverden |
+| Myrrh Protection Bar Duo Set | Myrrh Protection Bar Duo Set \| Two Bars - leverden |
+| Ritual Cleansing Bar Duo | Ritual Cleansing Bar Duo \| Charcoal + Myrrh - leverden |
+| Bamboo Forest Mini Ritual Set | Bamboo Forest Mini Ritual Set \| Tin Candle + Bar - leverden |
+
+설명문에는 확정된 사실만 넣었다: 250 g, 손 장인 제작, 한 달 건조,
+`Commiphora wildii`, 힘바 커뮤니티 수급, 파라핀 무첨가, 스위트아몬드(견과류) 고지.
+**효능 주장은 쓰지 않았다.**
+
+## 🟡 남은 항목
+
+- **트래블 리추얼 틴** 중량 0.1 lb 확인
+- 듀오 세트 본문에 `detoxify` · `purification` · `deeply purifies` 표현이 남아 있다.
+  비누 세정 맥락이라 캔들의 `Purifies the environment` 보다는 약하지만
+  기능성 미신고 제품에 쓰기엔 재검토 여지가 있다 → 소영님 판단 필요
+- 듀오 세트 본문에 `Hand-poured` 표현이 있다. **비누는 붓는 것이 아니다.**
+  `Handcrafted` 로 바꾸는 것이 정확하다 → 소영님 확인 후 수정
