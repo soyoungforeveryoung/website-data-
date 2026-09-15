@@ -13,15 +13,38 @@
 
 | 콜렉션 | 라인 | 향료명 | 코드 | 향료사 | IFRA 개정판 | 인증서 발행일 |
 |---|---|---|---|---|---|---|
-| Bamboo Forest | 캔들 | **확인 필요** | ? | **DreamAir** | — | — |
-| Bamboo Forest | 바디 (wash/lotion) | **BAMBOOM 34 LATEST** | 6059239 | **IFF** (DreamAir 경유) | **50** | 2023-11-01 |
+| Bamboo Forest | **캔들** | **BAMBOO 28** | 28 | **DreamAir** | 확인 필요 | 확인 필요 |
+| Bamboo Forest | **바디 · 바 솝** | **BAMBOO 34** (`BAMBOOM 34 LATEST`) | 6059239 | **IFF** (DreamAir 경유) | **50** | 2023-11-01 |
 | ~~(단종) 소금~~ | ~~배스 솔트~~ | ~~078296 CORIANDER FRAGRANCE~~ | 78296 | Chemia | 50 (2021.6) | 2021-09-24 |
-| Bushman Candle | **캔들** | **OLIFIR BOUGIE XII** | 26954 | AFM | **50** (2021.7) | 2023-06-07 |
-| Bushman Candle | 바디/파인 | **OLIFIR V4i** | 26830 | AFM | **51** (2023.6) | 2024-01-25 |
+| Bushman Candle | **캔들 + 디퓨저** | **OLIFIR BOUGIE XII** | 26954 | AFM | **50** (2021.7) | 2023-06-07 |
+| Bushman Candle | **바디 · 바 솝** | **OLIFIR V4i** | 26830 | AFM | **51** (2023.6) | 2024-01-25 |
 | Shaman | **캔들** | **SPIRITUAL WOOD** | 28782 | AFM | **50** (2021.7) | 2023-04-21 |
 | Valley of Roses | ? | **84033 ROSE BUD** | 84033 | Chemia | 확인 필요 | 확인 필요 |
 
-- `BOUGIE`는 프랑스어로 **캔들**이다. `OLIFIR BOUGIE XII`가 캔들용, `OLIFIR V4i`가 바디용.
+- `BOUGIE`는 프랑스어로 **캔들**이다.
+
+### 용도 확정 (`소영`, 2026-09-13)
+
+| 향료 | 용도 |
+|---|---|
+| `BAMBOO 28` | **뱀부 포레스트 — 캔들** |
+| `BAMBOO 34` (6059239) | **뱀부 포레스트 — 바디 · 바 솝** |
+| `SPIRITUAL WOOD` (28782) | **샤먼 캔들** 향 |
+| `OLIFIR BOUGIE XII` (26954) | **부시맨 캔들 — 캔들 + 디퓨저** |
+| `OLIFIR V4i` (26830) | **부시맨 캔들 — 바디 · 바 솝** (미르 프로텍션 바) |
+
+🔑 **뱀부 포레스트도 부시맨 캔들도 향료가 둘로 갈린다.**
+
+| 콜렉션 | 캔들용 | 바디·솝용 |
+|---|---|---|
+| 뱀부 포레스트 | `BAMBOO 28` | `BAMBOO 34` |
+| 부시맨 캔들 | `OLIFIR BOUGIE XII` | `OLIFIR V4i` |
+
+태우는 것과 몸에 쓰는 것은 규제 체계가 달라 서류도 따로 관리한다.
+
+🔑 **밸리 오브 로지즈만 하나의 향료(84033 Rose Bud)로 두 라인을 다 쓴다.**
+
+⚠️ 디퓨저는 현재 솔드아웃 제외 대상이나, 향료 매핑 자체는 사실로 남긴다.
 - AFM = Atelier Fragranze Milano (이탈리아). 송금 이력이 있는 그 회사다.
 - Bamboo Forest는 **캔들과 바디의 향료 회사가 아예 다르다.**
   같은 콜렉션명이지만 서로 다른 향이다.
@@ -64,7 +87,8 @@ Chemia에서 만들었던 **구 소금(bath salt) 제품용 향료**이며,
 
 → **현행 제품 매핑에서 제외한다.** 아카이브 기록으로만 남긴다.
 
-→ 남은 확인 사항: 뱀부 포레스트 **캔들**의 향료명·코드 (DreamAir에 문의)
+✅ 뱀부 포레스트 캔들 향료는 **`BAMBOO 28`**로 확인됨 (`소영`, 2026-09-13).
+   IFRA 인증서·알레르겐 선언서는 DreamAir에 요청 필요.
 
 ## 확인됨 (소영님)
 
@@ -172,9 +196,135 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 
 | 향료사 | 담당 | 연락처 | 담당 향료 |
 |---|---|---|---|
-| Atelier Fragranze Milano (AFM) | 대표 **Luca** / Mara Maghini (Regulatory) | mara.maghini@atelierfragranzemilano.com | Olifir Bougie XII, Olifir V4i, Spiritual Wood |
+| Atelier Fragranze Milano (AFM) | 대표 **Luca Maffei** (Ceo · Perfumer) / **Mara Maghini** (Regulatory Affairs Manager) | luca.maffei@ · mara.maghini@atelierfragranzemilano.com · +39 02 4231909 | Olifir Bougie XII, Olifir V4i, Spiritual Wood |
 | Chemia Corporation | Regulatory | Regulatory@chemiacorp.com | **84033 Rose Bud** (파운더와 공동 개발) · ~~78296 Coriander (구 소금 향료, 단종)~~ |
 | **DreamAir** | Christophe Laudamiel | cl@dreamair.mobi | 뱀부 포레스트 **캔들** 조향 + Bamboom 34 (IFF 시절) |
+
+### AFM 인물 정리 (메일 확인, 2026-09-13)
+
+| 이름 | 역할 | 메일 |
+|---|---|---|
+| **Luca Maffei** | Ceo · Perfumer (대표 조향사) | luca.maffei@atelierfragranzemilano.com |
+| **Mara Maghini** | **Regulatory Affairs Manager** — 서류는 이 사람에게 요청 | mara.maghini@atelierfragranzemilano.com |
+| Martina Maffei | (메일 참조자) | martina.maffei@atelierfragranzemilano.com |
+| Jasmina Mercuri | Regulatory 지원 | jasmina.mercuri@atelierfragranzemilano.com |
+| Beatrice Dorizza | **Fragrance Development Manager** (샘플·개발) | beatrice.dorizza@atelierfragranzemilano.com |
+| Marta Brambilla | Supply Chain Manager (주문·물류) | logistica@atelierfragranzemilano.com |
+| Isabella Crespi | Administrative Officer (인보이스) | amministrazione@atelierfragranzemilano.com |
+| ~~Federico Ronci~~ | **퇴사함** (2024-05 Mara 공지) | — |
+
+공용 주소: `orders@` (주문) · `marketing1@` (마케팅) · `amministrazione2@`
+
+⚠️ **서류는 Mara 한 사람에게서만 온 게 아니다.** 발신자가 여럿이라 메일함 검색 시
+   `mara.maghini` 로만 찾으면 놓친다. `atelierfragranzemilano.com` 도메인 전체로 검색할 것.
+   (수신자에 **helen@leverden.co** 가 들어간 건도 많다 — 헬렌 메일함에도 사본이 있다.)
+
+⚠️ **Federica Salvatore (fsalvatore@mrandmrsfragrance.com) 는 AFM 사람이 아니다.**
+   Mr&Mrs Fragrance 라는 **다른 회사**의 영업 담당이다 (카 디퓨저 건). 혼동하지 말 것.
+
+---
+
+## 🟢 이미 받은 서류 — 메일함 위치
+
+### `OLIFIR V4I 26830` (부시맨 바디·바 솝)
+메일: **`leverden - bushman candle collection -Olifir v4i - L1`** (2026-04-21 전달분)
+원본: Mara Maghini → 소영, 2025-10-14 `I: Olifir v4i`
+
+| 첨부 파일 | 내용 |
+|---|---|
+| `IFRA_51__OLIFIR V4I 26830_VER_1_EN.PDF` | **IFRA 51차 개정판** 인증서 |
+| `ALL_OLIFIR V4I 26830_VER_1_EN.PDF / .DOCX / .XLSX` | 알레르겐 선언서 (편집 가능 3종) |
+| `SDS_OLIFIR V4I 26830_VER_1_EN.PDF` | SDS |
+| `Allergene.xls` | AFM 제공 알레르겐 서식 |
+
+✅ **`Reg 2023/1545` 반영본이다.** Mara의 메일 원문:
+> "The list of allergens you provided as an example is still based on the old regulations
+> (26 allergens, instead of the current 81), so I am attaching two editable formats …
+> updated to Reg 2023_1545."
+
+→ 즉 **81종 기준** 최신본. 우리가 예전에 쓰던 26종 목록은 폐기 대상이다.
+
+📌 같은 메일에서 소영님이 밝힌 사용 계획:
+> "launch bar soaps with Olifir V4i … at around **2–3%**"
+⚠️ 이는 **계획치**이며 실제 확정 배합률은 `확인 필요`.
+
+### AFM 내부 서류 번호
+| 향료 | AFM 문서번호 |
+|---|---|
+| `SPIRITUAL WOOD 28782` | `AFM-2228782` |
+| `OLIFIR BOUGIE XII 26954` | `AFM-2226954` |
+
+### `BAMBOO 28` / `BAMBOO 34` (뱀부)
+**출처: Christophe Laudamiel / DreamAir** (`소영`, 2026-09-13 확정).
+서류 일체를 크리스토프가 직접 보냈다.
+
+| 연락처 | 역할 | 메일 |
+|---|---|---|
+| **Christophe Laudamiel** | 조향 · 대표. **서류를 보낸 사람** | cl@dreamair.mobi |
+| **Ro Miller** | Executive (주문·출하) | exec1@dreamair.mobi |
+| Olga | Accounting | accounting@dreamair.mobi |
+
+📌 DreamAir는 사내 표기를 **`Bamboom 28` / `Bamboom 34`** (o 두 개)로 쓴다.
+   인보이스·파일명이 그렇게 돼 있어 검색할 때 두 철자 다 봐야 한다.
+
+메일함 보관본: `leverden 향료 자료 입니다` (2025-07-30)
+`Cosmocos_Regulatory_Documents/Bamboo_34/BAMBOOM_34 _IFRA_LATEST_6059239_IFRA QRA_17Aug2021_1306271.pdf`
+
+### 기타
+- `olifir bougie xii/ spritual wood -test result` (Mara Maghini, 2025-01-10, 첨부 있음)
+- `Regulatory Documents` (**Federico Ronci**, 2023-06-07) — AFM 문서번호 출처.
+  수신: 소영 · Antoine Lie · Mara · **helen@leverden.co**
+- `R: Restricted Substance List` (Mara, 2023-07-05 / 07-06) — AFM 제한물질 미사용 확인서
+- ✅ **`R: Request for Concentration of Chemicals in Leverden Products`** (Mara, 2023-08-29) — **열어서 확인함 (2026-09-13)**
+  요청자: Shumaila Mustafa (Project Manager), 참조 Helen Lee · 소영
+
+  ⚠️ **배합률 문서가 아니다.** 향료 내 배합률(%)이 아니라
+  **"아래 24개 물질이 들어 있느냐"는 유해물질 부재 확인서**다.
+  첨부 2건: `OLIFIR BOUGIE XII 26954` / `SPIRITUAL WOOD 28782`
+
+  **AFM 답변: 24개 항목 전부 `N/A`** — 즉 해당 물질 없음.
+  | 확인된 부재 물질 (일부) |
+  |---|
+  | Parabens · Phthalates (BBP 포함) · Sodium Lauryl/Laureth Sulphate |
+  | Formaldehyde · Bisphenol A · Phenoxyethanol · Propylene Glycol |
+  | Mineral Oil · Petroleum 계열 · Oxybenzone · Micro Beads · Nanoparticles |
+  | Artificial Colours · Aluminium · Beeswax · Alcohol |
+
+  🟢 **활용 가치:** `파라벤 무첨가` · `프탈레이트 무첨가` · `SLS/SLES 무첨가` ·
+     `미네랄 오일 무첨가` 같은 표시를 **공급사 서면 근거**로 뒷받침할 수 있다.
+     (단 이 문서는 **AFM 향료 2종에 대한 것**이다. 완제품 전체가 아니다.
+      완제품 표시는 제조사(OTCM 등) 확인서가 따로 필요하다.)
+
+  🔴 **주의 — 이 문서로 "천연 100%" 주장은 할 수 없다.**
+     20번 `Synthetic Fragrances` 도 `N/A`로 되어 있으나, 향료 조합물이
+     합성 향료를 전혀 안 쓴다는 것은 성립하지 않는다. 목록 항목에
+     기계적으로 N/A를 채운 것으로 보인다. 이 줄은 근거로 쓰지 말 것.
+
+---
+
+## ✅ 알레르겐 선언서 — 전부 보유
+
+`소영` 확인 (2026-09-13): **알레르겐 선언서는 6개 제품분 모두 메일함에 있다.**
+추가 요청 불필요. 향료사에 메일을 더 보내지 않는다.
+
+⚠️ 단, **문서마다 기준 규정 버전이 다를 수 있다** (26종 구판 vs `Reg 2023/1545` 81종).
+   표시문구를 확정하기 전에 각 파일의 기준 버전을 눈으로 확인할 것.
+   확인된 것: `OLIFIR V4i` = 81종 최신본.
+
+---
+
+## 🔴 배합률 · 전성분은 받을 수 없다 (확인됨)
+
+메일 `Re: Request - Ingredient list` (2026-04-08) 에 공급사 공식 입장이 있다:
+> "As a general policy, **we do not provide full ingredient lists**,
+> as the formulas are confidential and remain the intellectual property…"
+
+→ **향료 내부 조성(%)은 앞으로도 안 나온다.** 기다리지 말 것.
+→ 대신 우리가 정해야 하는 값은 **완제품에 향료를 몇 % 넣는가**이고,
+   이건 향료사가 아니라 **제조사(OTCM 등) 또는 우리 처방전**에 있다.
+   알레르겐 표시 계산에 필요한 값도 이쪽이다.
+
+---
 
 ⚠️ 향료사들은 **전체 성분 목록(full ingredient list)은 영업비밀로 공개하지 않는다.**
    제공 가능한 것은 **IFRA 인증서 · 알레르겐 선언서 · SDS** 세 가지다.
@@ -186,10 +336,14 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 
 ## 향료사별
 
-**AFM** (Mara Maghini)
-- [ ] OLIFIR BOUGIE XII 26954 — 최신 IFRA 개정판 인증서
-- [ ] SPIRITUAL WOOD 28782 — 최신 IFRA 개정판 인증서
-- [ ] 위 2종 알레르겐 선언서 (2023년 개정 반영본)
+> 🛑 **향료사에 추가 메일을 보내지 않는다** (`소영`, 2026-09-13).
+> 그동안 요청 메일을 충분히 보냈고, 알레르겐 선언서는 이미 다 받았다.
+> 아래는 **메일함에서 찾아야 할 목록**이지, 새로 요청할 목록이 아니다.
+
+**AFM**
+- ✅ OLIFIR V4i 26830 — IFRA 51 + 알레르겐(81종) + SDS 확보
+- 🔍 OLIFIR BOUGIE XII 26954 (`AFM-2226954`) — 메일함에 있음. 파일 찾아서 IFRA 판수 확인
+- 🔍 SPIRITUAL WOOD 28782 (`AFM-2228782`) — 위와 동일
 - (향 노트는 소영님이 직접 관리 중이므로 별도 요청 불필요)
 
 **Chemia** (Regulatory)
@@ -197,11 +351,10 @@ EU 기준 알레르겐 표시 의무: 리브온 10ppm 이상, 린스오프 100pp
 - ~~78296 Coriander~~ — 구 소금 향료로 확인됨. 현행 제품 아님. 요청 불필요
 
 **DreamAir** (Christophe Laudamiel)
-- [ ] 🔴 뱀부 포레스트 **캔들** 향료명·코드
-- [ ] 캔들 향료 IFRA 인증서 · 알레르겐 선언서 · SDS
-- [ ] 탑/미들/베이스 구분 대조 (현재 휘발도 기준 분류)
-- [ ] BAMBOOM 34 (6059239) — **2023년 개정 반영 알레르겐 선언서**
-- [ ] 최신 IFRA 인증서
+- ~~뱀부 포레스트 캔들 향료명~~ — `BAMBOO 28`로 확인됨
+- ✅ **크리스토프가 서류를 다 보냈다** (`소영`, 2026-09-13). 요청 불필요
+- 🔍 `Bamboom 28` / `Bamboom 34` 두 철자로 메일함 검색해 파일 위치 정리
+- [ ] 탑/미들/베이스 구분 대조 — 받은 노트 문서가 있으면 현재 휘발도 기준 분류와 맞춰볼 것
 
 ## 내부 확인
 

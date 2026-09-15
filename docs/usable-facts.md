@@ -52,7 +52,7 @@
 
 > **써도 되는 문구**
 > 영문 — a natural coconut apricot wax blend, made with food-grade certified coconut oil
-> 국문 — 푸드 그레이드 인증 코코넛 오일로 만든 코코넛 애프리컷 천연 왁스
+> 국문 — 푸드 그레이드 코코넛 오일로 만든 코코넛 애프리컷 천연 왁스
 
 > **써도 되는 것**: paraffin-free (파라핀 무첨가) · vegan · beeswax-free ·
 > paraben-free · kosher · cruelty-free · lead-free wick

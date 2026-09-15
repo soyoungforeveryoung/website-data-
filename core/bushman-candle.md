@@ -92,10 +92,13 @@
 |---|---|---|
 | 조향사 | Antoine Lie | `도시어` §03 |
 | 향료사 | **AFM** — Atelier Fragranze Milano (이탈리아) | `소영` |
-| 향료 | `OLIFIR BOUGIE XII` (26954) | IFRA 인증서 |
+| 향료 | `OLIFIR BOUGIE XII` (26954) — **캔들 + 디퓨저** | IFRA 인증서, `소영` |
 
-AFM 대표는 **Luca**이며 Antoine Lie와 함께 일한다 (`소영`, 2026-09-13).
-`BOUGIE`는 프랑스어로 캔들이다. 바디용은 `OLIFIR V4i`(26830)로 따로 있다.
+AFM 대표는 **Luca Maffei** (Ceo · Perfumer)이며 Antoine Lie와 함께 일한다 (`소영`, 2026-09-13).
+서류 담당은 **Mara Maghini** (Regulatory Affairs Manager). AFM 내부 문서번호는 `AFM-2226954`.
+(구 담당 Federico Ronci는 퇴사)
+`BOUGIE`는 프랑스어로 캔들이다. 이 향료는 **캔들과 디퓨저**에 쓴다.
+바디·바 솝(미르 프로텍션 바)은 `OLIFIR V4i`(26830)로 향료가 따로다.
 
 ---
 
