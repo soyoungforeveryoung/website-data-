@@ -962,7 +962,7 @@ products:
         Cocos Nucifera (Coconut) Oil, Aqua (Water), Helianthus Annuus (Sunflower) Seed Oil,
         Olea Europaea (Olive) Fruit Oil, Simmondsia Chinensis (Jojoba) Seed Oil,
         Ricinus Communis (Castor) Seed Oil, Persea Gratissima (Avocado) Oil, Tocopherol,
-        Theobroma Cacao (Cocoa) Seed Butter, Vitis Vinifera (Grape) Seed Oil, Sea Salt,
+        Theobroma Cacao (Cocoa) Seed Butter, Vitis Vinifera (Grape) Seed Oil, Sea Salt (Bamboo Salt),
         Charcoal Powder, Elemi Oil, Patchouli Oil, Fragrance
       status: confirmed
       source: 코보큐앤에이 (손용석 대표, 2026-04-01 메일)
@@ -970,10 +970,16 @@ products:
         제조사 원본 전성분으로 교체 (2026-09-13). 이전 값은 구 처방 기준이었음.
         변경: 소듐하이드록사이드 삭제(비누화로 소모되어 완제품에 잔류하지 않음),
         Elemi Oil·Persea Gratissima 추가, Lavandula·Citrus bergamia 삭제,
-        'Bamboo salt' -> 'Sea Salt'.
-        죽염은 별도 INCI 표시명이 없어 전성분에는 Sea Salt 로 적는다.
+        'Bamboo salt' -> 'Sea Salt (Bamboo Salt)'.
+        죽염은 별도 INCI 표시명이 없어 법정 성분명은 Sea Salt 로 적되,
+        괄호로 통용명 Bamboo Salt 를 병기한다 (`소영`, 2026-09-15 결정).
+        INCI 표기 관행상 '표준명 (통용명)' 형식(예: Cocos Nucifera (Coconut) Oil)과
+        같은 구조라 문제 없음. 뱀부 포레스트 콜렉션의 히어로 원료이므로
+        전성분에서도 드러나게 하는 것이 목적.
         성분이 일반 소금이라는 뜻이 아니며 본문·마케팅에는 '죽염'을 쓴다.
         성분 순서는 제조사 원본 그대로 유지 (함량 내림차순).
+        ⚠️ EU 판매 시 INCI 표준명은 Sea Salt 가 아니라 Maris Sal 이다.
+        EU 라벨은 'Maris Sal (Bamboo Salt)' 로 별도 표기 필요 -> 확인 필요.
     key_actives: { value: Bamboo Salt (죽염), Activated Charcoal, status: confirmed }
     hero_ingredient:
       name_ko: 영월 죽염
