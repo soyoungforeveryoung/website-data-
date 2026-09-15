@@ -541,7 +541,7 @@ candle_common:
 
       표기 (제조사 자료 확정 전까지 잠정):
         영문 - a natural coconut apricot wax blend, made with food-grade certified coconut oil
-        국문 - 푸드 그레이드 인증 코코넛 오일로 만든 코코넛 애프리컷 천연 왁스
+        국문 - 푸드 그레이드 코코넛 오일로 만든 코코넛 애프리컷 천연 왁스
 
       표기 원칙 (중요):
         - 애프리컷은 '왁스'가 아니라 '씨드 오일'이다.
@@ -598,7 +598,7 @@ candle_common:
           - Bamboo Forest SEO description 동일 문구
           - Valley of Roses custom.pdp_accordion_ingredients 'NON-GMO COCONUT'
 
-        대체 문구: '푸드 그레이드 인증 코코넛 오일'
+        대체 문구: '푸드 그레이드 코코넛 오일'
                   'made with food-grade certified coconut oil'
     - { value: Food-grade certified coconut oil, status: review }
     - { value: Paraben-free, status: review }

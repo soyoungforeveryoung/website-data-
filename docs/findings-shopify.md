@@ -101,7 +101,7 @@ Comes with a packet of Coriander seeds reminiscent of the Collection scent
 |---|---|---|---|
 | 구성 | coconut apricot wax, **soy wax, stearic acid**, apricot oil | 소이·스테아릭산 누락 | 배합비 확인 후 정정 |
 | non-GMO | **coconut**에 한정 | 인증 근거 없음 | 인증서 확보 전까지 문구 내림 |
-| food grade | **coconut oil**에 한정 | `food-grade coconut wax` | `푸드 그레이드 인증 코코넛 오일 사용`으로 정정 |
+| food grade | **coconut oil**에 한정 | `food-grade coconut wax` | `푸드 그레이드 코코넛 오일 사용`으로 정정 |
 
 ⚠️ **"소이가 아니라 코코넛"식 차별화 문구는 쓰면 안 된다.** 소이가 들어간다.
 ⚠️ 인증 문구(non-GMO·kosher·food grade)는 제조사 마케팅 문구일 뿐 인증서가 아니다.
