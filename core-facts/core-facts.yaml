@@ -839,9 +839,9 @@ products:
       note: "우리 원고 기준값이다. Cafe24 실제 등록 상품명과 아직 대조하지 않았으므로 review 로 둔다. 대조 후 confirmed 로 올릴 것."
     sku: { value: 777BCCD10, status: confirmed }
     barcode:
-      value: "00850034664163"
+      value: "850034664163"
       status: confirmed
-      source: Google Drive `UPC` 폴더 (2026-09-15 조회)
+      source: SKU/UPC List 마스터 시트 (소영님 제공, 2026-09-15) · data/SKU_UPC_List.xlsx
       note: |
         Google Drive `UPC` 폴더의 바코드 이미지 파일명에서 확인 (`Bushman candle scented candle777BCCD10 00850034664163 UPC-A SST3.png`). Shopify 변형에는 아직 입력되어 있지 않다 -> Shopify 에 등록 필요.
         발급은 되어 있었고 Shopify 등록만 누락된 상태였다.
@@ -870,9 +870,9 @@ products:
       note: "우리 원고 기준값이다. Cafe24 실제 등록 상품명과 아직 대조하지 않았으므로 review 로 둔다. 대조 후 confirmed 로 올릴 것."
     sku: { value: 777SMCD10, status: confirmed }
     barcode:
-      value: "00850034664170"
+      value: "850034664170"
       status: confirmed
-      source: Google Drive `UPC` 폴더 (2026-09-15 조회)
+      source: SKU/UPC List 마스터 시트 (소영님 제공, 2026-09-15) · data/SKU_UPC_List.xlsx
       note: |
         Google Drive `UPC` 폴더의 바코드 이미지 파일명에서 확인 (`shaman scented candle777SMCD10 00850034664170 UPC-A SST3.png`). Shopify 변형에는 아직 입력되어 있지 않다 -> Shopify 에 등록 필요.
         발급은 되어 있었고 Shopify 등록만 누락된 상태였다.
@@ -901,14 +901,13 @@ products:
       note: "우리 원고 기준값이다. Cafe24 실제 등록 상품명과 아직 대조하지 않았으므로 review 로 둔다. 대조 후 confirmed 로 올릴 것."
     sku: { value: 777TVRCD10, status: review, note: 다른 캔들과 달리 T 접두. 의도된 것인지 확인 }
     barcode:
-      value: null
-      status: pending
-      source: Google Drive `UPC` 폴더 (2026-09-15 조회)
+      value: "850034664217"
+      status: confirmed
+      source: SKU/UPC List 마스터 시트 (소영님 제공, 2026-09-15) · data/SKU_UPC_List.xlsx
       note: |
-        바코드 이미지 파일은 존재한다: `777TVRCD10 The valley of roses scented candle`
-        (Drive ID 1LCxrrPdvxUAAjw1EGpbtO0x9TKO0jABA). 단 파일명에 번호가 없고
-        이미지 텍스트 추출에 실패해 숫자를 읽지 못했다. 추측하지 않고 비워 둔다.
-        -> Drive 에서 해당 이미지를 열어 번호를 확인할 것.
+        마스터 시트에서 확인 (`777TVRCD10 Valley of Roses Scented Candle`).
+        Drive 의 바코드 이미지는 파일명에 번호가 없어 읽지 못했으나 시트로 해결됨.
+        Shopify 변형에 등록 완료 (2026-09-15).
     shopify_handle: valley-of-roses-scented-candle
     cafe24_code: { value: null, status: pending, note: "Cafe24 관리자 > 상품관리에서 상품코드 확인. 6종 공통 미확보." }
     fragrance_notes:
@@ -948,25 +947,14 @@ products:
       'Detox'가 뜻하는 바를 물어오면 '차콜의 딥 클렌징'이라고 답한다.
     sku: { value: 111BFBS10, status: confirmed }
     barcode:
-      value: "00850034664101"
-      status: conflict
-      source: Shopify Admin API + Google Drive UPC 폴더
+      value: "850034664200"
+      status: confirmed
+      source: SKU/UPC List 마스터 시트 (소영님 제공, 2026-09-15) · data/SKU_UPC_List.xlsx
       note: |
-        🔴 2026-09-15 재확인 결과 conflict 가 다시 살아났다.
-        Google Drive `UPC` 폴더의 발급 원본 파일명은
-          `charcoal bar soap111BFBS10-00850034664200 UPC-A .png`
-        즉 발급된 번호는 **00850034664200** 인데,
-        Shopify 에 등록된 값은 **00850034664101** 로 서로 다르다.
-        자릿수 문제가 아니라 **번호 자체가 다르다.**
-        -> 어느 쪽이 실제 인쇄된 바코드인지 확인 후 한쪽으로 통일할 것.
-        (기존 메모) 14자리 GTIN-14 형식이며 앞의 0 두 개는 패딩이다.
-        6종 현황:
-          850034664026   뱀부 캔들   (12자리 UPC-A)
-          850034664378   미르 바     (12자리 UPC-A)
-          00850034664101 차콜 바     (14자리 GTIN-14)
-          부시맨·샤먼·밸리오브로지즈 캔들 = 미발급
-        -> 남은 것은 '틀린 값'이 아니라 '자릿수 통일' 결정이다.
-        소영님 결정 필요: 12자리로 통일할지, 14자리로 통일할지.
+        마스터 시트 확인 결과 `111BFBS10 Bamboo Forest Charcoal Bar Soap = 850034664200`.
+        기존 Shopify 등록값 `00850034664101` 은 **예전에 잘못 만든 번호**로 확인되어
+        폐기했다 (`소영`, 2026-09-15). Shopify 변형도 850034664200 으로 수정 완료.
+        전 제품이 12자리 UPC-A 로 통일되어 있으므로 14자리 표기는 쓰지 않는다.
     shopify_handle: charcoal-bar-soap
     cafe24_code: { value: null, status: pending, note: "Cafe24 관리자 > 상품관리에서 상품코드 확인. 6종 공통 미확보." }
     ingredients_inci:
