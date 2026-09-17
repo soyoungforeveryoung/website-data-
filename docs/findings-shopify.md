@@ -286,6 +286,27 @@ Comes with a packet of Coriander seeds reminiscent of the Collection scent
    내릴 때는 **ARCHIVED** 로 돌린다. 삭제하면 과거 주문 이력이 끊긴다.
    SKU·UPC 가 없는데, 내릴 제품이므로 새로 발급하지 않는다.
 
+---
+
+# 2026-09-15/16 — Stone Candles 서면 확인 (Daniel Stone, CEO) 반영
+
+Daniel Stone 이메일 + 첨부 5건 검토 결과를 라이브 Shopify 6개 제품에 반영했다.
+상세 근거는 `core-facts/core-facts.yaml`, 요약은 `core/README.md` #32-38 참조.
+
+## 왁스 표기 최종 정리
+
+| 항목 | 전 | 후 |
+|---|---|---|
+| soy 포함 여부 | 위 #95 "제조사 원문에 soy wax 포함, 현재 카피 누락" — 미확인 상태였음 | Daniel 메일로 **최종 확인**. 여전히 사이트 카피에는 soy 언급 없음(코코넛/애프리컷 표기 유지, 부정형 주장만 제거) |
+| 파라핀 무첨가 | 6개 제품 전부 표기 중 | **전체 삭제** (Bamboo Forest에 재고 한정 문구를 잠깐 넣었다가 최종적으로 다시 삭제) |
+| 코셔 | 삭제했다가 | **복원** — 인증서 만료 리스크를 알고도 유지하기로 한 소영님 결정 |
+
+## 조치한 라이브 제품 6개
+
+Bamboo Forest Scented Candle · Bushman Candle Scented Candle · Shaman Scented
+Candle · Valley of Roses Scented Candle · Travel Ritual Tin 1.5oz · Bamboo
+Forest Mini Ritual Set — descriptionHtml + SEO title/description 전부 확인·수정.
+
 ## 3.5 oz 미니 틴 4종 — 마스터 시트에서 삭제
 
 `소영` 지시로 `data/SKU_UPC_List.xlsx` 에서 4줄 삭제했다.
