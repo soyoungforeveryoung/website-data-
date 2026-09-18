@@ -35,7 +35,7 @@
 |---|---|---|---|
 | 1 | **씨앗 동봉 문구** | 뱀부 포레스트 캔들 (US·KR 양쪽) | 동봉하지 않는데 동봉된다고 표기 중. **즉시 삭제** |
 | 2 | **씨앗 별도 판매 문구** | 부시맨 캔들 (KR) | 판매하지 않음. **삭제** |
-| 3 | **Non-GMO** | 캔들 4종 (US) | 인증 미확보. **사용 보류 확정 (2026-09-10). 삭제** |
+| 3 | **Non-GMO** | 캔들 4종 (US) | 원료 공급사 자체 확인서(AAK)는 있으나 제3자 인증 아님. **사용 보류 확정 (2026-09-10, 2026-09-15 재확인). 삭제** |
 | 4 | **효능 표현** | 6종 전부 | `Purifies the environment` / `toxin-free` / `healing` / `Boost your energy` / `protect the skin` / `alleviate blackheads` — 삭제 |
 | 5 | **최상급 무근거 주장** | 뱀부 포레스트 캔들 (US) | `the most sustainable candle wax in the earth` — 삭제 |
 | 6 | **미르 학명 오류** | 미르 프로텍션 바 (US) | `Commiphora myrrha` → **`Commiphora Wildii Oil`** |
@@ -114,11 +114,11 @@
 
 | # | 문서 | 받을 곳 | 용도 |
 |---|---|---|---|
-| 9 | 왁스 스펙시트 (배합비 포함) | Stone Candles | 파라핀 무첨가 · 코코넛 왁스 · 부정형 주장 근거 |
-| 10 | 코코넛 오일 원료 스펙시트 | Stone Candles | Food-grade |
-| 11 | 코셔 인증서 사본 | Stone Candles | Kosher |
-| 12 | **Non-GMO 인증 증빙** | Stone Candles | 🔴 확보 전까지 **사용 보류** |
-| 13 | 비건·크루얼티프리 서면 확인서 | Stone Candles **+ 향료사** | 왁스만으로는 완제품 비건이 성립하지 않음 |
+| 9 | 왁스 스펙시트 (배합비 포함) | Stone Candles | ✅ 완료 (2026-09-15, Daniel Stone 메일 원문 확인) — 파라핀 무첨가는 아님으로 최종 결론, 상세 `candle_common.wax` |
+| 10 | 코코넛 오일 원료 스펙시트 | Stone Candles | ✅ 완료 — AAK USA Richmond Corp 확인서로 대체 확보 (2015년 발급, 원료 리스트 한정) |
+| 11 | 코셔 인증서 사본 | Stone Candles | ✅ 완료 — 받았으나 2015년 만료. 소영님이 리스크 인지 후 유지 결정. 🔴 **갱신 인증서만 남음** |
+| 12 | Non-GMO 인증 증빙 | Stone Candles | ✅ 완료 — AAK GMO Status 확인서 확보. 단, 제3자 인증 아니라 **보류 결정은 유지** |
+| 13 | 비건·크루얼티프리 서면 확인서 | Stone Candles **+ 향료사** | ✅ Stone Candles 몫 완료(Light4Life 자체 확인서). 향료사 쪽은 미확인 — 완제품 비건 성립엔 별도 확인 필요 |
 | 14 | `BAMBOO 28` 서류 (IFRA·알레르겐·SDS) | **DreamAir** | ✅ 향료명은 확인됨. 서류만 필요 |
 | 15 | 뱀부 포레스트 **바디** 향 노트 문서 | IFF | 노트 전체 (캔들과 다름) |
 | 16 | 미르 프로텍션 바 향 노트 문서 | 향료사 | 노트 전체 |
