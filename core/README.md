@@ -117,7 +117,7 @@
 | 9 | 왁스 스펙시트 (배합비 포함) | Stone Candles | ✅ 완료 (2026-09-15, Daniel Stone 메일 원문 확인) — 파라핀 무첨가는 아님으로 최종 결론, 상세 `candle_common.wax` |
 | 10 | 코코넛 오일 원료 스펙시트 | Stone Candles | ✅ 완료 — AAK USA Richmond Corp 확인서로 대체 확보 (2015년 발급, 원료 리스트 한정) |
 | 11 | 코셔 인증서 사본 | Stone Candles | ✅ 완료 — 받았으나 2015년 만료. 소영님이 리스크 인지 후 유지 결정. 🔴 **갱신 인증서만 남음** |
-| 12 | Non-GMO 인증 증빙 | Stone Candles | ✅ 완료 — AAK GMO Status 확인서 확보. 단, 제3자 인증 아니라 **보류 결정은 유지** |
+| 12 | Non-GMO 인증 증빙 | Stone Candles | ✅ 완료 — AAK GMO Status 확인서 확보. 제3자 인증 아니라 보류 유지 + 🔴 생산지 유럽 이전 계획 있어 **더 보강하지 않음** — 이전 후 새 공장 서류로 재검토 (2026-09-18) |
 | 13 | 비건·크루얼티프리 서면 확인서 | Stone Candles **+ 향료사** | ✅ Stone Candles 몫 완료(Light4Life 자체 확인서). 향료사 쪽은 미확인 — 완제품 비건 성립엔 별도 확인 필요 |
 | 14 | `BAMBOO 28` 서류 (IFRA·알레르겐·SDS) | **DreamAir** | ✅ 향료명은 확인됨. 서류만 필요 |
 | 15 | 뱀부 포레스트 **바디** 향 노트 문서 | IFF | 노트 전체 (캔들과 다름) |
