@@ -706,7 +706,15 @@ candle_common:
         대체 문구: '푸드 그레이드 코코넛 오일'
                   'made with food-grade certified coconut oil'
     - { value: Food-grade certified coconut oil, status: review }
-    - { value: Paraben-free, status: review }
+    - value: Paraben-free
+      status: withdrawn
+      note: |
+        🔴 제외 확정 (2026-09-19, 소영님). Daniel Stone 2026-09-15 메일에서
+        확인해준 항목은 Kosher · Vegan · Cruelty-free · No lead Wicks · GMO
+        다섯 개뿐이고, Paraben-free는 언급도 첨부 서류도 없었다 —
+        Food-grade와 마찬가지로 근거가 확보된 적이 없다.
+        KR/EN 8개 페이지 + Shopify 라이브 5개 제품(bf/bc/sm/vr/tin)에서
+        '파라벤 무첨가'/'Paraben-free' 삭제 완료.
     - value: Kosher
       status: confirmed
       note: |
