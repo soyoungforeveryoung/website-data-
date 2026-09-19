@@ -1213,7 +1213,9 @@ products:
         Theobroma Cacao, Vitis Vinifera, Persea Gratissima, Tocopherol.
         몰약은 제조사 표기 'Myrrh Oil'(일반명)을 학명 Commiphora Wildii Oil 로 특정.
         힘바족 오뭄비리와 같은 종이며 Commiphora myrrha 와는 다른 종이다.
-        Yellow Ocher 는 제조사 표기 그대로 둠 — 안료(CI 77492)인지 천연 황토인지 확인 필요.
+        ✅ Yellow Ocher 확인 완료 (2026-09-19, 소영님): 색을 내기 위해 쓴
+        천연 황토가 맞음 (안료/산화철 CI 77492 아님). 전성분 표기는
+        제조사 원문 'Yellow Ocher' 유지, 마케팅 카피에서는 '천연 황토'로 서술 가능.
         견과류(sweet almond) 함유 — 알레르기 고지 유지.
     key_actives: { value: Omumbiri / Commiphora Wildii Oil (Namib Desert), Shea Butter, status: confirmed }
     hero_ingredient:
