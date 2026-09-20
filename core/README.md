@@ -47,9 +47,10 @@
 |---|---|---|---|
 | 8 | ~~테스트 텍스트 라이브 노출~~ | 차콜 바 솝 (US) | ✅ 삭제 완료 (2026-09-19) |
 | 9 | **제품이 완전히 다름** | 차콜 바 솝 (US) | SEO·title_tag가 `Bamboo Salt Body Lotion` — 전면 교체 |
-| 10 | **lorem ipsum 더미 텍스트** | 캔들 4종 (US) | metafields에 잔존 — 삭제 |
-| 11 | **다른 제품 설명 혼입** | 캔들 4종 (US) | `advantages_paragraph` = Amethyst Ki Bath Soak — 삭제 |
-| 12 | **배스 솔트 전성분 혼입** | 캔들 3종 (US) | `FD&C red 40` 등 — 삭제 |
+| 10 | lorem ipsum 더미 텍스트 | 캔들 4종 (US) | ✅ 뱀부 포레스트 수정 완료 (2026-09-20) · 나머지 3종(부시맨·샤먼·발리 오브 로지즈) 확인 필요 |
+| 11 | 다른 제품 설명 혼입 | 캔들 4종 (US) | ✅ 뱀부 포레스트 `advantages_paragraph`/`img_w_txt_richtext_2` (Amethyst Ki Bath Soak) 교체 완료 (2026-09-20) · 나머지 3종 확인 필요 |
+| 12 | 배스 솔트 전성분 혼입 | 캔들 3종 (US) | ✅ 뱀부 포레스트 `img_w_txt_richtext_3`(`FD&C red 40` 등) 교체 완료 (2026-09-20) · 부시맨·샤먼 확인 필요 |
+| 10-1 | `PARABEN FREE`/`NON-GMO COCONUT` 문구 잔존 (신규 발견) | 뱀부 포레스트 (US, `pdp_accordion_ingredients`) | ✅ 삭제 완료 (2026-09-20) — 기존 "이미 부재함" 확인이 이 필드는 놓쳤음, 나머지 3종도 같은 필드 재확인 필요 |
 | 13 | **다른 제품 코드 노출** | 밸리 오브 로지즈 (KR) | 옵션명 `(P000000S000B)` = 부시맨 코드 — 삭제 |
 | 14-1 | **Fragrance Notes 문단 중복 게재** | 차콜 디톡스 바 듀오 세트 (US, `my_fields.product_info`) | 동일 문단이 연속 두 번 노출 — 삭제 |
 | 14 | **`벨리` 오타** | 밸리 오브 로지즈 (KR) | → `밸리` |
