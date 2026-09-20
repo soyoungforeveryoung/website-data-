@@ -36,10 +36,11 @@
 | 1 | **씨앗 동봉 문구** | 뱀부 포레스트 캔들 (US·KR 양쪽) | 동봉하지 않는데 동봉된다고 표기 중. **즉시 삭제** |
 | 2 | **씨앗 별도 판매 문구** | 부시맨 캔들 (KR) | 판매하지 않음. **삭제** |
 | 3 | **Non-GMO** | 캔들 4종 (US) | 원료 공급사 자체 확인서(AAK)는 있으나 제3자 인증 아님. **사용 보류 확정 (2026-09-10, 2026-09-15 재확인). 삭제** |
-| 4 | ~~효능 표현~~ | 6종 전부 | ✅ 전부 확인·삭제 완료 (2026-09-19/20) — `protect the skin`(미르 바), `alleviate blackheads`(차콜 바), `Boost your energy`(부시맨 캔들) 삭제. `Purifies the environment`/`toxin-free`/`healing`은 라이브 재확인 결과 이미 없음 |
+| 4 | ~~효능 표현~~ | 6종 전부 | ✅ 전부 확인·삭제 완료 (2026-09-19/20) — `protect the skin`(미르 바), `alleviate blackheads`(차콜 바), `Boost your energy`(부시맨 캔들) 삭제. `Purifies the environment`/`toxin-free`/`healing`은 라이브 재확인 결과 이미 없음. **추가 발견(2026-09-20): `pdp_why_you_ll_love_it` 필드에 blackhead 문구, `pdp_good_to_know`에 "grounded and energized" 문구가 별도로 남아있던 것 확인·삭제 (차콜 바/미르 바 본품+듀오 세트 4개 전부)** |
 | 5 | **최상급 무근거 주장** | 뱀부 포레스트 캔들 (US) | `the most sustainable candle wax in the earth` — 삭제 |
-| 6 | **미르 학명 오류** | 미르 프로텍션 바 (US) | `Commiphora myrrha` → **`Commiphora Wildii Oil`** |
+| 6 | ~~미르 학명 오류~~ | 미르 프로텍션 바 (US, `pdp_ingredients`) | ✅ `Commiphora myrrha` → `Commiphora Wildii Oil`로 수정 완료 (2026-09-20). 본품+듀오 세트 둘 다. 같은 필드에 있던 Shea butter(오혼입) 삭제, Avocado oil/Tocopherol/Cocoa seed butter/Grape seed oil/Yellow Ocher/Capsicum/Calamine 등 실제 성분 반영 |
 | 7 | **미르 중량 오류** | 미르 프로텍션 바 (US) | 0.2 lb (91 g) → **255 g** |
+| 6-1 | ~~미확인 "natural glycerin" 표현~~ (신규 발견) | 미르 프로텍션 바 본품+듀오 세트 (US) | ✅ 삭제 완료 (2026-09-20) — 코보(손용석)에게 검화 공정에서 글리세린을 제거하는지 확인 메일 발송, 답변 전까지 보류 |
 
 ## 🟠 2순위 — 명백한 데이터 오류
 
@@ -53,7 +54,7 @@
 | 10-1 | ~~`PARABEN FREE`/`NON-GMO COCONUT` 문구 잔존~~ (신규 발견) | 뱀부 포레스트·부시맨·발리 오브 로지즈 (US, `pdp_accordion_ingredients`) | ✅ 3종 전부 삭제 완료 (2026-09-20) — 기존 "이미 부재함" 확인이 이 필드는 놓쳤던 것으로 확인 |
 | 10-2 | ~~`light4life`/`Cheetah Conservation Fund` 파트너십 서사 + 구매 연동 기부 문구~~ (신규 발견) | 캔들 4종 (US, `pdp_sustainable_packaging` 등) | ✅ 4종 전부 삭제 완료 (2026-09-20). light4life는 생산처이므로 파트너십 서사 금지(README #8), CCF 기부는 사실이나 구매 연동 문구 금지(README #7) — 재사용 용기 설명만 남기고 전부 정리 |
 | 13 | **다른 제품 코드 노출** | 밸리 오브 로지즈 (KR) | 옵션명 `(P000000S000B)` = 부시맨 코드 — 삭제 |
-| 14-1 | **Fragrance Notes 문단 중복 게재** | 차콜 디톡스 바 듀오 세트 (US, `my_fields.product_info`) | 동일 문단이 연속 두 번 노출 — 삭제 |
+| 14-1 | ~~Fragrance Notes 문단 중복 게재~~ | 차콜 디톡스 바 듀오 세트 (US) | ✅ `pdp_fragrance_test` 필드 중복 삭제 완료 (2026-09-20). `my_fields.product_info` JSON 쪽도 동일 증상인지 재확인 필요 |
 | 14 | **`벨리` 오타** | 밸리 오브 로지즈 (KR) | → `밸리` |
 | 15 | **구 브랜드 표기 `leVerden`** | 부시맨·샤먼 (US vendor) | → `leverden` |
 | 16 | ~~바 솝 중량~~ | — | ✅ 바 솝은 **255 g**이 맞음. 수정 불필요 (2026-09-11 확인) |
@@ -64,6 +65,7 @@
 | 20-1 | ~~`Consicientious` 오타~~ | 부시맨 캔들 (US) | ✅ `Conscientious`로 수정 완료 (2026-09-19) |
 | 20-2 | ~~`Consicientious` 오타~~ | 샤먼·발리 오브 로지스 캔들 (US, 공유 메타필드) | ✅ `Conscientious`로 수정 완료 (2026-09-20) |
 | 20-3 | ~~`bermot`/`BambooForest`/`Laudimiel` 오타~~ | 차콜 디톡스 바 듀오 세트 (US) | ✅ `bergamot`/`Bamboo Forest`/`Laudamiel`로 수정 완료 (2026-09-20) |
+| 20-4 | ~~"in the toilet"/"Hanging-linen composition natural rope" 부자연스러운 표현~~ (신규 발견) | 차콜 디톡스 바 본품+듀오 세트 (US, `pdp_how_to_use`/`pdp_good_to_know`) | ✅ 수정 완료 (2026-09-20) — `my_fields.product_info` JSON 쪽은 기존에 수정됐으나 이 별도 plain text 필드들은 누락돼 있었음 |
 | 4-1 | ~~"alleviate skin problems such as blackheads" 효능 주장~~ | 차콜 디톡스 바 듀오 세트 (US) | ✅ 중립적 감각 표현으로 교체 완료 (2026-09-20) |
 
 ## 🟡 3순위 — 일관성
