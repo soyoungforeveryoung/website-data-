@@ -51,6 +51,7 @@
 | 11 | **다른 제품 설명 혼입** | 캔들 4종 (US) | `advantages_paragraph` = Amethyst Ki Bath Soak — 삭제 |
 | 12 | **배스 솔트 전성분 혼입** | 캔들 3종 (US) | `FD&C red 40` 등 — 삭제 |
 | 13 | **다른 제품 코드 노출** | 밸리 오브 로지즈 (KR) | 옵션명 `(P000000S000B)` = 부시맨 코드 — 삭제 |
+| 14-1 | **Fragrance Notes 문단 중복 게재** | 차콜 디톡스 바 듀오 세트 (US, `my_fields.product_info`) | 동일 문단이 연속 두 번 노출 — 삭제 |
 | 14 | **`벨리` 오타** | 밸리 오브 로지즈 (KR) | → `밸리` |
 | 15 | **구 브랜드 표기 `leVerden`** | 부시맨·샤먼 (US vendor) | → `leverden` |
 | 16 | ~~바 솝 중량~~ | — | ✅ 바 솝은 **255 g**이 맞음. 수정 불필요 (2026-09-11 확인) |
@@ -59,6 +60,9 @@
 | 19 | ~~`Laudimiel` 오타~~ | 뱀부 포레스트 · 차콜 바 솝 (US) | ✅ `Laudamiel`로 수정 완료 (2026-09-19) |
 | 20 | ~~`bermot` 오타~~ | 차콜 바 솝 (US) | ✅ `bergamot`으로 수정 완료 (2026-09-19) |
 | 20-1 | ~~`Consicientious` 오타~~ | 부시맨 캔들 (US) | ✅ `Conscientious`로 수정 완료 (2026-09-19) |
+| 20-2 | ~~`Consicientious` 오타~~ | 샤먼·발리 오브 로지스 캔들 (US, 공유 메타필드) | ✅ `Conscientious`로 수정 완료 (2026-09-20) |
+| 20-3 | ~~`bermot`/`BambooForest`/`Laudimiel` 오타~~ | 차콜 디톡스 바 듀오 세트 (US) | ✅ `bergamot`/`Bamboo Forest`/`Laudamiel`로 수정 완료 (2026-09-20) |
+| 4-1 | ~~"alleviate skin problems such as blackheads" 효능 주장~~ | 차콜 디톡스 바 듀오 세트 (US) | ✅ 중립적 감각 표현으로 교체 완료 (2026-09-20) |
 
 ## 🟡 3순위 — 일관성
 
