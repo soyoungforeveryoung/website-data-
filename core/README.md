@@ -33,13 +33,13 @@
 
 | # | 항목 | 대상 | 조치 |
 |---|---|---|---|
-| 1 | **씨앗 동봉 문구** | 뱀부 포레스트 캔들 (US·KR 양쪽) | 동봉하지 않는데 동봉된다고 표기 중. **즉시 삭제** |
-| 2 | **씨앗 별도 판매 문구** | 부시맨 캔들 (KR) | 판매하지 않음. **삭제** |
-| 3 | **Non-GMO** | 캔들 4종 (US) | 원료 공급사 자체 확인서(AAK)는 있으나 제3자 인증 아님. **사용 보류 확정 (2026-09-10, 2026-09-15 재확인). 삭제** |
+| 1 | ~~씨앗 동봉 문구~~ | 뱀부 포레스트 캔들 (US) | ✅ Shopify `my_fields.product_info` Description/Sustainable Packaging에서 삭제 완료 (2026-09-20). KR 정적 페이지는 원래부터 부재 확인 |
+| 2 | ~~씨앗 별도 판매 문구~~ | 부시맨 캔들 (US) | ✅ Shopify `pdp_good_to_know`에서 "cactus seeds... selling separately" 삭제 완료 (2026-09-20). KR 정적 페이지는 원래부터 부재 확인 |
+| 3 | ~~Non-GMO~~ | 캔들 4종 (US) | ✅ 라이브 재확인 결과(2026-09-20) 4종 전부 이미 부재 — 삭제 불필요, 확인만 완료 |
 | 4 | ~~효능 표현~~ | 6종 전부 | ✅ 전부 확인·삭제 완료 (2026-09-19/20) — `protect the skin`(미르 바), `alleviate blackheads`(차콜 바), `Boost your energy`(부시맨 캔들) 삭제. `Purifies the environment`/`toxin-free`/`healing`은 라이브 재확인 결과 이미 없음. **추가 발견(2026-09-20): `pdp_why_you_ll_love_it` 필드에 blackhead 문구, `pdp_good_to_know`에 "grounded and energized" 문구가 별도로 남아있던 것 확인·삭제 (차콜 바/미르 바 본품+듀오 세트 4개 전부)** |
-| 5 | **최상급 무근거 주장** | 뱀부 포레스트 캔들 (US) | `the most sustainable candle wax in the earth` — 삭제 |
+| 5 | ~~최상급 무근거 주장~~ | 뱀부 포레스트 캔들 (US) | ✅ 라이브 재확인 결과(2026-09-20) `the most sustainable candle wax in the earth` 문구 이미 부재 — 확인만 완료 |
 | 6 | ~~미르 학명 오류~~ | 미르 프로텍션 바 (US, `pdp_ingredients`) | ✅ `Commiphora myrrha` → `Commiphora Wildii Oil`로 수정 완료 (2026-09-20). 본품+듀오 세트 둘 다. 같은 필드에 있던 Shea butter(오혼입) 삭제, Avocado oil/Tocopherol/Cocoa seed butter/Grape seed oil/Yellow Ocher/Capsicum/Calamine 등 실제 성분 반영 |
-| 7 | **미르 중량 오류** | 미르 프로텍션 바 (US) | 0.2 lb (91 g) → **255 g** |
+| 7 | ~~미르 중량 오류~~ | 미르 프로텍션 바 (US) | ✅ 배송 중량(inventoryItem) 0.6 lb(272g 상당) → **255 g**으로 수정 완료 (2026-09-20). 듀오 세트는 510g. 차콜 바/듀오 세트도 동일 오류 발견해 255g/510g으로 함께 수정 |
 | 6-1 | ~~미확인 "natural glycerin" 표현~~ (신규 발견) | 미르 프로텍션 바 본품+듀오 세트 (US) | ✅ 삭제 완료 (2026-09-20) — 코보(손용석)에게 검화 공정에서 글리세린을 제거하는지 확인 메일 발송, 답변 전까지 보류 |
 
 ## 🟠 2순위 — 명백한 데이터 오류
@@ -47,19 +47,19 @@
 | # | 항목 | 대상 | 조치 |
 |---|---|---|---|
 | 8 | ~~테스트 텍스트 라이브 노출~~ | 차콜 바 솝 (US) | ✅ 삭제 완료 (2026-09-19) |
-| 9 | **제품이 완전히 다름** | 차콜 바 솝 (US) | SEO·title_tag가 `Bamboo Salt Body Lotion` — 전면 교체 |
+| 9 | ~~제품이 완전히 다름~~ | 차콜 바 솝 (US) | ✅ 라이브 재확인 결과(2026-09-20) SEO·title_tag 이미 정상("Bamboo Forest Charcoal Detox Bar...") — 확인만 완료 |
 | 10 | ~~lorem ipsum 더미 텍스트~~ | 캔들 4종 (US) | ✅ 4종(뱀부 포레스트·부시맨·샤먼·발리 오브 로지즈) `subheading`/`img_w_txt_section_richtxt_5` 전부 수정 완료 (2026-09-20) |
 | 11 | ~~다른 제품 설명 혼입~~ | 캔들 4종 (US) | ✅ 4종 `advantages_paragraph`/`img_w_txt_richtext_2` (Amethyst Ki Bath Soak) 전부 교체 완료 (2026-09-20) |
 | 12 | ~~배스 솔트 전성분 혼입~~ | 캔들 4종 (US) | ✅ 4종 `img_w_txt_richtext_3`(`FD&C red 40` 등) 전부 실제 성분으로 교체 완료 (2026-09-20). 샤먼은 이 필드에 부시맨 전성분이 잘못 복사돼 있던 것도 함께 수정 |
 | 10-1 | ~~`PARABEN FREE`/`NON-GMO COCONUT` 문구 잔존~~ (신규 발견) | 뱀부 포레스트·부시맨·발리 오브 로지즈 (US, `pdp_accordion_ingredients`) | ✅ 3종 전부 삭제 완료 (2026-09-20) — 기존 "이미 부재함" 확인이 이 필드는 놓쳤던 것으로 확인 |
 | 10-2 | ~~`light4life`/`Cheetah Conservation Fund` 파트너십 서사 + 구매 연동 기부 문구~~ (신규 발견) | 캔들 4종 (US, `pdp_sustainable_packaging` 등) | ✅ 4종 전부 삭제 완료 (2026-09-20). light4life는 생산처이므로 파트너십 서사 금지(README #8), CCF 기부는 사실이나 구매 연동 문구 금지(README #7) — 재사용 용기 설명만 남기고 전부 정리 |
-| 13 | **다른 제품 코드 노출** | 밸리 오브 로지즈 (KR) | 옵션명 `(P000000S000B)` = 부시맨 코드 — 삭제 |
+| 13 | **다른 제품 코드 노출** | 밸리 오브 로지즈 (KR) | 옵션명 `(P000000S000B)` = 부시맨 코드 — **Cafe24 관리자 옵션 설정. 이 세션 도구로는 접근 불가(Cafe24 API 미연결), 수동 수정 필요** |
 | 14-1 | ~~Fragrance Notes 문단 중복 게재~~ | 차콜 디톡스 바 듀오 세트 (US) | ✅ `pdp_fragrance_test` 필드 중복 삭제 완료 (2026-09-20). `my_fields.product_info` JSON 쪽도 동일 증상인지 재확인 필요 |
-| 14 | **`벨리` 오타** | 밸리 오브 로지즈 (KR) | → `밸리` |
-| 15 | **구 브랜드 표기 `leVerden`** | 부시맨·샤먼 (US vendor) | → `leverden` |
+| 14 | **`벨리` 오타** | 밸리 오브 로지즈 (KR) | ✅ 정적 상세페이지(cafe24-html) 재확인 결과(2026-09-20) 이미 부재 — Cafe24 상품명/옵션명 등 관리자 설정에 남아있을 가능성은 수동 확인 필요(도구 접근 불가) |
+| 15 | ~~구 브랜드 표기 `leVerden`~~ | 부시맨·샤먼 (Shopify vendor 필드) | ✅ `leverden`으로 수정 완료 (2026-09-20) |
 | 16 | ~~바 솝 중량~~ | — | ✅ 바 솝은 **255 g**이 맞음. 수정 불필요 (2026-09-11 확인) |
-| 17 | **심지 자르기 2mm** | 캔들 (KR 이미지) | → **3~5mm** |
-| 18 | **alt 텍스트** | 6종 전부 (KR) | Cafe24 템플릿 샘플값(`가방`·`점퍼`) / 미르는 alt 없음 — 전면 교체 |
+| 17 | **심지 자르기 2mm** | 캔들 (KR 이미지) | → **3~5mm**. **이미지 자산 + Cafe24 업로드라 이 세션 도구로는 접근 불가, 수동 수정 필요** |
+| 18 | **alt 텍스트** | 6종 전부 (KR) | Cafe24 템플릿 샘플값(`가방`·`점퍼`) / 미르는 alt 없음 — 전면 교체. **Cafe24 관리자 설정, 이 세션 도구로는 접근 불가, 수동 수정 필요** |
 | 19 | ~~`Laudimiel` 오타~~ | 뱀부 포레스트 · 차콜 바 솝 (US) | ✅ `Laudamiel`로 수정 완료 (2026-09-19) |
 | 20 | ~~`bermot` 오타~~ | 차콜 바 솝 (US) | ✅ `bergamot`으로 수정 완료 (2026-09-19) |
 | 20-1 | ~~`Consicientious` 오타~~ | 부시맨 캔들 (US) | ✅ `Conscientious`로 수정 완료 (2026-09-19) |
