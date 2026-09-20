@@ -47,10 +47,11 @@
 |---|---|---|---|
 | 8 | ~~테스트 텍스트 라이브 노출~~ | 차콜 바 솝 (US) | ✅ 삭제 완료 (2026-09-19) |
 | 9 | **제품이 완전히 다름** | 차콜 바 솝 (US) | SEO·title_tag가 `Bamboo Salt Body Lotion` — 전면 교체 |
-| 10 | lorem ipsum 더미 텍스트 | 캔들 4종 (US) | ✅ 뱀부 포레스트 수정 완료 (2026-09-20) · 나머지 3종(부시맨·샤먼·발리 오브 로지즈) 확인 필요 |
-| 11 | 다른 제품 설명 혼입 | 캔들 4종 (US) | ✅ 뱀부 포레스트 `advantages_paragraph`/`img_w_txt_richtext_2` (Amethyst Ki Bath Soak) 교체 완료 (2026-09-20) · 나머지 3종 확인 필요 |
-| 12 | 배스 솔트 전성분 혼입 | 캔들 3종 (US) | ✅ 뱀부 포레스트 `img_w_txt_richtext_3`(`FD&C red 40` 등) 교체 완료 (2026-09-20) · 부시맨·샤먼 확인 필요 |
-| 10-1 | `PARABEN FREE`/`NON-GMO COCONUT` 문구 잔존 (신규 발견) | 뱀부 포레스트 (US, `pdp_accordion_ingredients`) | ✅ 삭제 완료 (2026-09-20) — 기존 "이미 부재함" 확인이 이 필드는 놓쳤음, 나머지 3종도 같은 필드 재확인 필요 |
+| 10 | ~~lorem ipsum 더미 텍스트~~ | 캔들 4종 (US) | ✅ 4종(뱀부 포레스트·부시맨·샤먼·발리 오브 로지즈) `subheading`/`img_w_txt_section_richtxt_5` 전부 수정 완료 (2026-09-20) |
+| 11 | ~~다른 제품 설명 혼입~~ | 캔들 4종 (US) | ✅ 4종 `advantages_paragraph`/`img_w_txt_richtext_2` (Amethyst Ki Bath Soak) 전부 교체 완료 (2026-09-20) |
+| 12 | ~~배스 솔트 전성분 혼입~~ | 캔들 4종 (US) | ✅ 4종 `img_w_txt_richtext_3`(`FD&C red 40` 등) 전부 실제 성분으로 교체 완료 (2026-09-20). 샤먼은 이 필드에 부시맨 전성분이 잘못 복사돼 있던 것도 함께 수정 |
+| 10-1 | ~~`PARABEN FREE`/`NON-GMO COCONUT` 문구 잔존~~ (신규 발견) | 뱀부 포레스트·부시맨·발리 오브 로지즈 (US, `pdp_accordion_ingredients`) | ✅ 3종 전부 삭제 완료 (2026-09-20) — 기존 "이미 부재함" 확인이 이 필드는 놓쳤던 것으로 확인 |
+| 10-2 | ~~`light4life`/`Cheetah Conservation Fund` 파트너십 서사 + 구매 연동 기부 문구~~ (신규 발견) | 캔들 4종 (US, `pdp_sustainable_packaging` 등) | ✅ 4종 전부 삭제 완료 (2026-09-20). light4life는 생산처이므로 파트너십 서사 금지(README #8), CCF 기부는 사실이나 구매 연동 문구 금지(README #7) — 재사용 용기 설명만 남기고 전부 정리 |
 | 13 | **다른 제품 코드 노출** | 밸리 오브 로지즈 (KR) | 옵션명 `(P000000S000B)` = 부시맨 코드 — 삭제 |
 | 14-1 | **Fragrance Notes 문단 중복 게재** | 차콜 디톡스 바 듀오 세트 (US, `my_fields.product_info`) | 동일 문단이 연속 두 번 노출 — 삭제 |
 | 14 | **`벨리` 오타** | 밸리 오브 로지즈 (KR) | → `밸리` |
