@@ -40,7 +40,7 @@
 | 5 | ~~최상급 무근거 주장~~ | 뱀부 포레스트 캔들 (US) | ✅ 라이브 재확인 결과(2026-09-20) `the most sustainable candle wax in the earth` 문구 이미 부재 — 확인만 완료 |
 | 6 | ~~미르 학명 오류~~ | 미르 프로텍션 바 (US, `pdp_ingredients`) | ✅ `Commiphora myrrha` → `Commiphora Wildii Oil`로 수정 완료 (2026-09-20). 본품+듀오 세트 둘 다. 같은 필드에 있던 Shea butter(오혼입) 삭제, Avocado oil/Tocopherol/Cocoa seed butter/Grape seed oil/Yellow Ocher/Capsicum/Calamine 등 실제 성분 반영 |
 | 7 | ~~미르 중량 오류~~ | 미르 프로텍션 바 (US) | ✅ 배송 중량(inventoryItem) 0.6 lb(272g 상당) → **255 g**으로 수정 완료 (2026-09-20). 듀오 세트는 510g. 차콜 바/듀오 세트도 동일 오류 발견해 255g/510g으로 함께 수정 |
-| 6-1 | ~~미확인 "natural glycerin" 표현~~ (신규 발견) | 미르 프로텍션 바 본품+듀오 세트 (US) | ✅ 삭제 완료 (2026-09-20) — 코보(손용석)에게 검화 공정에서 글리세린을 제거하는지 확인 메일 발송, 답변 전까지 보류 |
+| 6-1 | ~~"natural glycerin" 표현~~ | 바 솝 2종 본품+듀오 세트 4개 전부 (US/KR) | ✅ 코보(손용석) 회신 확인(2026-09-20, "글리세린이 비누화 과정에서 생성되어 고스란히 남아있는 비누") — 4개 제품 Shopify descriptionHtml + KR/EN 정적 페이지에 "대량생산 비누와 달리 글리세린을 추출하지 않고 그대로 남김" 문구로 재반영 완료 |
 
 ## 🟠 2순위 — 명백한 데이터 오류
 
