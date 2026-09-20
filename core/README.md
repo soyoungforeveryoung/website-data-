@@ -36,7 +36,7 @@
 | 1 | **씨앗 동봉 문구** | 뱀부 포레스트 캔들 (US·KR 양쪽) | 동봉하지 않는데 동봉된다고 표기 중. **즉시 삭제** |
 | 2 | **씨앗 별도 판매 문구** | 부시맨 캔들 (KR) | 판매하지 않음. **삭제** |
 | 3 | **Non-GMO** | 캔들 4종 (US) | 원료 공급사 자체 확인서(AAK)는 있으나 제3자 인증 아님. **사용 보류 확정 (2026-09-10, 2026-09-15 재확인). 삭제** |
-| 4 | **효능 표현** | 6종 전부 | `Purifies the environment` / `toxin-free` / `healing` / `Boost your energy` / `protect the skin` / `alleviate blackheads` — 삭제 |
+| 4 | ~~효능 표현~~ | 6종 전부 | ✅ 전부 확인·삭제 완료 (2026-09-19/20) — `protect the skin`(미르 바), `alleviate blackheads`(차콜 바), `Boost your energy`(부시맨 캔들) 삭제. `Purifies the environment`/`toxin-free`/`healing`은 라이브 재확인 결과 이미 없음 |
 | 5 | **최상급 무근거 주장** | 뱀부 포레스트 캔들 (US) | `the most sustainable candle wax in the earth` — 삭제 |
 | 6 | **미르 학명 오류** | 미르 프로텍션 바 (US) | `Commiphora myrrha` → **`Commiphora Wildii Oil`** |
 | 7 | **미르 중량 오류** | 미르 프로텍션 바 (US) | 0.2 lb (91 g) → **255 g** |
@@ -45,7 +45,7 @@
 
 | # | 항목 | 대상 | 조치 |
 |---|---|---|---|
-| 8 | **테스트 텍스트 라이브 노출** | 차콜 바 솝 (US) | `Test description for Charcoal Bar` — 삭제 |
+| 8 | ~~테스트 텍스트 라이브 노출~~ | 차콜 바 솝 (US) | ✅ 삭제 완료 (2026-09-19) |
 | 9 | **제품이 완전히 다름** | 차콜 바 솝 (US) | SEO·title_tag가 `Bamboo Salt Body Lotion` — 전면 교체 |
 | 10 | **lorem ipsum 더미 텍스트** | 캔들 4종 (US) | metafields에 잔존 — 삭제 |
 | 11 | **다른 제품 설명 혼입** | 캔들 4종 (US) | `advantages_paragraph` = Amethyst Ki Bath Soak — 삭제 |
@@ -56,8 +56,9 @@
 | 16 | ~~바 솝 중량~~ | — | ✅ 바 솝은 **255 g**이 맞음. 수정 불필요 (2026-09-11 확인) |
 | 17 | **심지 자르기 2mm** | 캔들 (KR 이미지) | → **3~5mm** |
 | 18 | **alt 텍스트** | 6종 전부 (KR) | Cafe24 템플릿 샘플값(`가방`·`점퍼`) / 미르는 alt 없음 — 전면 교체 |
-| 19 | **`Laudimiel` 오타** | 뱀부 포레스트 (US) | → `Laudamiel` |
-| 20 | **`bermot` 오타** | 차콜 바 솝 (US) | → `bergamot` |
+| 19 | ~~`Laudimiel` 오타~~ | 뱀부 포레스트 · 차콜 바 솝 (US) | ✅ `Laudamiel`로 수정 완료 (2026-09-19) |
+| 20 | ~~`bermot` 오타~~ | 차콜 바 솝 (US) | ✅ `bergamot`으로 수정 완료 (2026-09-19) |
+| 20-1 | ~~`Consicientious` 오타~~ | 부시맨 캔들 (US) | ✅ `Conscientious`로 수정 완료 (2026-09-19) |
 
 ## 🟡 3순위 — 일관성
 
