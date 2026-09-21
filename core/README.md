@@ -33,41 +33,51 @@
 
 | # | 항목 | 대상 | 조치 |
 |---|---|---|---|
-| 1 | **씨앗 동봉 문구** | 뱀부 포레스트 캔들 (US·KR 양쪽) | 동봉하지 않는데 동봉된다고 표기 중. **즉시 삭제** |
-| 2 | **씨앗 별도 판매 문구** | 부시맨 캔들 (KR) | 판매하지 않음. **삭제** |
-| 3 | **Non-GMO** | 캔들 4종 (US) | 인증 미확보. **사용 보류 확정 (2026-09-10). 삭제** |
-| 4 | **효능 표현** | 6종 전부 | `Purifies the environment` / `toxin-free` / `healing` / `Boost your energy` / `protect the skin` / `alleviate blackheads` — 삭제 |
-| 5 | **최상급 무근거 주장** | 뱀부 포레스트 캔들 (US) | `the most sustainable candle wax in the earth` — 삭제 |
-| 6 | **미르 학명 오류** | 미르 프로텍션 바 (US) | `Commiphora myrrha` → **`Commiphora Wildii Oil`** |
-| 7 | **미르 중량 오류** | 미르 프로텍션 바 (US) | 0.2 lb (91 g) → **255 g** |
+| 1 | ~~씨앗 동봉 문구~~ | 뱀부 포레스트 캔들 (US) | ✅ Shopify `my_fields.product_info` Description/Sustainable Packaging에서 삭제 완료 (2026-09-20). KR 정적 페이지는 원래부터 부재 확인 |
+| 2 | ~~씨앗 별도 판매 문구~~ | 부시맨 캔들 (US) | ✅ Shopify `pdp_good_to_know`에서 "cactus seeds... selling separately" 삭제 완료 (2026-09-20). KR 정적 페이지는 원래부터 부재 확인 |
+| 3 | ~~Non-GMO~~ | 캔들 4종 (US) | ✅ 라이브 재확인 결과(2026-09-20) 4종 전부 이미 부재 — 삭제 불필요, 확인만 완료 |
+| 4 | ~~효능 표현~~ | 6종 전부 | ✅ 전부 확인·삭제 완료 (2026-09-19/20) — `protect the skin`(미르 바), `alleviate blackheads`(차콜 바), `Boost your energy`(부시맨 캔들) 삭제. `Purifies the environment`/`toxin-free`/`healing`은 라이브 재확인 결과 이미 없음. **추가 발견(2026-09-20): `pdp_why_you_ll_love_it` 필드에 blackhead 문구, `pdp_good_to_know`에 "grounded and energized" 문구가 별도로 남아있던 것 확인·삭제 (차콜 바/미르 바 본품+듀오 세트 4개 전부)** |
+| 5 | ~~최상급 무근거 주장~~ | 뱀부 포레스트 캔들 (US) | ✅ 라이브 재확인 결과(2026-09-20) `the most sustainable candle wax in the earth` 문구 이미 부재 — 확인만 완료 |
+| 6 | ~~미르 학명 오류~~ | 미르 프로텍션 바 (US, `pdp_ingredients`) | ✅ `Commiphora myrrha` → `Commiphora Wildii Oil`로 수정 완료 (2026-09-20). 본품+듀오 세트 둘 다. 같은 필드에 있던 Shea butter(오혼입) 삭제, Avocado oil/Tocopherol/Cocoa seed butter/Grape seed oil/Yellow Ocher/Capsicum/Calamine 등 실제 성분 반영 |
+| 7 | ~~미르 중량 오류~~ | 미르 프로텍션 바 (US) | ✅ 배송 중량(inventoryItem) 0.6 lb(272g 상당) → **255 g**으로 수정 완료 (2026-09-20). 듀오 세트는 510g. 차콜 바/듀오 세트도 동일 오류 발견해 255g/510g으로 함께 수정 |
+| 6-1 | ~~"natural glycerin" 표현~~ | 바 솝 2종 본품+듀오 세트 4개 전부 (US/KR) | ✅ 코보(손용석) 회신 확인(2026-09-20, "글리세린이 비누화 과정에서 생성되어 고스란히 남아있는 비누") — 4개 제품 Shopify descriptionHtml + KR/EN 정적 페이지에 "대량생산 비누와 달리 글리세린을 추출하지 않고 그대로 남김" 문구로 재반영 완료 |
 
 ## 🟠 2순위 — 명백한 데이터 오류
 
 | # | 항목 | 대상 | 조치 |
 |---|---|---|---|
-| 8 | **테스트 텍스트 라이브 노출** | 차콜 바 솝 (US) | `Test description for Charcoal Bar` — 삭제 |
-| 9 | **제품이 완전히 다름** | 차콜 바 솝 (US) | SEO·title_tag가 `Bamboo Salt Body Lotion` — 전면 교체 |
-| 10 | **lorem ipsum 더미 텍스트** | 캔들 4종 (US) | metafields에 잔존 — 삭제 |
-| 11 | **다른 제품 설명 혼입** | 캔들 4종 (US) | `advantages_paragraph` = Amethyst Ki Bath Soak — 삭제 |
-| 12 | **배스 솔트 전성분 혼입** | 캔들 3종 (US) | `FD&C red 40` 등 — 삭제 |
-| 13 | **다른 제품 코드 노출** | 밸리 오브 로지즈 (KR) | 옵션명 `(P000000S000B)` = 부시맨 코드 — 삭제 |
-| 14 | **`벨리` 오타** | 밸리 오브 로지즈 (KR) | → `밸리` |
-| 15 | **구 브랜드 표기 `leVerden`** | 부시맨·샤먼 (US vendor) | → `leverden` |
+| 8 | ~~테스트 텍스트 라이브 노출~~ | 차콜 바 솝 (US) | ✅ 삭제 완료 (2026-09-19) |
+| 9 | ~~제품이 완전히 다름~~ | 차콜 바 솝 (US) | ✅ 라이브 재확인 결과(2026-09-20) SEO·title_tag 이미 정상("Bamboo Forest Charcoal Detox Bar...") — 확인만 완료 |
+| 10 | ~~lorem ipsum 더미 텍스트~~ | 캔들 4종 (US) | ✅ 4종(뱀부 포레스트·부시맨·샤먼·발리 오브 로지즈) `subheading`/`img_w_txt_section_richtxt_5` 전부 수정 완료 (2026-09-20) |
+| 11 | ~~다른 제품 설명 혼입~~ | 캔들 4종 (US) | ✅ 4종 `advantages_paragraph`/`img_w_txt_richtext_2` (Amethyst Ki Bath Soak) 전부 교체 완료 (2026-09-20) |
+| 12 | ~~배스 솔트 전성분 혼입~~ | 캔들 4종 (US) | ✅ 4종 `img_w_txt_richtext_3`(`FD&C red 40` 등) 전부 실제 성분으로 교체 완료 (2026-09-20). 샤먼은 이 필드에 부시맨 전성분이 잘못 복사돼 있던 것도 함께 수정 |
+| 10-1 | ~~`PARABEN FREE`/`NON-GMO COCONUT` 문구 잔존~~ (신규 발견) | 뱀부 포레스트·부시맨·발리 오브 로지즈 (US, `pdp_accordion_ingredients`) | ✅ 3종 전부 삭제 완료 (2026-09-20) — 기존 "이미 부재함" 확인이 이 필드는 놓쳤던 것으로 확인 |
+| 10-2 | ~~`light4life`/`Cheetah Conservation Fund` 파트너십 서사 + 구매 연동 기부 문구~~ (신규 발견) | 캔들 4종 (US, `pdp_sustainable_packaging` 등) | ✅ 4종 전부 삭제 완료 (2026-09-20). light4life는 생산처이므로 파트너십 서사 금지(README #8), CCF 기부는 사실이나 구매 연동 문구 금지(README #7) — 재사용 용기 설명만 남기고 전부 정리 |
+| 13 | **다른 제품 코드 노출** | 밸리 오브 로지즈 (KR) | 옵션명 `(P000000S000B)` = 부시맨 코드 — **Cafe24 관리자 옵션 설정. 이 세션 도구로는 접근 불가(Cafe24 API 미연결), 수동 수정 필요** |
+| 14-1 | ~~Fragrance Notes 문단 중복 게재~~ | 차콜 디톡스 바 듀오 세트 (US) | ✅ `pdp_fragrance_test` 필드 중복 삭제 완료 (2026-09-20). `my_fields.product_info` JSON 쪽도 동일 증상인지 재확인 필요 |
+| 14 | **`벨리` 오타** | 밸리 오브 로지즈 (KR) | ✅ 정적 상세페이지(cafe24-html) 재확인 결과(2026-09-20) 이미 부재 — Cafe24 상품명/옵션명 등 관리자 설정에 남아있을 가능성은 수동 확인 필요(도구 접근 불가) |
+| 15 | ~~구 브랜드 표기 `leVerden`~~ | 부시맨·샤먼 (Shopify vendor 필드) | ✅ `leverden`으로 수정 완료 (2026-09-20) |
 | 16 | ~~바 솝 중량~~ | — | ✅ 바 솝은 **255 g**이 맞음. 수정 불필요 (2026-09-11 확인) |
-| 17 | **심지 자르기 2mm** | 캔들 (KR 이미지) | → **3~5mm** |
-| 18 | **alt 텍스트** | 6종 전부 (KR) | Cafe24 템플릿 샘플값(`가방`·`점퍼`) / 미르는 alt 없음 — 전면 교체 |
-| 19 | **`Laudimiel` 오타** | 뱀부 포레스트 (US) | → `Laudamiel` |
-| 20 | **`bermot` 오타** | 차콜 바 솝 (US) | → `bergamot` |
+| 17 | **심지 자르기 2mm** | 캔들 (KR 이미지) | → **3~5mm**. **이미지 자산 + Cafe24 업로드라 이 세션 도구로는 접근 불가, 수동 수정 필요** |
+| 18 | **alt 텍스트** | 6종 전부 (KR) | Cafe24 템플릿 샘플값(`가방`·`점퍼`) / 미르는 alt 없음 — 전면 교체. **Cafe24 관리자 설정, 이 세션 도구로는 접근 불가, 수동 수정 필요** |
+| 19 | ~~`Laudimiel` 오타~~ | 뱀부 포레스트 · 차콜 바 솝 (US) | ✅ `Laudamiel`로 수정 완료 (2026-09-19) |
+| 20 | ~~`bermot` 오타~~ | 차콜 바 솝 (US) | ✅ `bergamot`으로 수정 완료 (2026-09-19) |
+| 20-1 | ~~`Consicientious` 오타~~ | 부시맨 캔들 (US) | ✅ `Conscientious`로 수정 완료 (2026-09-19) |
+| 20-2 | ~~`Consicientious` 오타~~ | 샤먼·발리 오브 로지스 캔들 (US, 공유 메타필드) | ✅ `Conscientious`로 수정 완료 (2026-09-20) |
+| 20-3 | ~~`bermot`/`BambooForest`/`Laudimiel` 오타~~ | 차콜 디톡스 바 듀오 세트 (US) | ✅ `bergamot`/`Bamboo Forest`/`Laudamiel`로 수정 완료 (2026-09-20) |
+| 20-4 | ~~"in the toilet"/"Hanging-linen composition natural rope" 부자연스러운 표현~~ (신규 발견) | 차콜 디톡스 바 본품+듀오 세트 (US, `pdp_how_to_use`/`pdp_good_to_know`) | ✅ 수정 완료 (2026-09-20) — `my_fields.product_info` JSON 쪽은 기존에 수정됐으나 이 별도 plain text 필드들은 누락돼 있었음 |
+| 4-1 | ~~"alleviate skin problems such as blackheads" 효능 주장~~ | 차콜 디톡스 바 듀오 세트 (US) | ✅ 중립적 감각 표현으로 교체 완료 (2026-09-20) |
 
 ## 🟡 3순위 — 일관성
 
 | # | 항목 | 조치 |
 |---|---|---|
-| 21 | JSON-LD description이 `교환/반품 불가`로 시작 | 6종 중 5종. 순서 조정 |
+| 21 | JSON-LD description이 `교환/반품 불가`로 시작 | 6종 중 5종. **테마 liquid 코드(구조화 데이터 생성부)에서 나오는 문제로 확인 — Shopify MCP가 라이브(MAIN) 테마 쓰기를 안전상 차단해 이 세션에서는 수정 불가. 개발자가 테마 코드 직접 수정 필요** |
 | 22 | ~~`향초` / `캔들` 표기~~ | ✅ **제품명은 `캔들`, `향초`는 검색어로만.** `_공통-캔들.md` 참조 |
-| 23 | title vs JSON-LD name 불일치 | 4종에서 발생. 통일 |
-| 24 | productType `barsoap` vs `Bar Soap` | 통일 |
-| 25 | 캔들 치수 `11 5/8 * 4인치` | → `지름 9cm × 높이 10cm (뚜껑 포함)` |
+| 23 | title vs JSON-LD name 불일치 | 4종에서 발생. **#21과 동일한 이유로 테마 코드 수정 필요, 이 세션에서는 불가** |
+| 24 | ~~productType `barsoap` vs `Bar Soap`~~ | ✅ 미르 프로텍션 바 `productType`을 `barsoap`→`Bar Soap`으로 통일 완료 (2026-09-20). 차콜 바·듀오 세트 2개는 이미 `Bar Soap`으로 일치 확인 |
+| 25 | ~~캔들 치수 `11 5/8 * 4인치`~~ | ✅ 뱀부 포레스트·부시맨·샤먼·발리 오브 로지즈 4종 `지름 9cm × 높이 10cm (뚜껑 포함)`으로 통일 완료 (2026-09-20) |
+| 26 | (신규 발견) 부시맨 캔들 상품명 이중 공백 `"Bushman candle  Scented Candle"` | ✅ `Bushman Candle Scented Candle`로 수정 완료 (2026-09-20) |
 
 ---
 
@@ -94,16 +104,32 @@
 |---|---|
 | 세라믹 뚜껑 **단독** 높이 | 뚜껑 치수를 따로 표기할 일이 생기면 실측. 현재 0.7 cm는 계산값 |
 
+## 🔴 먼저 할 것 — 비누공장에 전성분 요청
+
+**코보 비누공장 / 손용석 비누 장인** (`소영`, 2026-09-13)
+
+바 솝 2종의 **완제품 전성분**을 받으면 아래가 한 번에 정리된다:
+사이트 전성분 표기 · `Commiphora Wildii Oil` 정정 · 향료 배합률 ·
+알레르겐 표시 문구 · 무첨가 표시 근거.
+
+⚠️ 향료사(AFM·DreamAir·Chemia)에는 전성분을 물어도 나오지 않는다.
+   공급사 공식 정책으로 비공개이며, 알레르겐 선언서는 이미 전부 받았다.
+   → **향료사에 추가 메일을 보내지 않는다** (`소영`, 2026-09-13).
+
+⚠️ 캔들은 제조사가 다르다 (Stone Candles / Christia).
+
+---
+
 ## 제조사·공급사에서 받아야 하는 서류
 
 | # | 문서 | 받을 곳 | 용도 |
 |---|---|---|---|
-| 9 | 왁스 스펙시트 (배합비 포함) | Stone Candles | 파라핀 무첨가 · 코코넛 왁스 · 부정형 주장 근거 |
-| 10 | 코코넛 오일 원료 스펙시트 | Stone Candles | Food-grade |
-| 11 | 코셔 인증서 사본 | Stone Candles | Kosher |
-| 12 | **Non-GMO 인증 증빙** | Stone Candles | 🔴 확보 전까지 **사용 보류** |
-| 13 | 비건·크루얼티프리 서면 확인서 | Stone Candles **+ 향료사** | 왁스만으로는 완제품 비건이 성립하지 않음 |
-| 14 | 뱀부 포레스트 **캔들** 향료명·코드 + 서류 | **DreamAir** | 🔴 향료 자체가 미확인. Chemia 78296 매핑은 무효 |
+| 9 | 왁스 스펙시트 (배합비 포함) | Stone Candles | ✅ 완료 (2026-09-15, Daniel Stone 메일 원문 확인) — 파라핀 무첨가는 아님으로 최종 결론, 상세 `candle_common.wax` |
+| 10 | 코코넛 오일 원료 스펙시트 | Stone Candles | ✅ 완료 — AAK USA Richmond Corp 확인서로 대체 확보 (2015년 발급, 원료 리스트 한정) |
+| 11 | 코셔 인증서 사본 | Stone Candles | ✅ 완료 — 받았으나 2015년 만료. 소영님이 리스크 인지 후 유지 결정. 🔴 **갱신 인증서만 남음** |
+| 12 | Non-GMO 인증 증빙 | Stone Candles | ✅ 완료 — AAK GMO Status 확인서 확보. 제3자 인증 아니라 보류 유지 + 🔴 생산지 유럽 이전 계획 있어 **더 보강하지 않음** — 이전 후 새 공장 서류로 재검토 (2026-09-18) |
+| 13 | 비건·크루얼티프리 서면 확인서 | Stone Candles **+ 향료사** | ✅ Stone Candles 몫 완료(Light4Life 자체 확인서). 향료사 쪽은 미확인 — 완제품 비건 성립엔 별도 확인 필요 |
+| 14 | `BAMBOO 28` 서류 (IFRA·알레르겐·SDS) | **DreamAir** | ✅ 향료명은 확인됨. 서류만 필요 |
 | 15 | 뱀부 포레스트 **바디** 향 노트 문서 | IFF | 노트 전체 (캔들과 다름) |
 | 16 | 미르 프로텍션 바 향 노트 문서 | 향료사 | 노트 전체 |
 | 17 | 향료 알레르겐 선언서 (전 제품) | 각 향료사 | EU 규정 2023/1545 대응 |
@@ -115,11 +141,36 @@
 | 23 | 부시맨 캔들 식물 학명 | 향료사 | `Sarcocaulon mossamedense` 대조 |
 | 24 | 죽염 · 활성탄 INCI 정식명 | 비누 제조처 | 차콜 바 솝 전성분 |
 
+## 2026-09-15/16 — Stone Candles (Daniel Stone, CEO) 서면 확인 반영
+
+다니엘 스톤 이메일 + 첨부 5건(PDF) 검토 결과. 상세는 `core-facts/core-facts.yaml`
+`candle_common.wax` / `claims` 참조.
+
+| # | 항목 | 확정 |
+|---|---|---|
+| 32 | **파라핀 무첨가** | 과거엔 사실이었으나 약 1년 전 배합 변경 이후 소량의 고정제 식품등급 파라핀 포함. 현재 재고는 무첨가가 맞지만 재고 단위 구분 불가 → 전체 삭제 확정 (`소영`, 2026-09-16) |
+| 33 | **왁스 구성** | 코코넛 · 애프리컷 씨드 오일 외 **soy(대두)** 도 포함 확인. `docs/findings-shopify.md` #97 항목의 soy 누락 의혹이 이 메일로 최종 확인됨 |
+| 34 | **코셔** | 인증서 2015년 만료 + 원료 리스트 한정(완제품 미포함) 확인. 갭을 인지한 상태로 표기 유지 결정 (`소영`) — 갱신 인증서 요청은 진행 중 |
+| 35 | **납 없는 오가닉 코튼 심지** | Heinz Verhaegh Corp(심지 제조사 직접 발급) 확인서로 근거 보강 |
+| 36 | **비건·크루얼티프리·비즈왁스 무첨가** | Light4Life 자체 발급 확인서 + AAK Animal Origin 확인서로 근거 보강 (제3자 인증 아님, 공급사 자체 확인서 한계 있음) |
+| 37 | **Non-GMO** | AAK GMO Status 확인서 확보했으나 보류 결정(#3)은 유지. 제3자 인증 아니고 파라핀 성분은 다루지 않음 |
+| 38 | 🔴 **EU·한국 런칭 전 규제 요건** | 향료별 독성학자 검토 + 지역별 SDS + 현지 라벨링 준수 필요 — 공급사 공식 경고. 상세: `docs/규제-확인.md` |
+
+## 2026-09-18 — 부시맨·샤먼 향료 확인 (AFM 서류 + 소영님 확인)
+
+메일함에서 AFM(향료사) 관련 서류 직접 확인. 다니엘 스톤 건과 무관한 별도 확인.
+
+| 항목 | 내용 |
+|---|---|
+| **디퓨저 포름알데하이드·아세트알데하이드 검출 이력** | 2024-12 한국 등록 시험에서 Bushman(Olifir Bougie XII)·Shaman(Spiritual Wood) 향료 모두 검출, Bushman은 함량이 높아 최초 등록 거절됨. ✅ **해결됨** — 재생산 후 재시험 통과, 정식 등록 완료 (`(신고완료)` 메일, 2026-06-29, 신고번호 `HB25-12-0057`, 유효기간 2028-01-20). 최초 검출은 원료 트레이스로 추정되며 원인이 확정되진 않았으나, 현재 유통 로트는 등록증 기준 문제 없음 |
+| 🟡 **샤먼 "팔로 산토" 서사 재검토 필요** | Spiritual Wood 28782 향료의 PIF(제품정보서) 원료 목록에 `Bursera graveolens`(팔로 산토)가 없음. 주 원료는 `Juniperus Virginiana Oil`(버지니아 시더) 8.33% + 베르가못·제라늄·샌달우드·파출리 조합. 즉 실제 팔로 산토 오일이 아니라 그 느낌을 내는 조합 향료. 샤먼 캔들 카피에 팔로 산토를 원료로 서술하고 있다면 표현 재검토 필요 → `소영님 확인 필요` |
+| ✅ **Food-grade / Paraben-free 근거 재확인** | CB2 제출 서류(Intertek 화재안전 테스트)는 성분·인증과 무관 — 물리 테스트 통과·라벨링 실패(폰트 크기) 사안. "The Well" 편집숍에 보낸 "food grade coconut oil" 문구도 소영님 자체 진술이며 인증서 첨부 아님. → 두 클레임 모두 `status: review` 유지가 맞음, 제3자 서류 근거 없음 |
+
 ## 규제 확인이 필요한 것
 
 | # | 항목 | 대상 |
 |---|---|---|
-| 25 | 화기 안전 표시 문구 (미국 / EU CLP / 한국 화학제품안전법) | 캔들 4종 |
+| 25 | 화기 안전 표시 문구 (미국 / EU CLP / 한국 화학제품안전법) | 캔들 4종 — 상세: `docs/화기안전표시.md`. ✅ 미국(실물 라벨 부착), ✅ 한국(생활화학제품 신고 완료, 신고번호만 문서화 필요) 확인 완료(2026-09-19). EU만 남음 — 향료 4종 CLP 재분류 필요 |
 | 26 | 한국 화장품법 전성분 표기 | 바 솝 2종 |
 | 27 | EU 1223/2009 CPNP 등록 · Responsible Person | 바 솝 2종 |
 | 28 | 미국 MoCRA 시설 등록 · 제품 리스팅 | 바 솝 2종 |

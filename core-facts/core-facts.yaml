@@ -148,22 +148,23 @@ collections:
 
         candle_namibian_materials:
           status: confirmed
-          date: 2026-09-10
+          date: 2026-09-20
           materials:
-            - Bushman Candle Oil (나미비아산)
-            - Blue Ginger (나미비아산)
+            - Bushman Candle Oil (나미비아산, 힘바족에게서 직접 수급)
+            - Blue Ginger (나미비아산, 힘바족에게서 직접 수급)
           note: |
-            캔들에도 나미비아산 원료가 들어간다.
-            따라서 캔들에도 '나미비아 원료를 쓴다'고 명시할 수 있다.
+            🟢 2026-09-20 확정 (소영님): 캔들 원료(Bushman Candle Oil, Blue
+            Ginger)도 힘바족에게서 직접 공수받으며, 이 원료로 향을 만든다.
+            향료사 경유가 아니라 직접 수급이 맞음 — 아래 pending 항목 해소.
+
+            따라서 캔들에도 '힘바족에게서 직접 공수받은 원료'라고 명시할 수 있다.
             향의 성격: 스파이시하고 이국적이다.
 
-        pending:
-          - |
-            위 두 원료의 수급 경로 확인.
-            힘바족/커뮤니티 트러스트에서 직접 받는지, 향료사(AFM)를 통해 조달되는지에 따라
-            쓸 수 있는 문구가 달라진다.
-              직접 수급이면 - 힘바족에게서 직접 공수받은 원료
-              향료사 경유면 - 나미비아산 원료
+            문구 예시:
+              ko: 힘바족에게서 직접 공수받은 부시맨 캔들 오일과 블루 진저로
+                  향을 만들었습니다.
+              en: Bushman Candle Oil and Blue Ginger, sourced directly from
+                  the Himba, go into this fragrance.
             확인 전까지는 '나미비아산 원료'까지만 쓴다.
 
         bonus_story:
@@ -216,25 +217,53 @@ collections:
         페루 샤먼들의 의식. 팔로 산토를 태우는 리추얼의 향기에서 영감을 받았다.
       en: |
         The rituals of Peruvian shamans, and the scent of burning palo santo.
-      note: 기존 카피의 '고대 샤머니즘'은 모호하다. '페루'와 '팔로 산토 리추얼'로 구체화한다.
-      palo_santo_origin: { value: 페루산, status: confirmed }
+      note: |
+        기존 카피의 '고대 샤머니즘'은 모호하다. '페루'와 '팔로 산토 리추얼'로 구체화한다.
+
+        🔴 2026-09-19 정정 (소영님 확인): 팔로 산토는 뱀부 포레스트 콜렉션이
+        왁스에 대나무를 실제로 쓰지 않는 것과 같은 구조 — **영감을 받은 콜렉션
+        테마이지, 실제 향료 원료가 아니다.** 향료사(AFM) PIF 원료 목록에
+        Bursera graveolens(팔로 산토)는 없고, 실제 TOP 노트 원료는
+        **페루산 아르테미시아(세이지)** 다.
+        → 문제는 "자연 낙목만 채취, 베어내지 않음" 자체가 아니라 **"저희가
+        쓰는"이라는 주어**다 — 이건 팔로 산토 채취 전통에 대한 일반적으로
+        알려진 사실이라 유지해도 되지만, 우리 제품의 원료 수급 방식인 것처럼
+        1인칭으로 쓰면 안 된다 (2026-09-19 재확인, 소영님).
+        → 최종 표기: "페루 샤먼들이 팔로 산토를 태워 공간을 정돈한다. 팔로
+        산토는 자연적으로 쓰러진 나무에서만 얻으며 베어내지 않는다"까지는
+        **일반 사실/전통 서술**로 유지. 이어서 "이 리추얼에서 영감을 받아
+        페루산 세이지를 축으로 향을 만들었다"로 실제 원료를 연결한다.
+        "저희가 쓰는 팔로 산토는…" 같이 우리 제품 얘기인 것처럼 쓰는 문장만 삭제.
+      palo_santo_origin:
+        status: superseded
+        note: |
+          🔴 아래 sustainability 항목과 함께 폐기 (2026-09-19). 팔로 산토는
+          콜렉션 영감일 뿐 원료가 아니므로 '원산지'라는 개념 자체가 성립하지 않는다.
       sustainability:
-        value: 자연 낙목만 채취 (naturally fallen wood only)
         status: confirmed
         note: |
-          브랜드 도시어에서 확인. 팔로 산토를 벌목하지 않고
-          자연적으로 쓰러진 나무만 채취한다.
-          -> 이것이 지속가능 서사의 근거다. 반드시 명시할 것.
-          영문: harvested only from naturally fallen wood
-      pending:
-        - 자연 낙목 채취에 대한 공급처 확인서 확보 (문구로만 두지 말 것)
-        - 팔로 산토 학명 확인 (향료사에 문의).
-          '팔로 산토'로 불리는 나무는 여럿이며 규제 지위가 다르다.
-            Bursera graveolens  - 페루/에콰도르산. CITES 규제 대상 아님
-            Guaiacum spp.       - CITES 부속서 II 규제 대상
-          페루산은 통상 Bursera graveolens이나, 학명을 문서로 확인해 두는 편이 안전하다.
-        - 페루 수출 관련 서류(SERFOR 등) 및 지속가능 수급 근거.
-          근거 없는 sustainable 표현은 그린워싱이 된다.
+          🟢 2026-09-19 재확인 (소영님): "자연 낙목만 채취, 베어내지 않음"은
+          팔로 산토 채취 전통에 대한 **일반 사실 서술**로는 유지한다 —
+          이건 우리 제품의 수급 방식 주장이 아니라 팔로 산토라는 전통 원료
+          자체에 대해 널리 알려진 사실이다. 단, "저희가 쓰는 팔로 산토는…"
+          처럼 **1인칭·우리 제품 얘기로 서술하면 안 된다** (실제로 우리
+          제품엔 팔로 산토가 원료로 안 들어가므로). KR/EN 페이지는 이
+          문장을 "일반 서술 + 페루산 세이지로 영감 전환" 구조로 수정함.
+      artemisia_sage:
+        value: 페루산 아르테미시아(세이지) — 실제 TOP 노트 원료
+        status: confirmed
+        source: 소영님 확인 (2026-09-19)
+        note: |
+          팔로 산토 서사를 대체하는 실제 원료 스토리. TOP 노트 'Artemisia'를
+          '페루산 세이지'로 서술한다. 뱀부 포레스트가 죽염(실제 원료)과
+          대나무(테마)를 구분해 쓰는 것과 같은 방식.
+      old_pending_resolved: |
+        아래는 팔로 산토를 '원료'로 다루던 시절의 확인 대기 항목이었으나,
+        팔로 산토가 원료가 아님이 확인되어 더 이상 유효하지 않다 (2026-09-19).
+        - (폐기) 자연 낙목 채취에 대한 공급처 확인서 확보
+        - (폐기) 팔로 산토 학명 확인 (Bursera graveolens vs Guaiacum spp.)
+        - (폐기) 페루 수출 관련 서류(SERFOR 등) 및 지속가능 수급 근거
+        → 대신 페루산 세이지(아르테미시아)의 산지·수급 확인이 필요하면 새로 진행.
 
   valley_of_roses:
     name_en: { value: Valley of Roses, status: confirmed }
@@ -292,10 +321,13 @@ brand_common:
           2026-09-13 확인 (소영님).
           DreamAir는 로다미엘 본인이 차린 회사다. 원래 IFF 소속이었다가 독립했다.
 
+          향료 (2026-09-13 확인):
+            캔들      BAMBOO 28
+            바디·바 솝 BAMBOO 34 (IFF 6059239 BAMBOOM 34)
+
           🔴 이전에 Chemia 78296 CORIANDER FRAGRANCE로 기록했던 것은 무효다.
              그 향료는 예전 소금(배스 솔트) 제품용이며 단종됐다.
              코리앤더가 이 제품의 향 노트라 이름이 겹쳐 잘못 연결한 것이다.
-             캔들 향료명·코드는 DreamAir에 확인해야 한다.
 
           바디 라인 향료가 IFF(BAMBOOM 34, IFF 6059239)인 것은
           그의 IFF 시절 작업으로 보인다.
@@ -320,18 +352,23 @@ brand_common:
           Chemia는 이 로즈 향(84033 Rose Bud) 하나만 취급하며
           다른 콜렉션에는 관여하지 않는다.
 
-          🔑 6종 중 파운더가 직접 조향에 참여한 유일한 콜렉션이다.
-             나머지는 외부 조향사가 만들어 준 향이다. 카피에서 이 차이를 드러낸다.
+          🔑 파운더가 직접 조향에 참여한 콜렉션이다. 카피에서 이 점을 드러낸다.
+
+          🔴 2026-09-21 수정 (소영님): "6종 중 유일하게"처럼 배타성을 못박는
+          표현은 쓰지 않는다. 앞으로 파운더가 다른 콜렉션 조향에도 참여할 수
+          있으므로, 사실이 바뀌면 다시 고쳐야 하는 문구는 애초에 안 쓴다.
+          단순히 "파운더 조소영이 르버덴 조향사들과 함께 만든 향이다"로 쓴다.
     note: |
       조향사는 브랜드 공통이 아니라 콜렉션별로 다르다.
       이전에 Christophe Laudamiel을 전 제품 공통으로 기록했던 것은 오류다 (2026-09-10 정정).
 
       표기 주의: Laudimiel (X) -> Laudamiel (O)
 
-      🔑 Valley of Roses는 파운더가 직접 조향에 참여한 유일한 콜렉션이다.
+      🔑 Valley of Roses는 파운더가 직접 조향에 참여한 콜렉션이다.
          Self-love라는 무드와 맞물려 서사가 강해진다.
          '조향사가 만들어준 향'이 아니라 '파운더가 함께 만든 향'이라는 점을
          이 콜렉션에서는 반드시 드러낸다.
+         (2026-09-21: '유일하게'류 배타적 표현은 쓰지 않기로 함 — 위 참조.)
 
       카피 표기:
         ko - 조향 크리스토프 로다미엘 / 조향 앙투안 리
@@ -522,45 +559,67 @@ candle_common:
     status: confirmed
     note: |
       코코넛 왁스 베이스 + 애프리컷 씨드 오일 블렌드. 캔들 4종 공통.
-      파라핀 무첨가.
 
-      코코넛 애프리컷 왁스. 카피에서는 코코넛 왁스로 표기한다.
+      🟠 파라핀 무첨가 — 과거엔 맞는 표기였으나 배합이 바뀌어 지금은 못 쓴다
+      (2026-09-15, Daniel Stone 메일 + 소영님 확인)
 
-      참고 (2026-09-09): Stone Candles 일반 제품 라인 검색 결과에
-      soy wax / stearic acid 언급이 있었으나, 이는 leverden 전용 왁스 사양이
-      아닐 수 있고 페이지 원문도 확인하지 못했다. 근거가 약하므로 카피에 반영하지 않는다.
-      스펙시트 수령 시 최종 확인한다. 상세: data/supplier/stone-candles-wax.md
+      Daniel Stone (Stone Candles CEO) 가 직접 확인한 내용:
+      "the coconut apricot wax currently used is not paraffin-free.
+       ... we do offer a new 100% paraffin-free wax option (however,
+       I do not believe this new version was used for your candles).
+       Please note that the current formulation is still classified as
+       a natural coconut apricot wax."
+
+      즉:
+        - **과거에는 실제로 파라핀 무첨가가 맞았다.** 약 1년 전 공급사가 배합을
+          바꿨고, 그 이후 생산분부터 코코넛 애프리컷 왁스에 소량의 고정제
+          식품등급 파라핀(highly refined, food-grade paraffin)이 들어간다.
+          "무첨가" 표기가 처음부터 거짓이었던 게 아니라, **표기가 배합 변경을
+          따라가지 못한 것**이다.
+        - 소영님 확인: 우리가 보유 중인 **현재 재고(스탁)는 파라핀 무첨가가 맞다** —
+          문제는 **앞으로 새로 생산되는 물량**부터다.
+        - 파라핀 자체가 유해 성분은 아니다 (소영님: "파라핀이 꼭 나쁜 것도 아니고").
+          National Candle Association 연소 배출 연구도 Daniel이 참고 자료로 인용함.
+          이 건은 **품질/안전 문제가 아니라 표기 정확성 문제**로 다룬다.
+        - 예전 파라핀 무첨가 버전은 **단종**됐다.
+        - 100% 파라핀 무첨가인 신버전 왁스가 따로 있지만
+          **우리 캔들에는 안 쓰인 것으로 보인다** (Daniel 본인도 확신은 아님, "I do not believe").
+        - **최종 결정 (2026-09-16, 소영님)**: 재고 단위로 구분해 표기할 방법이
+          없으므로 "파라핀 무첨가" 표기는 스탁 여부와 무관하게 전체 삭제한다.
+          "현재 재고 한정" 같은 단서 표기도 넣지 않기로 함.
+
+      공급사 웹사이트 공식 문구 (Daniel이 인용):
+      "COCONUT APRICOT WAX IS A CREAMY, ONE-POUR CONTAINER WAX MADE FROM
+       A VEGAN BLEND OF NATURAL COCONUT, SOY, AND APRICOT, WITH A SMALL
+       AMOUNT OF HIGHLY REFINED, FOOD-GRADE PARAFFIN WAX."
+
+      → 왁스에 **soy(대두)** 도 들어간다는 것도 이 메일로 처음 확정됐다.
+        2026-09-09에 "soy wax 언급이 있었으나 근거 약함"이라고 남겨뒀던 게 맞았다.
+
+      🔴 조치 완료 (2026-09-15/16): KR/EN 상세페이지 8개 + Shopify 라이브 6개 제품에서
+         '파라핀 무첨가' / 'paraffin-free' 문구 전부 삭제함 (최종 확정, 재고 단서 표기 없이 삭제).
+         같은 작업에서 '코셔'/'Kosher'는 소영님 결정에 따라 8개 페이지 + 6개 제품 전부 복원함.
+      ✅ 실물 라벨·박스 확인 완료 (2026-09-17, 소영님): '파라핀 무첨가' 인쇄 없음.
+         재인쇄 대상 아님.
+      🔴 남은 일: 코셔 인증서 갱신 요청 진행할 것.
 
       제조사 인증 문구의 적용 범위:
         non-GMO -> 코코넛(원료)에 한정
         food grade certified -> 코코넛 '오일'에 한정
         -> '푸드 그레이드 코코넛 왁스'는 범위를 넘어선 표기다.
 
-      표기 (제조사 자료 확정 전까지 잠정):
-        영문 - a natural coconut apricot wax blend, made with food-grade certified coconut oil
-        국문 - 푸드 그레이드 인증 코코넛 오일로 만든 코코넛 애프리컷 천연 왁스
-
       표기 원칙 (중요):
         - 애프리컷은 '왁스'가 아니라 '씨드 오일'이다.
           'coconut-apricot wax'처럼 붙여 쓰면 애프리컷도 왁스인 것처럼 읽히므로 쓰지 않는다.
           반드시 'coconut wax and apricot seed oil' 로 분리해서 쓴다.
         - 긍정형 표기(coconut apricot wax)는 문제없다.
-        - 다만 'soy-free', '무소이', '100% 코코넛 왁스' 같은 부정형/절대 주장은
-          스펙시트로 배합비를 확인하기 전까지 쓰지 않는다.
-          긍정 표현에는 근거가 필요 없지만 부정 주장에는 필요하다.
-        - 파라핀 무첨가(paraffin-free)를 함께 표기한다.
+        - 'soy-free', '무소이', '100% 코코넛 왁스', **'파라핀 무첨가'** 같은
+          부정형/절대 주장은 전부 쓰지 않는다 — soy 도 paraffin 도 실제로 들어간다.
         - '푸드 그레이드'는 코코넛 왁스에만 붙는다. 애프리컷 씨드 오일이나
           제품 전체에 붙이지 않는다.
         - 주의: 푸드 그레이드는 '식품에도 쓸 수 있는 등급의 원료'라는 뜻이지
           '먹어도 된다'는 뜻이 아니다. 캔들을 식용으로 오인시키는 문구
           (edible, safe to eat 등)는 절대 쓰지 않는다.
-          공기 중으로 나오는 것을 마시게 되는 제품이므로 원료 등급이 높다는
-          맥락에서만 사용한다.
-
-      확정 조건 (제조사로부터 받아야 함):
-        - 왁스 배합비 (코코넛/소이/스테아릭산/애프리컷 오일)
-        - non-GMO, kosher, food grade 각 인증서 (발급기관, 번호, 유효기간)
-      🔴 non-GMO 문구는 사이트에서 내린다 (2026-09-10 확정). 권장이 아니라 결정 사항이다.
 
       비건·코셔 주의: Stone Candles가 보증하는 것은 왁스 베이스이고
       캔들에는 향료가 별도로 들어간다. 향료에 동물유래 성분이 있으면
@@ -568,6 +627,17 @@ candle_common:
 
       INCI 참고 (라벨 작성 시): Prunus armeniaca (apricot) kernel oil
       -> 라벨용 정식 성분명은 제조처 확인 후 확정할 것.
+
+      🔴 신규 규제 경고 (Daniel Stone, 2026-09-15 메일 원문):
+      "your products may not yet be compliant with EU and South Korean
+       regulatory standards. Launching in those regions requires a
+       toxicologist to conduct a detailed analysis of each fragrance used,
+       create region-specific SDS documentation, and ensure compliance
+       with local regulatory and labeling guidelines."
+      → EU·한국向 런칭 전 **향료별 독성학자 검토 + 지역별 SDS + 라벨링 준수**가
+        필요하다는 공급사 측 공식 경고. 영문판(en-html) 공개, EU 판매,
+        한국 정식 런칭 전에 반드시 처리해야 하는 선결 조건으로 기록한다.
+        → `docs/규제-확인.md` 신규 참고.
   wick:
     material: { value: Organic cotton (lead-free), status: confirmed }
     count: { value: 1, status: confirmed }
@@ -581,26 +651,123 @@ candle_common:
         - 매 사용 전 심지를 3~5mm로 자를 것
         - 1회 3시간 이상 연속 연소 금지
   claims:
-    - { value: 100% vegan, status: review }
-    - { value: Beeswax-free, status: review }
+    - value: Paraffin-free
+      status: withdrawn
+      note: |
+        🟠 과거엔 사실이었으나 배합 변경으로 지금은 못 쓰는 표기
+        (2026-09-15, Daniel Stone/Stone Candles CEO 메일; 2026-09-16 소영님 최종 확정).
+        약 1년 전 공급사 배합 변경 이후 생산분부터 소량의 고정제 식품등급
+        파라핀이 실제로 들어간다 — 원래부터 거짓 표기였던 게 아니라 배합
+        변경을 표기가 못 따라간 것. 현재 보유 재고는 파라핀 무첨가가 맞으나,
+        재고 단위 구분 표기는 불가능하므로 **전체 삭제**하기로 최종 결정.
+        파라핀 자체는 유해 성분이 아니며 이 건은 품질/안전 문제가 아니라
+        표기 정확성 문제. 예전 파라핀 무첨가 버전은 단종됨. 100% 파라핀
+        무첨가 신버전은 있으나 우리 캔들에 쓰인 게 아닌 것으로 보임(Daniel
+        본인도 100% 확신은 아님).
+        KR/EN 8개 페이지 + Shopify 라이브 6개 제품에서 문구 삭제 완료 (2026-09-15/16).
+        상세: candle_common.wax.note 참조. 출처: Daniel Stone 메일
+        "Re: Request for written confirmation — wax claims used on leverden candles"
+    - value: 100% vegan
+      status: confirmed
+      source: |
+        Light 4 Life (Stone Candles) 자체 발급 'Vegan and Cruelty Free Statement'
+        (Daniel Stone, CEO, 2023-03-23) — 캔들 포함 전 제품군 대상.
+        + AAK USA Richmond Corp 'Animal Origin' 확인서 (원료 공급사, 발급 2015-04-02,
+        검토 2016-11-22) — 팜/코코넛유 계열 원료에 동물성 원료·부산물 없음.
+      note: |
+        ⚠️ 둘 다 **제3자 인증기관의 시험성적서가 아니라 회사 자체 발급 확인서**다.
+        Light4Life 문서 원문: "Light 4 Life does not analyze for this material;
+        however, Light 4 Life has verified this information with its various
+        suppliers..." — 즉 자체 분석은 안 했고 공급사 확인에 의존한다.
+        AAK 문서는 발급 후 10년 이상 지난 자료. 향료의 동물성분 여부는 별도 확인 필요.
+    - value: Beeswax-free
+      status: confirmed
+      note: 위 Vegan/Cruelty-free 확인서 범위에 포함 (비즈왁스는 동물성 원료).
     - value: Non-GMO
       status: withdrawn
       note: |
-        🔴 사용 보류 확정 (2026-09-10, 소영님 결정).
+        🔴 사용 보류 확정 (2026-09-10, 소영님 결정) — 이 결정은 유지된다.
         인증서를 확보하기 전까지 양쪽 사이트와 모든 자료에서 쓰지 않는다.
         미국·EU 모두 별도 인증 프로그램이 있어 인증 없이 쓰면 가장 먼저 지적받는다.
+
+        📌 2026-09-15 업데이트: 근거 자료 자체는 이제 있다 — AAK USA Richmond Corp
+        'GMO Status' 확인서 (팜·팜커널·코코넛유, 발급 2015-07-14, 검토 2016-11-22,
+        비GMO 전통육종·PCR 검증 언급). 다만 이것도 원료 공급사 자체 확인서이지
+        제3자 인증이 아니고, 파라핀 성분에 대한 GMO 여부는 다루지 않는다(파라핀은
+        원래 GMO 대상이 아님). **소영님의 보류 결정을 바꿀 근거는 아니므로 withdrawn 유지.**
 
         삭제 대상 문구:
           - Shopify 캔들 4종 본문 'Non-GMO, food-grade certified coconut oil'
           - Bamboo Forest SEO description 동일 문구
           - Valley of Roses custom.pdp_accordion_ingredients 'NON-GMO COCONUT'
+        ✅ 확인 완료 (2026-09-18): 위 문구 KR/EN 8개 페이지 + Shopify 라이브 4개
+        제품 전부에서 이미 부재함 — 별도 삭제 작업 불필요.
 
-        대체 문구: '푸드 그레이드 인증 코코넛 오일'
+        📌 2026-09-18 추가 결정 (소영님): 생산지를 유럽으로 이전할 계획이 있어,
+        인증서를 새로 받는다면 그건 **현재 미국 공급사(Stone Candles) 기준이
+        아니라 이전 후 새 유럽 공장 기준**이어야 한다. 그래서 지금 있는
+        AAK 확인서를 더 보강하려 하지 않고 Non-GMO는 이대로 보류 유지한다.
+        생산지가 실제로 유럽으로 바뀌면 그때 새 공장 서류를 받아 재검토한다.
+
+        대체 문구: '푸드 그레이드 코코넛 오일'
                   'made with food-grade certified coconut oil'
     - { value: Food-grade certified coconut oil, status: review }
-    - { value: Paraben-free, status: review }
-    - { value: Kosher, status: review }
-    - { value: Cruelty-free, status: review }
+    - value: Paraben-free
+      status: withdrawn
+      note: |
+        🔴 제외 확정 (2026-09-19, 소영님). Daniel Stone 2026-09-15 메일에서
+        확인해준 항목은 Kosher · Vegan · Cruelty-free · No lead Wicks · GMO
+        다섯 개뿐이고, Paraben-free는 언급도 첨부 서류도 없었다 —
+        Food-grade와 마찬가지로 근거가 확보된 적이 없다.
+        KR/EN 8개 페이지 + Shopify 라이브 5개 제품(bf/bc/sm/vr/tin)에서
+        '파라벤 무첨가'/'Paraben-free' 삭제 완료.
+    - value: Kosher
+      status: confirmed
+      note: |
+        🟡 인증서 만료 상태에서 소영님이 리스크를 인지하고 유지 결정
+        (2026-09-15 확인 → 2026-09-15/16 소영님 결정: "일단 유지 (Kosher 다시 넣기)").
+        받은 코셔 인증서(Rabbi Mordechai Abergel, Orthodox Jewish Community of
+        Singapore, 발급처 P.T. MEGASURYA MAS / American Oil Products Inc.)는:
+          1. **2015년 5월 31일에 만료**됐다 ("valid from 31 May 2014 until
+             31 May 2015 and is subject to renewal at that time"). 11년 이상 경과,
+             갱신 여부 불명.
+          2. 인증 대상이 팜유·코코넛유 등 **원료 리스트**이지, 완제품 왁스나
+             파라핀 성분을 커버하지 않는다.
+        → 위 두 가지 갭을 소영님께 명시적으로 안내했고, 소영님이 "코셔는
+        맞잖아"라며 표기 유지를 선택함(AskUserQuestion 응답: "일단 유지").
+        KR/EN 8개 페이지 + Shopify 라이브 6개 제품에 '코셔'/'Kosher' 복원 완료
+        (2026-09-15/16). 🔴 확인 필요(진행 중): 공급사에 **갱신된 인증서**를
+        요청할 것 — 받는 대로 이 항목의 근거를 교체한다.
+    - value: Cruelty-free
+      status: confirmed
+      note: 위 100% vegan 항목과 같은 근거(Light4Life 자체 확인서). 동일한 한계 적용.
+    - value: Lead-free organic cotton wick
+      status: confirmed
+      source: |
+        Heinz Verhaegh Corp 'Certificate of Quality' (심지 제조사 직접 발급,
+        Daniel Stone 첨부, 2026-09-15). "all our candle wicks consist of 100%
+        cotton yarn and do not contain any metal threads (lead, copper or
+        other)..." 문서 자체에 발급일 없음 — 날짜 확인 필요하나, 심지 제조사가
+        직접 발급한 문서라 다른 항목보다 근거는 탄탄하다.
+
+  fragrance_by_use:
+    status: confirmed
+    note: |
+      2026-09-13 확인 (소영님). 향료가 콜렉션별·용도별로 갈린다.
+
+      뱀부 포레스트   BAMBOO 28  - 캔들
+                      BAMBOO 34  - 바디 · 바 솝 (IFF 6059239 BAMBOOM 34)
+      부시맨 캔들     OLIFIR BOUGIE XII (26954) - 캔들 + 디퓨저
+                      OLIFIR V4i (26830)        - 바디 · 바 솝
+      샤먼            SPIRITUAL WOOD (28782)    - 캔들
+      밸리 오브 로지즈 84033 ROSE BUD            - 캔들과 바디 공용 (유일)
+
+      🔑 대부분 캔들용과 바디용 향료가 따로다.
+         태우는 것과 몸에 쓰는 것은 규제 체계가 달라 서류도 따로 관리한다.
+         캔들 향료를 바 솝에 쓰거나 그 반대로 표기하지 않는다.
+
+      🔑 밸리 오브 로지즈만 하나의 향료로 두 라인을 다 쓴다.
+
   origin:
     value: Hand-poured in California, USA
     status: confirmed
@@ -664,6 +831,34 @@ bar_soap_common:
         - 자연 건조는 naturally air-dried / air-dried 로 쓴다.
           기계 건조와 대비되는 차별점이므로 빼지 않는다.
         - 금지: machine-pressed, mass-produced 를 연상시키는 표현
+
+  glycerin:
+    value: 비누화(검화) 과정에서 생성된 천연 글리세린이 추출되지 않고 완제품에 그대로 남아있음
+    status: confirmed
+    source: 코보큐앤에이 손용석 대표 이메일 회신 (2026-09-20)
+    note: |
+      질의: 완제품에서 글리세린을 별도로 추출/제거하는지, 완제품에 남기는지.
+      회신 원문: "저희 비누는 글리세린이 비누화 과정에서 생성되어 고스란히
+      남아있는 비누입니다." (2026-09-20, syschm@hanmail.net)
+
+      대량생산 비누는 이 글리세린을 별도로 추출해 화장품·의약품 원료로
+      판매하는 경우가 많다 — 저희 바 솝 2종(차콜 디톡스 바, 미르 프로텍션 바)
+      은 그 글리세린을 추출하지 않고 완제품에 그대로 남긴다는 뜻.
+
+      주의: '자연 건조 과정에서 글리세린이 생긴다'는 표현은 화학적으로 틀림.
+      글리세린은 비누화(검화) 반응 자체의 부산물이며, 건조는 물을 날리고
+      굳히는 별개 과정이다. 카피에는 '비누화 과정에서 생긴 천연 글리세린을
+      추출하지 않고 그대로 남긴다'로 쓸 것 — '건조하면 글리세린이 나온다'
+      식 인과관계로 쓰지 않는다.
+
+      허용 문구 예시:
+        ko: 대량생산 비누와 달리, 비누화 과정에서 만들어진 천연 글리세린을
+            추출하지 않고 그대로 남겼습니다. 보습에 도움을 주는 성분입니다.
+        en: Unlike mass-produced soap, we don't extract the natural glycerin
+            created during saponification — it stays in the bar, helping it
+            feel gentle on skin.
+      금지: 특정 피부질환 치료/완화 주장과 연결하지 않는다 (보습 성분이라는
+      화장품 과학적 사실 서술까지만 허용, "치료한다/낫는다"류 금지).
 
   cure_time:
     value: 약 1개월
@@ -758,11 +953,15 @@ products:
     line: Candle
     collection: Bamboo Forest
     name_en: { value: Bamboo Forest Scented Candle, status: confirmed }
-    name_ko: { value: null, status: pending }
+    name_ko:
+      value: 르버덴 뱀부 포레스트 센티드 캔들
+      status: review
+      source: KR 상세페이지 원고 (docs/cafe24-상세페이지.md)
+      note: "우리 원고 기준값이다. Cafe24 실제 등록 상품명과 아직 대조하지 않았으므로 review 로 둔다. 대조 후 confirmed 로 올릴 것."
     sku: { value: 777BFCD10, status: confirmed }
-    barcode: { value: "850034664026", status: review }
+    barcode: { value: "850034664026", status: confirmed, source: Shopify Admin API (2026-09-13 조회) }
     shopify_handle: bamboo-forest-scented-candle
-    cafe24_code: { value: null, status: pending }
+    cafe24_code: { value: null, status: pending, note: "Cafe24 관리자 > 상품관리에서 상품코드 확인. 6종 공통 미확보." }
     fragrance_notes:
       top:    { value: "Basil, Spearmint", ko: "바질 · 스피어민트", status: confirmed }
       middle: { value: "Sage, Coriander, Immortelle", ko: "세이지 · 코리앤더 · 임모르텔", status: confirmed }
@@ -806,11 +1005,21 @@ products:
     line: Candle
     collection: Bushman Candle
     name_en: { value: Bushman Candle Scented Candle, status: confirmed }
-    name_ko: { value: null, status: pending }
+    name_ko:
+      value: 르버덴 부시맨 캔들 센티드 캔들
+      status: review
+      source: KR 상세페이지 원고 (docs/cafe24-상세페이지.md)
+      note: "우리 원고 기준값이다. Cafe24 실제 등록 상품명과 아직 대조하지 않았으므로 review 로 둔다. 대조 후 confirmed 로 올릴 것."
     sku: { value: 777BCCD10, status: confirmed }
-    barcode: { value: null, status: pending }
+    barcode:
+      value: "850034664163"
+      status: confirmed
+      source: SKU/UPC List 마스터 시트 (소영님 제공, 2026-09-15) · data/SKU_UPC_List.xlsx
+      note: |
+        Google Drive `UPC` 폴더의 바코드 이미지 파일명에서 확인 (`Bushman candle scented candle777BCCD10 00850034664163 UPC-A SST3.png`). Shopify 변형에는 아직 입력되어 있지 않다 -> Shopify 에 등록 필요.
+        발급은 되어 있었고 Shopify 등록만 누락된 상태였다.
     shopify_handle: bushman-candle
-    cafe24_code: { value: null, status: pending }
+    cafe24_code: { value: null, status: pending, note: "Cafe24 관리자 > 상품관리에서 상품코드 확인. 6종 공통 미확보." }
     purpose: { value: Energy, status: confirmed }
     fragrance_notes:
       top:    { value: "Olibanum, Pink Peppercorn", ko: "유향 · 핑크 페퍼콘", status: confirmed }
@@ -827,18 +1036,39 @@ products:
     line: Candle
     collection: Shaman
     name_en: { value: Shaman Scented Candle, status: confirmed }
-    name_ko: { value: null, status: pending }
+    name_ko:
+      value: 르버덴 샤먼 센티드 캔들
+      status: review
+      source: KR 상세페이지 원고 (docs/cafe24-상세페이지.md)
+      note: "우리 원고 기준값이다. Cafe24 실제 등록 상품명과 아직 대조하지 않았으므로 review 로 둔다. 대조 후 confirmed 로 올릴 것."
     sku: { value: 777SMCD10, status: confirmed }
-    barcode: { value: null, status: pending }
+    barcode:
+      value: "850034664170"
+      status: confirmed
+      source: SKU/UPC List 마스터 시트 (소영님 제공, 2026-09-15) · data/SKU_UPC_List.xlsx
+      note: |
+        Google Drive `UPC` 폴더의 바코드 이미지 파일명에서 확인 (`shaman scented candle777SMCD10 00850034664170 UPC-A SST3.png`). Shopify 변형에는 아직 입력되어 있지 않다 -> Shopify 에 등록 필요.
+        발급은 되어 있었고 Shopify 등록만 누락된 상태였다.
     shopify_handle: shaman-scented-candle
-    cafe24_code: { value: null, status: pending }
+    cafe24_code: { value: null, status: pending, note: "Cafe24 관리자 > 상품관리에서 상품코드 확인. 6종 공통 미확보." }
     purpose: { value: Purification, status: confirmed }
     fragrance_notes:
-      top:    { value: "Artemisia, Cypress", ko: "아르테미시아 · 사이프러스", status: confirmed }
-      middle: { value: "Palo Santo, Geranium", ko: "팔로 산토 · 제라늄", status: confirmed }
+      top:    { value: "Peruvian sage (Artemisia), Cypress", ko: "페루산 세이지(아르테미시아) · 사이프러스", status: confirmed }
+      middle: { value: "Palo Santo accord, Geranium", ko: "팔로 산토 어코드 · 제라늄", status: confirmed }
       base:   { value: "Sandalwood, Vetiver", ko: "샌달우드 · 베티버", status: confirmed }
       status: confirmed
-      note: 원 자료에 head/heart/base가 명시되어 있어 그대로 옮겼다.
+      note: |
+        원 자료에 head/heart/base가 명시되어 있어 그대로 옮겼다.
+
+        🔴 2026-09-19 정정 (소영님 확인): 향료 원료표(AFM PIF)에 팔로 산토
+        (Bursera graveolens)는 없다 — 실제 TOP 원료는 페루산 아르테미시아
+        (세이지)다. 표기 방식:
+          - TOP: '아르테미시아' → '페루산 세이지(아르테미시아)'로 구체화 —
+            이게 실제 원료 서사의 축이 된다.
+          - MIDDLE: '팔로 산토'는 실제 원료명이 아니라 향의 캐릭터를 가리키는
+            '어코드/노트' 표현으로만 쓴다 (뱀부 포레스트가 왁스에 대나무를
+            안 쓰면서도 '뱀부'를 콜렉션명·향 이름으로 쓰는 것과 같은 방식).
+            원료 주장(수급 방식 등)은 여기 붙이지 않는다.
     story:
       value: 페루 샤먼의 팔로 산토 리추얼. 정화.
       status: confirmed
@@ -848,11 +1078,22 @@ products:
     line: Candle
     collection: Valley of Roses
     name_en: { value: Valley of Roses Scented Candle, status: confirmed }
-    name_ko: { value: null, status: pending }
+    name_ko:
+      value: 르버덴 밸리 오브 로지즈 센티드 캔들
+      status: review
+      source: KR 상세페이지 원고 (docs/cafe24-상세페이지.md)
+      note: "우리 원고 기준값이다. Cafe24 실제 등록 상품명과 아직 대조하지 않았으므로 review 로 둔다. 대조 후 confirmed 로 올릴 것."
     sku: { value: 777TVRCD10, status: review, note: 다른 캔들과 달리 T 접두. 의도된 것인지 확인 }
-    barcode: { value: null, status: pending }
+    barcode:
+      value: "850034664217"
+      status: confirmed
+      source: SKU/UPC List 마스터 시트 (소영님 제공, 2026-09-15) · data/SKU_UPC_List.xlsx
+      note: |
+        마스터 시트에서 확인 (`777TVRCD10 Valley of Roses Scented Candle`).
+        Drive 의 바코드 이미지는 파일명에 번호가 없어 읽지 못했으나 시트로 해결됨.
+        Shopify 변형에 등록 완료 (2026-09-15).
     shopify_handle: valley-of-roses-scented-candle
-    cafe24_code: { value: null, status: pending }
+    cafe24_code: { value: null, status: pending, note: "Cafe24 관리자 > 상품관리에서 상품코드 확인. 6종 공통 미확보." }
     fragrance_notes:
       top:    { value: "Moroccan Rose Petals, Dewy Leaf accord, Elemi", ko: "모로칸 로즈 페탈 · 듀이 리프 · 엘레미", status: confirmed }
       middle: { value: "Fresh Cut Moroccan Rose accord, Clove, Geranium", ko: "갓 자른 모로칸 로즈 · 클로브 · 제라늄", status: confirmed }
@@ -890,21 +1131,39 @@ products:
       'Detox'가 뜻하는 바를 물어오면 '차콜의 딥 클렌징'이라고 답한다.
     sku: { value: 111BFBS10, status: confirmed }
     barcode:
-      value: "00850034664101"
-      status: conflict
-      note: 앞자리 0이 두 개. 다른 제품은 850034... 12자리. GTIN 형식 통일 필요.
+      value: "850034664200"
+      status: confirmed
+      source: SKU/UPC List 마스터 시트 (소영님 제공, 2026-09-15) · data/SKU_UPC_List.xlsx
+      note: |
+        마스터 시트 확인 결과 `111BFBS10 Bamboo Forest Charcoal Bar Soap = 850034664200`.
+        기존 Shopify 등록값 `00850034664101` 은 **예전에 잘못 만든 번호**로 확인되어
+        폐기했다 (`소영`, 2026-09-15). Shopify 변형도 850034664200 으로 수정 완료.
+        전 제품이 12자리 UPC-A 로 통일되어 있으므로 14자리 표기는 쓰지 않는다.
     shopify_handle: charcoal-bar-soap
-    cafe24_code: { value: null, status: pending }
+    cafe24_code: { value: null, status: pending, note: "Cafe24 관리자 > 상품관리에서 상품코드 확인. 6종 공통 미확보." }
     ingredients_inci:
       value: >
-        Sodium hydroxide, Cocos nucifera (coconut) oil, Aqua (water),
-        Helianthus annuus (sunflower) seed oil, Olea europaea (olive) fruit oil,
-        Simmondsia chinensis (jojoba) seed oil, Ricinus communis (castor) seed oil,
-        Tocopherol, Theobroma cacao (cacao) seed butter, Vitis vinifera (grape) seed oil,
-        Bamboo salt, Lavandula angustifolia (lavender) oil, Charcoal powder,
-        Citrus aurantium bergamia (bergamot) leaf oil, Pogostemon cablin oil
-      status: review
-      note: "기존 표기 'bermot' 오타 수정함 (정: bergamot)."
+        Cocos Nucifera (Coconut) Oil, Aqua (Water), Helianthus Annuus (Sunflower) Seed Oil,
+        Olea Europaea (Olive) Fruit Oil, Simmondsia Chinensis (Jojoba) Seed Oil,
+        Ricinus Communis (Castor) Seed Oil, Persea Gratissima (Avocado) Oil, Tocopherol,
+        Theobroma Cacao (Cocoa) Seed Butter, Vitis Vinifera (Grape) Seed Oil, Sea Salt (Bamboo Salt),
+        Charcoal Powder, Elemi Oil, Patchouli Oil, Fragrance
+      status: confirmed
+      source: 코보큐앤에이 (손용석 대표, 2026-04-01 메일)
+      note: |
+        제조사 원본 전성분으로 교체 (2026-09-13). 이전 값은 구 처방 기준이었음.
+        변경: 소듐하이드록사이드 삭제(비누화로 소모되어 완제품에 잔류하지 않음),
+        Elemi Oil·Persea Gratissima 추가, Lavandula·Citrus bergamia 삭제,
+        'Bamboo salt' -> 'Sea Salt (Bamboo Salt)'.
+        죽염은 별도 INCI 표시명이 없어 법정 성분명은 Sea Salt 로 적되,
+        괄호로 통용명 Bamboo Salt 를 병기한다 (`소영`, 2026-09-15 결정).
+        INCI 표기 관행상 '표준명 (통용명)' 형식(예: Cocos Nucifera (Coconut) Oil)과
+        같은 구조라 문제 없음. 뱀부 포레스트 콜렉션의 히어로 원료이므로
+        전성분에서도 드러나게 하는 것이 목적.
+        성분이 일반 소금이라는 뜻이 아니며 본문·마케팅에는 '죽염'을 쓴다.
+        성분 순서는 제조사 원본 그대로 유지 (함량 내림차순).
+        ⚠️ EU 판매 시 INCI 표준명은 Sea Salt 가 아니라 Maris Sal 이다.
+        EU 라벨은 'Maris Sal (Bamboo Salt)' 로 별도 표기 필요 -> 확인 필요.
     key_actives: { value: Bamboo Salt (죽염), Activated Charcoal, status: confirmed }
     hero_ingredient:
       name_ko: 영월 죽염
@@ -940,8 +1199,13 @@ products:
           - 장인이 스님이라는 점은 사실이나, 종교적 권위를 제품 효능과 연결하지 않는다.
             출처를 밝히는 맥락에서만 쓴다.
     story:
-      value: 한국 대나무 숲의 시원한 바람. 정화.
-      status: review
+      value: 비가 그친 한국의 대나무 숲. 서늘한 공기와 젖은 흙 냄새.
+      status: confirmed
+      source: KR 상세페이지 원고 (2026-09-13 정리)
+      note: |
+        기존 값의 '정화' 를 삭제했다. 정화는 기능(공기정화·세정) 주장으로 읽힐 수 있어
+        효능 미신고 제품에는 쓸 수 없다. 장면 묘사로 교체했다.
+        '정화' 는 정서적 분위기 표현으로만 쓰고 기능으로 단언하지 않는다.
 
   - id: BC-BAR
     line: Bar Soap
@@ -962,23 +1226,31 @@ products:
            안전 - 힘바족이 사막의 햇빛과 건조함 속에서 몸에 발라온 향
            금지 - 피부를 보호합니다 / protects your skin / 자외선 차단
     shopify_handle: myrrh-protection-bar
-    cafe24_code: { value: null, status: pending }
+    sku: { value: '111BCBS10', status: confirmed, source: Shopify Admin API (2026-09-13 조회) }
+    barcode: { value: '850034664378', status: confirmed, source: Shopify Admin API (2026-09-13 조회) }
+    cafe24_code: { value: null, status: pending, note: "Cafe24 관리자 > 상품관리에서 상품코드 확인. 6종 공통 미확보." }
     ingredients_inci:
       value: >
-        Sodium hydroxide, Cocos nucifera (coconut) oil, Aqua (water),
-        Helianthus annuus (sunflower) seed oil, Olea europaea (olive) fruit oil,
-        Simmondsia chinensis (jojoba) seed oil, Ricinus communis (castor) seed oil,
-        Prunus amygdalus dulcis (sweet almond) oil, Butyrospermum parkii (shea) butter,
-        Commiphora Wildii Oil, Fragrance (parfum)
-      status: review
+        Cocos Nucifera (Coconut) Oil, Aqua (Water), Helianthus Annuus (Sunflower) Seed Oil,
+        Olea Europaea (Olive) Fruit Oil, Simmondsia Chinensis (Jojoba) Seed Oil,
+        Ricinus Communis (Castor) Seed Oil, Persea Gratissima (Avocado) Oil, Fragrance,
+        Tocopherol, Theobroma Cacao (Cocoa) Seed Butter, Vitis Vinifera (Grape) Seed Oil,
+        Yellow Ocher, Capsicum Annuum Fruit Powder, Calamine, Commiphora Wildii Oil,
+        Prunus Amygdalus Dulcis (Sweet Almond) Oil
+      status: confirmed
+      source: 코보큐앤에이 (손용석 대표, 2026-04-01 메일)
       note: |
-        기존 표기 'Prunus armgd­alus' 오타 + 보이지 않는 soft hyphen 포함되어 있었음. 수정함.
-        견과류(sweet almond) 함유 — 알레르기 고지 필요 여부 확인.
-
-        🔴 몰약 INCI 정정: Commiphora myrrha -> Commiphora Wildii Oil
-           실제 원료는 나미비아 고유종 Commiphora wildii (통칭 Omumbiri)이며
-           일반 몰약(Commiphora myrrha)과 다른 종이다. 공급사 도시에로 확인됨.
-           상세: docs/myrrh-usable.md
+        제조사 원본 전성분으로 교체 (2026-09-13). 이전 값은 구 처방 기준이었음.
+        변경: 소듐하이드록사이드 삭제, 시어버터(Butyrospermum parkii) 삭제
+        — 제조사 전성분에 없음. 상세페이지 본문 카피에서도 함께 삭제함.
+        추가: Yellow Ocher, Capsicum Annuum Fruit Powder, Calamine,
+        Theobroma Cacao, Vitis Vinifera, Persea Gratissima, Tocopherol.
+        몰약은 제조사 표기 'Myrrh Oil'(일반명)을 학명 Commiphora Wildii Oil 로 특정.
+        힘바족 오뭄비리와 같은 종이며 Commiphora myrrha 와는 다른 종이다.
+        ✅ Yellow Ocher 확인 완료 (2026-09-19, 소영님): 색을 내기 위해 쓴
+        천연 황토가 맞음 (안료/산화철 CI 77492 아님). 전성분 표기는
+        제조사 원문 'Yellow Ocher' 유지, 마케팅 카피에서는 '천연 황토'로 서술 가능.
+        견과류(sweet almond) 함유 — 알레르기 고지 유지.
     key_actives: { value: Omumbiri / Commiphora Wildii Oil (Namib Desert), Shea Butter, status: confirmed }
     hero_ingredient:
       name_ko: 힘바족 몰약(미르) 오일
